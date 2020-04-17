@@ -1,0 +1,17 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5",
+   "Default View_TopLeft":"-531,-372",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port CLK_BLK -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace portBus OUT_BLK -pg 1 -lvl 2 -x 240 -y 60 -defaultsOSRD
+preplace inst blink_0 -pg 1 -lvl 1 -x 120 -y 60 -defaultsOSRD
+preplace netloc blink_0_OUT 1 1 1 NJ 60
+preplace netloc CLK_BLK_1 1 0 1 NJ 60
+levelinfo -pg 1 0 120 240
+pagesize -pg 1 -db -bbox -sgen -120 0 390 120
+"
+}
+

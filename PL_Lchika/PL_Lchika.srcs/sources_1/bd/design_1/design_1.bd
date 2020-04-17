@@ -1,0 +1,61 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xAD61ADE70042C578",
+      "device": "xc7z020clg400-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "blink_0": ""
+    },
+    "ports": {
+      "CLK_BLK": {
+        "direction": "I"
+      },
+      "OUT_BLK": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      }
+    },
+    "components": {
+      "blink_0": {
+        "vlnv": "xilinx.com:module_ref:blink:1.0",
+        "xci_name": "design_1_blink_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "blink",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "OUT": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "blink_0_OUT": {
+        "ports": [
+          "blink_0/OUT",
+          "OUT_BLK"
+        ]
+      },
+      "CLK_BLK_1": {
+        "ports": [
+          "CLK_BLK",
+          "blink_0/CLK"
+        ]
+      }
+    }
+  }
+}
