@@ -1,0 +1,25 @@
+03:34:09 **** Incremental Build of configuration Debug for project AXIGPIO ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_AXIPLGPIO_Lchika/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: AXIGPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_AXIPLGPIO_Lchika/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "AXIGPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXIGPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXIGPIO.elf  |tee "AXIGPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20452	   1160	  22584	  44196	   aca4	AXIGPIO.elf
+'Finished building: AXIGPIO.elf.size'
+' '
+
+03:34:10 Build Finished (took 1s.42ms)
+
