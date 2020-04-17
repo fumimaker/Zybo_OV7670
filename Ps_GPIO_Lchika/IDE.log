@@ -1,0 +1,151 @@
+03:12:56 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_GPIO_Lchika\temp_xsdb_launch_script.tcl
+03:12:59 INFO  : XSCT server has started successfully.
+03:12:59 INFO  : Successfully done setting XSCT server connection channel  
+03:13:00 INFO  : plnx-install-location is set to ''
+03:13:00 INFO  : Successfully done setting workspace for the tool. 
+03:13:00 INFO  : Successfully done query RDI_DATADIR 
+03:13:00 INFO  : Registering command handlers for Vitis TCF services
+03:17:09 INFO  : Checking for BSP changes to sync application flags for project 'PsGPIO_Lchika'...
+03:17:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:17:31 INFO  : Jtag cable 'Digilent Zybo Z7 210351A6C9E3A' is selected.
+03:17:31 INFO  : 'jtag frequency' command is executed.
+03:17:31 INFO  : Context for 'APU' is selected.
+03:17:31 INFO  : System reset is completed.
+03:17:34 INFO  : 'after 3000' command is executed.
+03:17:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1' command is executed.
+03:17:37 INFO  : FPGA configured successfully with bitstream "C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/_ide/bitstream/design_1_wrapper.bit"
+03:17:37 INFO  : Context for 'APU' is selected.
+03:17:37 INFO  : Hardware design information is loaded from 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+03:17:37 INFO  : 'configparams force-mem-access 1' command is executed.
+03:17:37 INFO  : Context for 'APU' is selected.
+03:17:37 INFO  : Sourcing of 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/_ide/psinit/ps7_init.tcl' is done.
+03:17:37 INFO  : 'ps7_init' command is executed.
+03:17:37 INFO  : 'ps7_post_config' command is executed.
+03:17:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:17:37 INFO  : The application 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/Debug/PsGPIO_Lchika.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:17:37 INFO  : 'configparams force-mem-access 0' command is executed.
+03:17:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1
+fpga -file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/Debug/PsGPIO_Lchika.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+03:17:37 INFO  : Memory regions updated for context APU
+03:17:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:17:38 INFO  : 'con' command is executed.
+03:17:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+03:17:38 INFO  : Launch script is exported to file 'C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_GPIO_Lchika\.sdk\launch_scripts\single_application_debug\systemdebugger_psgpio_lchika_system_standalone.tcl'
+03:17:56 INFO  : Checking for BSP changes to sync application flags for project 'PsGPIO_Lchika'...
+03:18:23 INFO  : Disconnected from the channel tcfchan#3.
+03:18:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:18:24 INFO  : Jtag cable 'Digilent Zybo Z7 210351A6C9E3A' is selected.
+03:18:24 INFO  : 'jtag frequency' command is executed.
+03:18:24 INFO  : Context for 'APU' is selected.
+03:18:24 INFO  : System reset is completed.
+03:18:27 INFO  : 'after 3000' command is executed.
+03:18:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1' command is executed.
+03:18:29 INFO  : FPGA configured successfully with bitstream "C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/_ide/bitstream/design_1_wrapper.bit"
+03:18:29 INFO  : Context for 'APU' is selected.
+03:18:29 INFO  : Hardware design information is loaded from 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+03:18:29 INFO  : 'configparams force-mem-access 1' command is executed.
+03:18:30 INFO  : Context for 'APU' is selected.
+03:18:30 INFO  : Sourcing of 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/_ide/psinit/ps7_init.tcl' is done.
+03:18:30 INFO  : 'ps7_init' command is executed.
+03:18:30 INFO  : 'ps7_post_config' command is executed.
+03:18:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:18:30 INFO  : The application 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/Debug/PsGPIO_Lchika.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:18:30 INFO  : 'configparams force-mem-access 0' command is executed.
+03:18:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1
+fpga -file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/Debug/PsGPIO_Lchika.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+03:18:30 INFO  : Memory regions updated for context APU
+03:18:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:18:30 INFO  : 'con' command is executed.
+03:18:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+03:18:30 INFO  : Launch script is exported to file 'C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_GPIO_Lchika\.sdk\launch_scripts\single_application_debug\systemdebugger_psgpio_lchika_system_standalone.tcl'
+03:20:18 INFO  : Checking for BSP changes to sync application flags for project 'PsGPIO_Lchika'...
+03:20:24 INFO  : Checking for BSP changes to sync application flags for project 'PsGPIO_Lchika'...
+03:21:25 INFO  : Disconnected from the channel tcfchan#4.
+03:21:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:21:25 INFO  : Jtag cable 'Digilent Zybo Z7 210351A6C9E3A' is selected.
+03:21:25 INFO  : 'jtag frequency' command is executed.
+03:21:25 INFO  : Context for 'APU' is selected.
+03:21:26 INFO  : System reset is completed.
+03:21:29 INFO  : 'after 3000' command is executed.
+03:21:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1' command is executed.
+03:21:31 INFO  : FPGA configured successfully with bitstream "C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/_ide/bitstream/design_1_wrapper.bit"
+03:21:31 INFO  : Context for 'APU' is selected.
+03:21:31 INFO  : Hardware design information is loaded from 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+03:21:31 INFO  : 'configparams force-mem-access 1' command is executed.
+03:21:31 INFO  : Context for 'APU' is selected.
+03:21:31 INFO  : Sourcing of 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/_ide/psinit/ps7_init.tcl' is done.
+03:21:32 INFO  : 'ps7_init' command is executed.
+03:21:32 INFO  : 'ps7_post_config' command is executed.
+03:21:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:21:32 INFO  : The application 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/Debug/PsGPIO_Lchika.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:21:32 INFO  : 'configparams force-mem-access 0' command is executed.
+03:21:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1
+fpga -file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_GPIO_Lchika/PsGPIO_Lchika/Debug/PsGPIO_Lchika.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+03:21:32 INFO  : Memory regions updated for context APU
+03:21:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:21:32 INFO  : 'con' command is executed.
+03:21:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+03:21:32 INFO  : Launch script is exported to file 'C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_GPIO_Lchika\.sdk\launch_scripts\single_application_debug\systemdebugger_psgpio_lchika_system_standalone.tcl'
