@@ -1,2 +1,7 @@
 
 *.wpc
+*.xml
+Ps_i2c/.metadata/.plugins/org.eclipse.cdt.core/.log
+Ps_i2c/.metadata/.log
+Ps_i2c/.metadata/.plugins/org.eclipse.core.resources/.projects/design_1_wrapper/.markers
+*.wdm
