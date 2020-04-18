@@ -1,0 +1,24 @@
+Nothing to build in platform 'design_1_wrapper'
+
+16:59:21 **** Incremental Build of configuration Debug for project AXIBlink ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_CommunicateWithAXI_Lchika/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: AXIBlink.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_CommunicateWithAXI_Lchika/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "AXIBlink.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXIBlink.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AXIBlink.elf  |tee "AXIBlink.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19304	   1144	  22568	  43016	   a808	AXIBlink.elf
+'Finished building: AXIBlink.elf.size'
+' '
