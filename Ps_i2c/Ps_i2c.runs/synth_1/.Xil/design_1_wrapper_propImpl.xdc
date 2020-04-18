@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/Ps_i2c.srcs/constrs_1/new/i2c_xdc.xdc rfile:../../../Ps_i2c.srcs/constrs_1/new/i2c_xdc.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V8 [get_ports IIC_0_0_scl_io]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W8 [get_ports IIC_0_0_sda_io]

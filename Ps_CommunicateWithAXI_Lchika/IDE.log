@@ -196,3 +196,10 @@ con
 ----------------End of Script----------------
 
 16:59:35 INFO  : Launch script is exported to file 'C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_CommunicateWithAXI_Lchika\.sdk\launch_scripts\single_application_debug\systemdebugger_axiblink_system_standalone.tcl'
+17:38:20 INFO  : Successfully done sdx_reload_mss "C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_CommunicateWithAXI_Lchika/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+17:38:21 INFO  : Successfully done sdx_reload_mss "C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_CommunicateWithAXI_Lchika/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+17:38:49 INFO  : Successfully done sdx_reload_mss "C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_CommunicateWithAXI_Lchika/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+17:38:49 INFO  : No changes in MSS file content so sources will not be generated.
+17:39:47 INFO  : Successfully done sdx_reload_mss "C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_CommunicateWithAXI_Lchika/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+17:39:47 INFO  : No changes in MSS file content so sources will not be generated.
+17:45:20 INFO  : Disconnected from the channel tcfchan#7.
