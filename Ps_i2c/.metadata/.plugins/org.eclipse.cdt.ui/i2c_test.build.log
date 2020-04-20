@@ -1,13 +1,18 @@
-18:25:49 **** Build of configuration Debug for project i2c_test ****
+21:11:26 **** Build of configuration Debug for project i2c_test ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
-'Building file: ../src/helloworld.c'
+'Building file: ../src/OV7670.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-'Finished building: ../src/helloworld.c'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OV7670.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/OV7670.d" -MT"src/OV7670.o" -o "src/OV7670.o" "../src/OV7670.c"
+'Finished building: ../src/OV7670.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
 ' '
 'Building file: ../src/platform.c'
 'Invoking: ARM v7 gcc compiler'
@@ -16,15 +21,11 @@ arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=
 ' '
 'Building target: i2c_test.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "i2c_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: i2c_test.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size i2c_test.elf  |tee "i2c_test.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  63176	   2600	  23392	  89168	  15c50	i2c_test.elf
-'Finished building: i2c_test.elf.size'
-' '
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "i2c_test.elf"  ./src/OV7670.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: cannot open output file i2c_test.elf: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [makefile:43: i2c_test.elf] Error 1
+make: *** [makefile:34: all] Error 2
 
-18:25:51 Build Finished (took 1s.997ms)
+21:11:27 Build Finished (took 1s.555ms)
 

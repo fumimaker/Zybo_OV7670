@@ -1,0 +1,27 @@
+#include "platform.h"
+#include "xparameters.h"
+#include "sleep.h"
+#include "xiicps.h"
+#include "stdio.h"
+#include "OV7670.h"
+#include "OV7670.c"
+
+int main()
+{
+	int result;
+
+    init_platform();
+
+    xil_printf("Start Initialize Camera Module\n");
+    result = Init();
+    if (result != XST_SUCCESS) {
+		xil_printf("Camera Module Initialization failed\n");
+		cleanup_platform();
+		return (-1);
+	}
+
+    OV7670_init();
+
+    cleanup_platform();
+    return 0;
+}

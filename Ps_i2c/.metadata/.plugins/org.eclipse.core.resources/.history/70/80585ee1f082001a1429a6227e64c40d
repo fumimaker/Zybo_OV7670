@@ -1,0 +1,17 @@
+#include "platform.h"
+#include "xparameters.h"
+#include "sleep.h"
+#include "xiicps.h"
+#include "stdio.h"
+#include "OV7670.h"
+#include "OV7670.c"
+
+int main()
+{
+    init_platform();
+    Init();
+    OV7670_init();
+
+    cleanup_platform();
+    return 0;
+}

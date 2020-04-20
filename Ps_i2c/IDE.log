@@ -6,3 +6,41 @@
 18:18:41 INFO  : Successfully done setting workspace for the tool. 
 18:18:42 INFO  : Registering command handlers for Vitis TCF services
 18:25:49 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...
+23:38:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\temp_xsdb_launch_script.tcl
+23:38:09 INFO  : XSCT server has started successfully.
+23:38:09 INFO  : plnx-install-location is set to ''
+23:38:09 INFO  : Successfully done setting XSCT server connection channel  
+23:38:09 INFO  : Successfully done setting workspace for the tool. 
+23:38:10 INFO  : Registering command handlers for Vitis TCF services
+23:38:15 INFO  : Successfully done query RDI_DATADIR 
+18:37:18 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...
+18:37:37 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+18:39:07 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...
+18:39:12 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+18:40:22 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...
+18:40:26 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+18:59:55 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...
+18:59:59 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+19:00:44 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...
+19:00:49 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+19:01:48 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...
+19:01:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+19:22:47 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...
+19:22:52 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+19:48:27 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...
+19:48:31 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+20:51:24 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...
+20:51:31 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+21:09:51 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...
+21:09:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+21:11:26 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...

@@ -1,6 +1,6 @@
-2020-04-18T18:24:24.791957500255-18:24:24 **** Build of project design_1_wrapper ****
-000-buildplatform.bat 54189 design_1_wrapper  
-000-XSDB Server Channel: tcfchan#1
+2020-04-20T21:10:18.91869100255-21:10:18 **** Build of project design_1_wrapper ****
+000-buildplatform.bat 65294 design_1_wrapper  
+000-XSDB Server Channel: tcfchan#12
 000-Building the zynq_fsbl application.
 000-make -C zynq_fsbl_bsp
 000-
@@ -531,9 +531,6 @@
 000-arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_cortexa
 000-9_0/include -I.
 000-
-000-arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_cortexa9_
-000-0/include -I.
-000-
 000-arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c image_mover.c -o image_mover.o -Izynq_fsbl_b
 000-sp/ps7_cortexa9_0/include -I.
 000-
@@ -547,10 +544,13 @@
 000-9_0/include -I.
 000-
 000-In file included from main.c:135:
-000/design_1_wrapper85-1-1#pragma message: For the sleep routines, Global timer is being used0-zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+000/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h85-1-1#pragma message: For the sleep routines, Global timer is being used0-zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
 000- #pragma message ("For the sleep routines, Global timer is being used")
 000-         ^~~~~~~
 000-arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_cortexa9_
+000-0/include -I.
+000-
+000-arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_cortexa9_
 000-0/include -I.
 000-
 000-arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_cortexa
@@ -563,13 +563,13 @@
 000-9_0/include -I.
 000-
 000-In file included from pcap.c:98:
-000/design_1_wrapper85-1-1#pragma message: For the sleep routines, Global timer is being used0-zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+000/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h85-1-1#pragma message: For the sleep routines, Global timer is being used0-zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
 000- #pragma message ("For the sleep routines, Global timer is being used")
 000-         ^~~~~~~
 000-arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_handoff.S -o fsbl_handoff.o -Izynq_fsbl
 000-_bsp/ps7_cortexa9_0/include -I.
 000-
-000-arm-none-eabi-gcc -o executable.elf  sd.o  nand.o  nor.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  qspi.o  ps7_init.o
+000-arm-none-eabi-gcc -o executable.elf  sd.o  nand.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  nor.o  qspi.o  ps7_init.o
 000-  pcap.o  fsbl_handoff.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
 000-hard -Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxi
 000-l,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                    -Wl,--gc-section
@@ -834,5 +834,5 @@
 000-'Finished building libraries'
 000-
 00255-
-18:25:49 Build Finished (took 1m:24s.493ms)
+21:11:26 Build Finished (took 1m:7s.102ms)
 

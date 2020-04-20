@@ -1,0 +1,103 @@
+// size register
+#define REG_COM7                    0x12    /* Control 7 */
+#define REG_HSTART                  0x17    /* Horiz start high bits */
+#define REG_HSTOP                   0x18    /* Horiz stop high bits */
+#define REG_HREF                    0x32    /* HREF pieces */
+#define REG_VSTART                  0x19    /* Vert start high bits */
+#define REG_VSTOP                   0x1a    /* Vert stop high bits */
+#define REG_VREF                    0x03    /* Pieces of GAIN, VSTART, VSTOP */
+#define REG_COM3                    0x0c    /* Control 3 */
+#define REG_COM14                   0x3e    /* Control 14 */
+#define REG_SCALING_XSC             0x70
+#define REG_SCALING_YSC             0x71
+#define REG_SCALING_DCWCTR          0x72
+#define REG_SCALING_PCLK_DIV        0x73
+#define REG_SCALING_PCLK_DELAY      0xa2
+
+// VGA setting
+#define COM7_VGA                    0x00
+#define HSTART_VGA                  0x13
+#define HSTOP_VGA                   0x01
+#define HREF_VGA                    0x36
+#define VSTART_VGA                  0x02
+#define VSTOP_VGA                   0x7a
+#define VREF_VGA                    0x0a
+#define COM3_VGA                    0x00
+#define COM14_VGA                   0x00
+#define SCALING_XSC_VGA             0x3a
+#define SCALING_YSC_VGA             0x35
+#define SCALING_DCWCTR_VGA          0x11
+#define SCALING_PCLK_DIV_VGA        0xf0
+#define SCALING_PCLK_DELAY_VGA      0x02
+
+// QVGA setting
+#define COM7_QVGA                   0x00
+#define HSTART_QVGA                 0x16
+#define HSTOP_QVGA                  0x04
+#define HREF_QVGA                   0x00
+#define VSTART_QVGA                 0x02
+#define VSTOP_QVGA                  0x7a
+#define VREF_QVGA                   0x0a
+#define COM3_QVGA                   0x04
+#define COM14_QVGA                  0x19
+#define SCALING_XSC_QVGA            0x3a
+#define SCALING_YSC_QVGA            0x35
+#define SCALING_DCWCTR_QVGA         0x11
+#define SCALING_PCLK_DIV_QVGA       0xf1
+#define SCALING_PCLK_DELAY_QVGA     0x02
+
+// QQVGA setting
+#define COM7_QQVGA                  0x00
+#define HSTART_QQVGA                0x16
+#define HSTOP_QQVGA                 0x04
+#define HREF_QQVGA                  0xa4  //0x24? 0xa4?
+#define VSTART_QQVGA                0x02
+#define VSTOP_QQVGA                 0x7a
+#define VREF_QQVGA                  0x0a
+#define COM3_QQVGA                  0x04
+#define COM14_QQVGA                 0x1a
+#define SCALING_XSC_QQVGA           0x3a
+#define SCALING_YSC_QQVGA           0x35
+#define SCALING_DCWCTR_QQVGA        0x22
+#define SCALING_PCLK_DIV_QQVGA      0xf2
+#define SCALING_PCLK_DELAY_QQVGA    0x02
+
+// YUV
+#define REG_COM13                   0x3d    /* Control 13 */
+#define REG_TSLB                    0x3a    /* lots of stuff */
+
+#define COM7_YUV                    0x00    /* YUV */
+#define COM13_UV                    0x00    /* U before V - w/TSLB */
+#define COM13_UVSWAP                0x01    /* V before U - w/TSLB */
+#define TSLB_VLAST                  0x00    /* YUYV  - see com13 */
+#define TSLB_ULAST                  0x00    /* YVYU  - see com13 */
+#define TSLB_YLAST                  0x08    /* UYVY or VYUY - see com13 */
+
+// RGB
+#define COM7_RGB                    0x04    /* bits 0 and 2 - RGB format */
+
+// RGB444
+#define REG_RGB444                  0x8c    /* RGB 444 control */
+#define REG_COM15                   0x40    /* Control 15 */
+
+#define RGB444_ENABLE               0x02    /* Turn on RGB444, overrides 5x5 */
+#define RGB444_XBGR                 0x00
+#define RGB444_BGRX                 0x01    /* Empty nibble at end */
+#define COM15_RGB444                0x10    /* RGB444 output */
+
+// RGB555
+#define RGB444_DISABLE              0x00    /* Turn off RGB444, overrides 5x5 */
+#define COM15_RGB555                0x30    /* RGB555 output */
+
+// RGB565
+#define COM15_RGB565                0x10    /* RGB565 output */
+
+// Bayer RGB
+#define COM7_BAYER                  0x01    /* Bayer format */
+#define COM7_PBAYER                 0x05    /* "Processed bayer" */
+
+
+// data format
+#define COM15_R10F0                 0x00    /* Data range 10 to F0 */
+#define COM15_R01FE                 0x80    /*            01 to FE */
+#define COM15_R00FF                 0xc0    /*            00 to FF */

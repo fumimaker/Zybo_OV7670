@@ -2403,3 +2403,1211 @@ TRACE::2020-04-18.18:25:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents
 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
 
 TRACE::2020-04-18.18:25:49::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:10:11::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:11::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:11::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:11::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:10:11::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:11::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:10:11::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-04-20.21:10:15::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWReader::Active system found as  design_1_wrapper
+TRACE::2020-04-20.21:10:15::SCWReader::Handling sysconfig design_1_wrapper
+TRACE::2020-04-20.21:10:15::SCWDomain::checking for install qemu data   : 
+TRACE::2020-04-20.21:10:15::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-04-20.21:10:15::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:10:15::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:10:15::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-04-20.21:10:15::SCWMssOS::No sw design opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS::mss exists loading the mss file  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS::Opened the sw design from mss  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS::Adding the swdes entry C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-04-20.21:10:15::SCWMssOS::updating the scw layer about changes
+TRACE::2020-04-20.21:10:15::SCWMssOS::Opened the sw design.  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:10:15::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-04-20.21:10:15::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS:: library already available in sw design:  xilffs:4.2
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:10:15::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-04-20.21:10:15::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS:: library already available in sw design:  xilrsa:1.5
+TRACE::2020-04-20.21:10:15::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-04-20.21:10:15::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:10:15::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-04-20.21:10:15::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWReader::No isolation master present  
+TRACE::2020-04-20.21:10:15::SCWDomain::checking for install qemu data   : 
+TRACE::2020-04-20.21:10:15::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-04-20.21:10:15::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:10:15::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-04-20.21:10:15::SCWMssOS::No sw design opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS::mss exists loading the mss file  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS::Opened the sw design from mss  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS::Adding the swdes entry C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-04-20.21:10:15::SCWMssOS::updating the scw layer about changes
+TRACE::2020-04-20.21:10:15::SCWMssOS::Opened the sw design.  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-04-20.21:10:15::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:15::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:10:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:10:15::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-04-20.21:10:15::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:10:15::SCWReader::No isolation master present  
+TRACE::2020-04-20.21:10:15::SCWBDomain::System Command Ran  C:&  cd  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl & make clean
+TRACE::2020-04-20.21:10:15::SCWBDomain::rm -rf  sd.o  nand.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  nor.o  qspi.o  rsa.o  ps7_init.o  pcap.o  fsbl_handoff.o zynq
+TRACE::2020-04-20.21:10:15::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/lib/libxil.a executable.elf *.o
+
+TRACE::2020-04-20.21:10:15::SCWBDomain::System Command Ran  C:&  cd  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp & make clean
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/iicps_v3_10/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+
+TRACE::2020-04-20.21:10:16::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWBDomain::rm -f ps7_cortexa9_0/lib/libxil.a
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::cleaning the bsp 
+TRACE::2020-04-20.21:10:17::SCWMssOS::System Command Ran  C: & cd  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp & make clean 
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iicps_v3_10/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s clean 
+
+TRACE::2020-04-20.21:10:17::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s clean 
+
+TRACE::2020-04-20.21:10:18::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s clean 
+
+TRACE::2020-04-20.21:10:18::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+
+TRACE::2020-04-20.21:10:18::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s clean 
+
+TRACE::2020-04-20.21:10:18::SCWMssOS::rm -f ps7_cortexa9_0/lib/libxil.a
+
+LOG::2020-04-20.21:10:20::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2020-04-20.21:10:20::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-04-20.21:10:20::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2020-04-20.21:10:20::SCWSystem::Checking the domain zynq_fsbl
+LOG::2020-04-20.21:10:20::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2020-04-20.21:10:20::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-04-20.21:10:20::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2020-04-20.21:10:20::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:20::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:20::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:20::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:10:20::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:20::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:10:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:10:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:10:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:10:20::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:10:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-04-20.21:10:20::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:10:20::SCWBDomain::Completed writing the mss file at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2020-04-20.21:10:20::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-04-20.21:10:20::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-04-20.21:10:20::SCWBDomain::System Command Ran  C:&  cd  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl & make 
+TRACE::2020-04-20.21:10:21::SCWBDomain::make -C zynq_fsbl_bsp
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[1]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2020-04-20.21:10:21::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2020-04-20.21:10:21::SCWBDomain::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:21::SCWBDomain::exa9_0/libsrc/coresightps_dcc_v1_6/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:21::SCWBDomain::xa9_0/libsrc/coresightps_dcc_v1_6/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-04-20.21:10:21::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-04-20.21:10:21::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:21::SCWBDomain::exa9_0/libsrc/cpu_cortexa9_v2_8/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:21::SCWBDomain::xa9_0/libsrc/cpu_cortexa9_v2_8/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-04-20.21:10:21::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-04-20.21:10:21::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:21::SCWBDomain::exa9_0/libsrc/ddrps_v1_0/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:21::SCWBDomain::xa9_0/libsrc/ddrps_v1_0/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:21::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:21::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:21::SCWBDomain::exa9_0/libsrc/devcfg_v3_5/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:21::SCWBDomain::xa9_0/libsrc/devcfg_v3_5/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-04-20.21:10:21::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-04-20.21:10:21::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:21::SCWBDomain::exa9_0/libsrc/dmaps_v2_5/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:21::SCWBDomain::xa9_0/libsrc/dmaps_v2_5/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-04-20.21:10:21::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-04-20.21:10:21::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:21::SCWBDomain::exa9_0/libsrc/emacps_v3_10/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:21::SCWBDomain::xa9_0/libsrc/emacps_v3_10/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:21::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:21::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:21::SCWBDomain::exa9_0/libsrc/gpiops_v3_6/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:21::SCWBDomain::xa9_0/libsrc/gpiops_v3_6/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_10/src"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make -C ps7_cortexa9_0/libsrc/iicps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:21::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:21::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:21::SCWBDomain::exa9_0/libsrc/iicps_v3_10/src'
+
+TRACE::2020-04-20.21:10:21::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:21::SCWBDomain::xa9_0/libsrc/iicps_v3_10/src'
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:22::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:22::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:22::SCWBDomain::exa9_0/libsrc/qspips_v3_6/src'
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:22::SCWBDomain::xa9_0/libsrc/qspips_v3_6/src'
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:22::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:22::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:22::SCWBDomain::exa9_0/libsrc/scugic_v4_1/src'
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:22::SCWBDomain::xa9_0/libsrc/scugic_v4_1/src'
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2020-04-20.21:10:22::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2020-04-20.21:10:22::SCWBDomain::startfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:22::SCWBDomain::exa9_0/libsrc/scutimer_v2_1/src'
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:22::SCWBDomain::xa9_0/libsrc/scutimer_v2_1/src'
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:22::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:22::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:22::SCWBDomain::exa9_0/libsrc/scuwdt_v2_1/src'
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:22::SCWBDomain::xa9_0/libsrc/scuwdt_v2_1/src'
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-04-20.21:10:22::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-04-20.21:10:22::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:22::SCWBDomain::exa9_0/libsrc/sdps_v3_8/src'
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:22::SCWBDomain::xa9_0/libsrc/sdps_v3_8/src'
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2020-04-20.21:10:22::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2020-04-20.21:10:22::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:22::SCWBDomain::exa9_0/libsrc/standalone_v7_1/src'
+
+TRACE::2020-04-20.21:10:22::SCWBDomain::make[3]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:22::SCWBDomain::exa9_0/libsrc/standalone_v7_1/src/profile'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[3]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:23::SCWBDomain::xa9_0/libsrc/standalone_v7_1/src/profile'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:23::SCWBDomain::xa9_0/libsrc/standalone_v7_1/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:23::SCWBDomain::exa9_0/libsrc/uartps_v3_8/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:23::SCWBDomain::xa9_0/libsrc/uartps_v3_8/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-04-20.21:10:23::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-04-20.21:10:23::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:23::SCWBDomain::exa9_0/libsrc/usbps_v2_4/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:23::SCWBDomain::xa9_0/libsrc/usbps_v2_4/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:23::SCWBDomain::exa9_0/libsrc/xadcps_v2_3/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:23::SCWBDomain::xa9_0/libsrc/xadcps_v2_3/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:23::SCWBDomain::exa9_0/libsrc/xilffs_v4_2/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:23::SCWBDomain::xa9_0/libsrc/xilffs_v4_2/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:23::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:23::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:23::SCWBDomain::exa9_0/libsrc/xilrsa_v1_5/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:23::SCWBDomain::xa9_0/libsrc/xilrsa_v1_5/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-04-20.21:10:23::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-04-20.21:10:23::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:23::SCWBDomain::exa9_0/libsrc/coresightps_dcc_v1_6/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::"Compiling coresightps_dcc"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:23::SCWBDomain::xa9_0/libsrc/coresightps_dcc_v1_6/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2020-04-20.21:10:23::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2020-04-20.21:10:23::SCWBDomain::ostartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:23::SCWBDomain::exa9_0/libsrc/cpu_cortexa9_v2_8/src'
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::"Compiling cpu_cortexa9"
+
+TRACE::2020-04-20.21:10:23::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:23::SCWBDomain::xa9_0/libsrc/cpu_cortexa9_v2_8/src'
+
+TRACE::2020-04-20.21:10:24::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2020-04-20.21:10:24::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-04-20.21:10:24::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-04-20.21:10:24::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:24::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:24::SCWBDomain::exa9_0/libsrc/ddrps_v1_0/src'
+
+TRACE::2020-04-20.21:10:24::SCWBDomain::"Compiling ddrps"
+
+TRACE::2020-04-20.21:10:24::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:24::SCWBDomain::xa9_0/libsrc/ddrps_v1_0/src'
+
+TRACE::2020-04-20.21:10:24::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2020-04-20.21:10:24::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:10:24::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:10:24::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:24::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:24::SCWBDomain::exa9_0/libsrc/devcfg_v3_5/src'
+
+TRACE::2020-04-20.21:10:24::SCWBDomain::"Compiling devcfg"
+
+TRACE::2020-04-20.21:10:25::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:25::SCWBDomain::xa9_0/libsrc/devcfg_v3_5/src'
+
+TRACE::2020-04-20.21:10:25::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2020-04-20.21:10:25::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-04-20.21:10:25::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-04-20.21:10:25::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:25::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:25::SCWBDomain::exa9_0/libsrc/dmaps_v2_5/src'
+
+TRACE::2020-04-20.21:10:25::SCWBDomain::"Compiling dmaps"
+
+TRACE::2020-04-20.21:10:26::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:26::SCWBDomain::xa9_0/libsrc/dmaps_v2_5/src'
+
+TRACE::2020-04-20.21:10:26::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2020-04-20.21:10:27::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-04-20.21:10:27::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-04-20.21:10:27::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:27::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:27::SCWBDomain::exa9_0/libsrc/emacps_v3_10/src'
+
+TRACE::2020-04-20.21:10:27::SCWBDomain::"Compiling emacps"
+
+TRACE::2020-04-20.21:10:28::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:28::SCWBDomain::xa9_0/libsrc/emacps_v3_10/src'
+
+TRACE::2020-04-20.21:10:29::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2020-04-20.21:10:29::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:10:29::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:10:29::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:29::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:29::SCWBDomain::exa9_0/libsrc/gpiops_v3_6/src'
+
+TRACE::2020-04-20.21:10:29::SCWBDomain::"Compiling gpiops"
+
+TRACE::2020-04-20.21:10:30::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:30::SCWBDomain::xa9_0/libsrc/gpiops_v3_6/src'
+
+TRACE::2020-04-20.21:10:30::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_10/src"
+
+TRACE::2020-04-20.21:10:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/iicps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:10:30::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:10:30::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:30::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:30::SCWBDomain::exa9_0/libsrc/iicps_v3_10/src'
+
+TRACE::2020-04-20.21:10:30::SCWBDomain::"Compiling iicps"
+
+TRACE::2020-04-20.21:10:32::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:32::SCWBDomain::xa9_0/libsrc/iicps_v3_10/src'
+
+TRACE::2020-04-20.21:10:32::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2020-04-20.21:10:33::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:10:33::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:10:33::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:33::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:33::SCWBDomain::exa9_0/libsrc/qspips_v3_6/src'
+
+TRACE::2020-04-20.21:10:33::SCWBDomain::"Compiling qspips"
+
+TRACE::2020-04-20.21:10:34::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:34::SCWBDomain::xa9_0/libsrc/qspips_v3_6/src'
+
+TRACE::2020-04-20.21:10:34::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2020-04-20.21:10:34::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:10:34::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:10:34::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:34::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:34::SCWBDomain::exa9_0/libsrc/scugic_v4_1/src'
+
+TRACE::2020-04-20.21:10:34::SCWBDomain::"Compiling scugic"
+
+TRACE::2020-04-20.21:10:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:36::SCWBDomain::xa9_0/libsrc/scugic_v4_1/src'
+
+TRACE::2020-04-20.21:10:36::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2020-04-20.21:10:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-04-20.21:10:36::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-04-20.21:10:36::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:36::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:36::SCWBDomain::exa9_0/libsrc/scutimer_v2_1/src'
+
+TRACE::2020-04-20.21:10:36::SCWBDomain::"Compiling scutimer"
+
+TRACE::2020-04-20.21:10:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:36::SCWBDomain::xa9_0/libsrc/scutimer_v2_1/src'
+
+TRACE::2020-04-20.21:10:36::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2020-04-20.21:10:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:10:36::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:10:37::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:37::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:37::SCWBDomain::exa9_0/libsrc/scuwdt_v2_1/src'
+
+TRACE::2020-04-20.21:10:37::SCWBDomain::"Compiling scuwdt"
+
+TRACE::2020-04-20.21:10:37::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:37::SCWBDomain::xa9_0/libsrc/scuwdt_v2_1/src'
+
+TRACE::2020-04-20.21:10:37::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2020-04-20.21:10:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2020-04-20.21:10:37::SCWBDomain::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2020-04-20.21:10:37::SCWBDomain::les -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:37::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:37::SCWBDomain::exa9_0/libsrc/sdps_v3_8/src'
+
+TRACE::2020-04-20.21:10:37::SCWBDomain::"Compiling sdps"
+
+TRACE::2020-04-20.21:10:39::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:39::SCWBDomain::xa9_0/libsrc/sdps_v3_8/src'
+
+TRACE::2020-04-20.21:10:39::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-04-20.21:10:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-04-20.21:10:39::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-04-20.21:10:39::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:39::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:39::SCWBDomain::exa9_0/libsrc/standalone_v7_1/src'
+
+TRACE::2020-04-20.21:10:39::SCWBDomain::"Compiling standalone"
+
+TRACE::2020-04-20.21:10:47::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:47::SCWBDomain::xa9_0/libsrc/standalone_v7_1/src'
+
+TRACE::2020-04-20.21:10:47::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2020-04-20.21:10:47::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:10:47::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:10:47::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:47::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:47::SCWBDomain::exa9_0/libsrc/uartps_v3_8/src'
+
+TRACE::2020-04-20.21:10:47::SCWBDomain::"Compiling uartps"
+
+TRACE::2020-04-20.21:10:48::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:48::SCWBDomain::xa9_0/libsrc/uartps_v3_8/src'
+
+TRACE::2020-04-20.21:10:48::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2020-04-20.21:10:48::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-04-20.21:10:48::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-04-20.21:10:48::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:48::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:48::SCWBDomain::exa9_0/libsrc/usbps_v2_4/src'
+
+TRACE::2020-04-20.21:10:48::SCWBDomain::"Compiling usbps"
+
+TRACE::2020-04-20.21:10:50::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:50::SCWBDomain::xa9_0/libsrc/usbps_v2_4/src'
+
+TRACE::2020-04-20.21:10:50::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2020-04-20.21:10:50::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:10:50::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:10:50::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:50::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:50::SCWBDomain::exa9_0/libsrc/xadcps_v2_3/src'
+
+TRACE::2020-04-20.21:10:50::SCWBDomain::"Compiling xadcps"
+
+TRACE::2020-04-20.21:10:52::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:52::SCWBDomain::xa9_0/libsrc/xadcps_v2_3/src'
+
+TRACE::2020-04-20.21:10:52::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
+
+TRACE::2020-04-20.21:10:52::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:10:52::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:10:52::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:52::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:52::SCWBDomain::exa9_0/libsrc/xilffs_v4_2/src'
+
+TRACE::2020-04-20.21:10:52::SCWBDomain::"Compiling XilFFs Library"
+
+TRACE::2020-04-20.21:10:54::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:54::SCWBDomain::xa9_0/libsrc/xilffs_v4_2/src'
+
+TRACE::2020-04-20.21:10:54::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
+
+TRACE::2020-04-20.21:10:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:10:54::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:10:54::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:54::SCWBDomain::make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cort
+TRACE::2020-04-20.21:10:54::SCWBDomain::exa9_0/libsrc/xilrsa_v1_5/src'
+
+TRACE::2020-04-20.21:10:54::SCWBDomain::make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_corte
+TRACE::2020-04-20.21:10:54::SCWBDomain::xa9_0/libsrc/xilrsa_v1_5/src'
+
+TRACE::2020-04-20.21:10:54::SCWBDomain::'Finished building libraries'
+
+TRACE::2020-04-20.21:10:54::SCWBDomain::make[1]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2020-04-20.21:10:54::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cortexa9_0/
+TRACE::2020-04-20.21:10:54::SCWBDomain::include -I.
+
+TRACE::2020-04-20.21:10:54::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2020-04-20.21:10:54::SCWBDomain::9_0/include -I.
+
+TRACE::2020-04-20.21:10:55::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c image_mover.c -o image_mover.o -Izynq_fsbl_b
+TRACE::2020-04-20.21:10:55::SCWBDomain::sp/ps7_cortexa9_0/include -I.
+
+TRACE::2020-04-20.21:10:55::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_cortexa9_
+TRACE::2020-04-20.21:10:55::SCWBDomain::0/include -I.
+
+TRACE::2020-04-20.21:10:55::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_fsbl_bsp
+TRACE::2020-04-20.21:10:55::SCWBDomain::/ps7_cortexa9_0/include -I.
+
+TRACE::2020-04-20.21:10:55::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c main.c -o main.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2020-04-20.21:10:55::SCWBDomain::9_0/include -I.
+
+TRACE::2020-04-20.21:10:55::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_cortexa9_
+TRACE::2020-04-20.21:10:55::SCWBDomain::0/include -I.
+
+TRACE::2020-04-20.21:10:55::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_cortexa9_
+TRACE::2020-04-20.21:10:55::SCWBDomain::0/include -I.
+
+TRACE::2020-04-20.21:10:56::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2020-04-20.21:10:56::SCWBDomain::9_0/include -I.
+
+TRACE::2020-04-20.21:10:56::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c ps7_init.c -o ps7_init.o -Izynq_fsbl_bsp/ps7
+TRACE::2020-04-20.21:10:56::SCWBDomain::_cortexa9_0/include -I.
+
+TRACE::2020-04-20.21:10:56::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2020-04-20.21:10:56::SCWBDomain::9_0/include -I.
+
+TRACE::2020-04-20.21:10:56::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_handoff.S -o fsbl_handoff.o -Izynq_fsbl
+TRACE::2020-04-20.21:10:56::SCWBDomain::_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2020-04-20.21:10:56::SCWBDomain::arm-none-eabi-gcc -o executable.elf  sd.o  nand.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  nor.o  qspi.o  ps7_init.o
+TRACE::2020-04-20.21:10:56::SCWBDomain::  pcap.o  fsbl_handoff.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2020-04-20.21:10:56::SCWBDomain::hard -Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxi
+TRACE::2020-04-20.21:10:56::SCWBDomain::l,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                    -Wl,--gc-section
+TRACE::2020-04-20.21:10:56::SCWBDomain::s -Lzynq_fsbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2020-04-20.21:10:56::SCWSystem::Checking the domain standalone_domain
+LOG::2020-04-20.21:10:56::SCWSystem::Not a boot domain 
+LOG::2020-04-20.21:10:56::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-04-20.21:10:56::SCWDomain::Generating domain artifcats
+TRACE::2020-04-20.21:10:56::SCWMssOS::Generating standalone artifcats
+TRACE::2020-04-20.21:10:56::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/qemu/
+TRACE::2020-04-20.21:10:56::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/qemu/
+TRACE::2020-04-20.21:10:56::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-04-20.21:10:56::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:56::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:56::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:56::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:10:56::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:10:56::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:10:56::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:10:56::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:10:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:10:56::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:10:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-04-20.21:10:56::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:10:56::SCWMssOS::Completed writing the mss file at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2020-04-20.21:10:56::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:10:56::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-04-20.21:10:56::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-04-20.21:10:56::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-04-20.21:10:56::SCWMssOS::doing bsp build ... 
+TRACE::2020-04-20.21:10:56::SCWMssOS::System Command Ran  C: & cd  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp & make 
+TRACE::2020-04-20.21:10:56::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2020-04-20.21:10:57::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2020-04-20.21:10:57::SCWMssOS::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-04-20.21:10:57::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-04-20.21:10:57::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-04-20.21:10:57::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-04-20.21:10:57::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:57::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-04-20.21:10:57::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-04-20.21:10:57::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-04-20.21:10:57::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-04-20.21:10:57::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:57::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_10/src"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iicps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:57::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:57::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2020-04-20.21:10:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:57::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:57::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:58::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2020-04-20.21:10:58::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2020-04-20.21:10:58::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2020-04-20.21:10:58::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:58::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2020-04-20.21:10:58::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:58::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:58::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:58::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2020-04-20.21:10:58::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-04-20.21:10:58::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-04-20.21:10:58::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:58::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-04-20.21:10:58::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2020-04-20.21:10:58::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2020-04-20.21:10:58::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:58::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2020-04-20.21:10:58::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:58::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:58::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:58::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2020-04-20.21:10:58::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-04-20.21:10:58::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-04-20.21:10:58::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-04-20.21:10:59::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-04-20.21:10:59::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-04-20.21:10:59::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-04-20.21:10:59::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::"Compiling coresightps_dcc"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2020-04-20.21:10:59::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2020-04-20.21:10:59::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::"Compiling cpu_cortexa9"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-04-20.21:10:59::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-04-20.21:10:59::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::"Compiling ddrps"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:10:59::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:10:59::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:10:59::SCWMssOS::"Compiling devcfg"
+
+TRACE::2020-04-20.21:11:00::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2020-04-20.21:11:00::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-04-20.21:11:00::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-04-20.21:11:00::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:11:00::SCWMssOS::"Compiling dmaps"
+
+TRACE::2020-04-20.21:11:02::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2020-04-20.21:11:02::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-04-20.21:11:02::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-04-20.21:11:02::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:11:02::SCWMssOS::"Compiling emacps"
+
+TRACE::2020-04-20.21:11:04::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2020-04-20.21:11:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:11:04::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:11:04::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:11:04::SCWMssOS::"Compiling gpiops"
+
+TRACE::2020-04-20.21:11:05::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_10/src"
+
+TRACE::2020-04-20.21:11:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iicps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:11:05::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:11:05::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:11:05::SCWMssOS::"Compiling iicps"
+
+TRACE::2020-04-20.21:11:07::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2020-04-20.21:11:07::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:11:07::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:11:07::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:11:07::SCWMssOS::"Compiling qspips"
+
+TRACE::2020-04-20.21:11:09::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2020-04-20.21:11:09::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:11:09::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:11:09::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:11:09::SCWMssOS::"Compiling scugic"
+
+TRACE::2020-04-20.21:11:10::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2020-04-20.21:11:10::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-04-20.21:11:10::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-04-20.21:11:10::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:11:10::SCWMssOS::"Compiling scutimer"
+
+TRACE::2020-04-20.21:11:11::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2020-04-20.21:11:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:11:11::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:11:11::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:11:11::SCWMssOS::"Compiling scuwdt"
+
+TRACE::2020-04-20.21:11:12::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2020-04-20.21:11:12::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2020-04-20.21:11:12::SCWMssOS::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2020-04-20.21:11:12::SCWMssOS::les -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:11:12::SCWMssOS::"Compiling sdps"
+
+TRACE::2020-04-20.21:11:13::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-04-20.21:11:13::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-04-20.21:11:14::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-04-20.21:11:14::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:11:14::SCWMssOS::"Compiling standalone"
+
+TRACE::2020-04-20.21:11:20::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2020-04-20.21:11:20::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:11:20::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:11:20::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:11:20::SCWMssOS::"Compiling uartps"
+
+TRACE::2020-04-20.21:11:22::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2020-04-20.21:11:22::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-04-20.21:11:22::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-04-20.21:11:22::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:11:22::SCWMssOS::"Compiling usbps"
+
+TRACE::2020-04-20.21:11:23::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2020-04-20.21:11:23::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-04-20.21:11:23::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-04-20.21:11:23::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-04-20.21:11:23::SCWMssOS::"Compiling xadcps"
+
+TRACE::2020-04-20.21:11:25::SCWMssOS::'Finished building libraries'
+
+TRACE::2020-04-20.21:11:25::SCWMssOS::Copying to export directory.
+TRACE::2020-04-20.21:11:25::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-04-20.21:11:25::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-04-20.21:11:25::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-04-20.21:11:25::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2020-04-20.21:11:25::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2020-04-20.21:11:25::SCWPlatform::Started preparing the platform 
+TRACE::2020-04-20.21:11:25::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2020-04-20.21:11:25::SCWSystem::dir created 
+TRACE::2020-04-20.21:11:25::SCWSystem::Writing the bif 
+TRACE::2020-04-20.21:11:25::SCWPlatform::Started writing the spfm file 
+TRACE::2020-04-20.21:11:25::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-04-20.21:11:25::SCWPlatform::Completed generating the platform
+TRACE::2020-04-20.21:11:25::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:11:25::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:11:25::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:11:25::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:11:25::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:11:25::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:11:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:11:25::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:11:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:11:25::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:11:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-04-20.21:11:25::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-04-20.21:11:25::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:11:25::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:11:25::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:11:25::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:11:25::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:11:25::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:11:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:11:25::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:11:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:11:25::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:11:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-04-20.21:11:25::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:11:25::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"a2a7fb1ba3bae783f29af0941283893a",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"992f864773402163fecd55454a557faf",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-04-20.21:11:25::SCWPlatform::updated the xpfm file.
+TRACE::2020-04-20.21:11:25::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:11:25::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:11:25::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:11:25::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw
+TRACE::2020-04-20.21:11:25::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-04-20.21:11:25::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-04-20.21:11:25::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-04-20.21:11:25::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-04-20.21:11:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-04-20.21:11:25::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-04-20.21:11:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-04-20.21:11:25::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss

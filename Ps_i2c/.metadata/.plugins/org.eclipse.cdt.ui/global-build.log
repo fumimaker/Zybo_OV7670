@@ -1,6 +1,130 @@
-18:24:24 **** Build of project design_1_wrapper ****
-buildplatform.bat 54189 design_1_wrapper  
-XSDB Server Channel: tcfchan#1
+Nothing to build in platform 'design_1_wrapper'
+
+21:09:51 **** Incremental Build of configuration Debug for project i2c_test ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/OV7670.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OV7670.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/OV7670.d" -MT"src/OV7670.o" -o "src/OV7670.o" "../src/OV7670.c"
+'Finished building: ../src/OV7670.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: i2c_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "i2c_test.elf"  ./src/OV7670.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: cannot open output file i2c_test.elf: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [makefile:43: i2c_test.elf] Error 1
+make: *** [makefile:34: all] Error 2
+21:09:53 **** Incremental Build of configuration Debug for project i2c_test_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 65294 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/i2c_test_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/i2c_test_system/Debug/system.bif --bitstream C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/i2c_test/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/i2c_test/Debug/i2c_test.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/i2c_test/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2019.2/bin/bootgen  -image C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/i2c_test_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+21:10:09 **** Clean-only build of project design_1_wrapper ****
+buildplatform.bat 65294 design_1_wrapper clean 
+XSDB Server Channel: tcfchan#11
+Reading the platform  : "design_1_wrapper"
+Cleaning the zynq_fsbl application.
+rm -rf  sd.o  nand.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  nor.o  qspi.o  rsa.o  ps7_init.o  pcap.o  fsbl_handoff.o zynq
+_fsbl_bsp/ps7_cortexa9_0/lib/libxil.a executable.elf *.o
+
+Cleaning the zynq_fsbl application, bsp
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/iicps_v3_10/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s clean 
+
+rm -f ps7_cortexa9_0/lib/libxil.a
+
+Cleaning the BSP for domain  - standalone_domain
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/iicps_v3_10/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s clean 
+
+rm -f ps7_cortexa9_0/lib/libxil.a
+
+21:10:18 **** Clean-only build of configuration Debug for project i2c_test ****
+make clean 
+rm -rf  ./src/OV7670.o ./src/main.o ./src/platform.o  ./src/OV7670.d ./src/main.d ./src/platform.d  i2c_test.elf.size  i2c_test.elf
+rm: cannot remove `i2c_test.elf': Permission denied
+make: [makefile:55: clean] Error 1 (ignored)
+' '
+21:10:18 **** Build of project design_1_wrapper ****
+buildplatform.bat 65294 design_1_wrapper  
+XSDB Server Channel: tcfchan#12
 Building the zynq_fsbl application.
 make -C zynq_fsbl_bsp
 
@@ -531,9 +655,6 @@ include -I.
 arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_cortexa
 9_0/include -I.
 
-arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_cortexa9_
-0/include -I.
-
 arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c image_mover.c -o image_mover.o -Izynq_fsbl_b
 sp/ps7_cortexa9_0/include -I.
 
@@ -553,6 +674,9 @@ zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:85:9: note: #pragma message: For 
 arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_cortexa9_
 0/include -I.
 
+arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_cortexa9_
+0/include -I.
+
 arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_cortexa
 9_0/include -I.
 
@@ -569,7 +693,7 @@ zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:85:9: note: #pragma message: For 
 arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_handoff.S -o fsbl_handoff.o -Izynq_fsbl
 _bsp/ps7_cortexa9_0/include -I.
 
-arm-none-eabi-gcc -o executable.elf  sd.o  nand.o  nor.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  qspi.o  ps7_init.o
+arm-none-eabi-gcc -o executable.elf  sd.o  nand.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  nor.o  qspi.o  ps7_init.o
   pcap.o  fsbl_handoff.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
 hard -Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxi
 l,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                    -Wl,--gc-section
@@ -833,16 +957,21 @@ files -g -Wall -Wextra"
 
 'Finished building libraries'
 
-18:25:49 **** Build of configuration Debug for project i2c_test ****
+21:11:26 **** Build of configuration Debug for project i2c_test ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
-'Building file: ../src/helloworld.c'
+'Building file: ../src/OV7670.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-'Finished building: ../src/helloworld.c'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OV7670.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/OV7670.d" -MT"src/OV7670.o" -o "src/OV7670.o" "../src/OV7670.c"
+'Finished building: ../src/OV7670.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
 ' '
 'Building file: ../src/platform.c'
 'Invoking: ARM v7 gcc compiler'
@@ -851,12 +980,15 @@ arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=
 ' '
 'Building target: i2c_test.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "i2c_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: i2c_test.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size i2c_test.elf  |tee "i2c_test.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  63176	   2600	  23392	  89168	  15c50	i2c_test.elf
-'Finished building: i2c_test.elf.size'
-' '
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "i2c_test.elf"  ./src/OV7670.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: cannot open output file i2c_test.elf: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [makefile:43: i2c_test.elf] Error 1
+make: *** [makefile:34: all] Error 2
+21:11:28 **** Build of configuration Debug for project i2c_test_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 65294 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/i2c_test_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/i2c_test_system/Debug/system.bif --bitstream C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/i2c_test/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/i2c_test/Debug/i2c_test.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/i2c_test/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2019.2/bin/bootgen  -image C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/i2c_test_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
