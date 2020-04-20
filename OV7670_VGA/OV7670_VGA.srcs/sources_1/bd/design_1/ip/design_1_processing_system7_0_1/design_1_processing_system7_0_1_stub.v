@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Mon Apr 20 21:53:31 2020
+// Date        : Mon Apr 20 21:53:30 2020
 // Host        : LAPTOP-AG87OV99 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top design_1_processing_system7_0_1 -prefix
+//               design_1_processing_system7_0_1_ design_1_processing_system7_0_1_stub.v
 // Design      : design_1_processing_system7_0_1
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg400-1
