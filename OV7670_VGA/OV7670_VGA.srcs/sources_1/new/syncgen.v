@@ -16,7 +16,7 @@
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
-// 
+// これはテストです
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -30,10 +30,10 @@ module syncgen(
     output  reg [9:0]   VCNT
     );
     
-/* VGA(640×480)用パラメータ読み込み */
+/* VGA(640?~480)?p?p?????[?^?????? */
 `include "vga_param.vh"
 
-/* 水平カウンタ */
+/* ?????J?E???^ */
 wire hcntend = (HCNT==HPERIOD-10'h001);
 always @( posedge PCK ) begin
     if ( RST )
@@ -44,7 +44,7 @@ always @( posedge PCK ) begin
         HCNT <= HCNT + 10'h001;
 end
 
-/* 垂直カウンタ */
+/* ?????J?E???^ */
 always @( posedge PCK ) begin
     if ( RST )
         VCNT <= 10'h000;
@@ -56,7 +56,7 @@ always @( posedge PCK ) begin
     end
 end
 
-/* 同期信号10bit */
+/* ?????M??10bit */
 wire [9:0] hsstart = HFRONT - 10'h001;
 wire [9:0] hsend   = HFRONT + HWIDTH - 10'h001;
 wire [9:0] vsstart = VFRONT;

@@ -1124,37 +1124,40 @@
           "Enable_32bit_Address": {
             "value": "false"
           },
+          "Enable_B": {
+            "value": "Use_ENB_Pin"
+          },
           "Load_Init_File": {
             "value": "false"
           },
           "Memory_Type": {
-            "value": "Single_Port_RAM"
+            "value": "Simple_Dual_Port_RAM"
           },
           "Operating_Mode_A": {
             "value": "NO_CHANGE"
           },
           "Port_B_Clock": {
-            "value": "0"
+            "value": "100"
           },
           "Port_B_Enable_Rate": {
-            "value": "0"
+            "value": "100"
           },
-          "Read_Width_A": {
+          "Read_Width_B": {
             "value": "12"
           },
-          "Register_PortA_Output_of_Memory_Primitives": {
+          "Register_PortB_Output_of_Memory_Primitives": {
             "value": "true"
           },
           "Use_Byte_Write_Enable": {
-            "value": "false"
-          },
-          "Use_RSTA_Pin": {
             "value": "false"
           },
           "Write_Depth_A": {
             "value": "307200"
           },
           "Write_Width_A": {
+            "value": "12"
+          },
+          "Write_Width_B": {
             "value": "12"
           },
           "use_bram_block": {
@@ -1164,10 +1167,10 @@
       }
     },
     "interface_nets": {
-      "processing_system7_0_FIXED_IO": {
+      "processing_system7_0_DDR": {
         "interface_ports": [
-          "FIXED_IO",
-          "processing_system7_0/FIXED_IO"
+          "DDR",
+          "processing_system7_0/DDR"
         ]
       },
       "processing_system7_0_IIC_0": {
@@ -1176,10 +1179,10 @@
           "processing_system7_0/IIC_0"
         ]
       },
-      "processing_system7_0_DDR": {
+      "processing_system7_0_FIXED_IO": {
         "interface_ports": [
-          "DDR",
-          "processing_system7_0/DDR"
+          "FIXED_IO",
+          "processing_system7_0/FIXED_IO"
         ]
       }
     },
