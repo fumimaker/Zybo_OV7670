@@ -16,7 +16,6 @@
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
-// これもてすと
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -31,19 +30,12 @@ module bram(
     );
      (* ram_style = "BLOCK" *) reg [15:0] bram[0:18]; 
      
-     always @(posedge CLK) begin
-        if (RST) begin
-            integer j;
-            for (j = 0; j < 524288;  j=j+1)
-                bram[j] = {16{1'b0}};
+    always @(posedge CLK) begin
+        if (we) begin
+            bram[addr] <= din;
             end
-        else begin
-            if (we) begin
-                bram[addr] <= din;
-                end
-            if (re) begin
-                dout <= bram[addr];
-                end
+        if (re) begin
+            dout <= bram[addr];
             end
-    end
+        end
 endmodule
