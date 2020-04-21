@@ -48,6 +48,9 @@
             "value": "ACTIVE_HIGH"
           }
         }
+      },
+      "CAM_XCLK": {
+        "direction": "O"
       }
     },
     "components": {
@@ -1079,25 +1082,58 @@
         "xci_name": "design_1_clk_wiz_0_0",
         "parameters": {
           "CLKOUT1_JITTER": {
-            "value": "281.423"
+            "value": "312.274"
           },
           "CLKOUT1_PHASE_ERROR": {
-            "value": "365.405"
+            "value": "245.713"
           },
           "CLKOUT1_REQUESTED_OUT_FREQ": {
             "value": "25.175"
+          },
+          "CLKOUT2_JITTER": {
+            "value": "314.925"
+          },
+          "CLKOUT2_PHASE_ERROR": {
+            "value": "245.713"
+          },
+          "CLKOUT2_REQUESTED_OUT_FREQ": {
+            "value": "24"
+          },
+          "CLKOUT2_USED": {
+            "value": "true"
+          },
+          "CLKOUT3_JITTER": {
+            "value": "179.864"
+          },
+          "CLKOUT3_PHASE_ERROR": {
+            "value": "134.601"
+          },
+          "CLKOUT3_USED": {
+            "value": "false"
           },
           "CLK_IN1_BOARD_INTERFACE": {
             "value": "sys_clock"
           },
           "MMCM_CLKFBOUT_MULT_F": {
-            "value": "61.500"
+            "value": "36.500"
+          },
+          "MMCM_CLKIN2_PERIOD": {
+            "value": "10.000"
           },
           "MMCM_CLKOUT0_DIVIDE_F": {
-            "value": "43.625"
+            "value": "36.250"
+          },
+          "MMCM_CLKOUT1_DIVIDE": {
+            "value": "38"
+          },
+          "MMCM_CLKOUT2_DIVIDE": {
+            "value": "1"
           },
           "MMCM_DIVCLK_DIVIDE": {
-            "value": "7"
+            "value": "5"
+          },
+          "NUM_OUT_CLKS": {
+            "value": "2"
           },
           "USE_BOARD_FLOW": {
             "value": "true"
@@ -1209,6 +1245,12 @@
         "ports": [
           "processing_system7_0/FCLK_CLK0",
           "rst_ps7_0_50M/slowest_sync_clk"
+        ]
+      },
+      "clk_wiz_0_clk_out2": {
+        "ports": [
+          "clk_wiz_0/clk_out2",
+          "CAM_XCLK"
         ]
       }
     },
