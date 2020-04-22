@@ -23,7 +23,7 @@
 module vga_out(
     input               CLK,
     input               RST,
-    input          [15:0]   DATA,
+    input          [11:0]   DATA,
     output  reg [3:0]   VGA_R,
     output  reg [3:0]   VGA_G,
     output  reg [3:0]   VGA_B,
@@ -55,15 +55,15 @@ syncgen syncgen_inst(
 wire [9:0] HBLANK = HFRONT + HWIDTH + HBACK;
 wire [9:0] VBLANK = VFRONT + VWIDTH + VBACK;
 
-wire disp_enable = (VBLANK <= VCNT) && (HBLANK-10'd1 <= HCNT) && (HCNT < HPERIOD-10'd1);
+wire disp_enable = (VBLANK <= VCNT) &&
+    (HBLANK-10'd1 <= HCNT) && (HCNT < HPERIOD-10'd1);
 
 
 always @( posedge PCK ) begin
     if ( RST )
         {VGA_R, VGA_G, VGA_B} <= 12'h000;
     else if ( disp_enable )
-        {VGA_R, VGA_G, VGA_B} <=
-                    { {4{rgb_1[2]}}, {4{rgb_1[1]}}, {4{rgb_1[0]}} };
+        {VGA_R, VGA_G, VGA_B} <= {DATA[11:8], DATA[7:4], DATA[3:0]} ;
     else
         {VGA_R, VGA_G, VGA_B} <= 12'h000;
 end
