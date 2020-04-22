@@ -23,12 +23,14 @@
 module vga_out(
     input               CLK,
     input               RST,
-    input          [11:0]   DATA,
     output  reg [3:0]   VGA_R,
     output  reg [3:0]   VGA_G,
     output  reg [3:0]   VGA_B,
-    output              VGA_HS,
-    output              VGA_VS
+    output                      VGA_HS,
+    output                      VGA_VS,
+    input           [11:0]  DATAB,
+    output          [18:0]  ADDR,
+    output               ENB
     );
     
 /* VGA(640×480)用パラメータ読み込み */
@@ -58,14 +60,26 @@ wire [9:0] VBLANK = VFRONT + VWIDTH + VBACK;
 wire disp_enable = (VBLANK <= VCNT) &&
     (HBLANK-10'd1 <= HCNT) && (HCNT < HPERIOD-10'd1);
 
+/*BRAM読み出しはずっと有効*/
+assign ENB = 1;
+assign ADDR = HCNT + VCNT*640;
 
 always @( posedge PCK ) begin
     if ( RST )
         {VGA_R, VGA_G, VGA_B} <= 12'h000;
     else if ( disp_enable )
-        {VGA_R, VGA_G, VGA_B} <= {DATA[11:8], DATA[7:4], DATA[3:0]} ;
+        {VGA_R, VGA_G, VGA_B} <= {DATAB[11:8], DATAB[7:4], DATAB[3:0]};
     else
         {VGA_R, VGA_G, VGA_B} <= 12'h000;
+end
+
+always @(posedge PCK) begin
+    if(RST) begin
+        ADDR <= 0;
+    end
+    else if begin
+        
+    end
 end
 
 endmodule
