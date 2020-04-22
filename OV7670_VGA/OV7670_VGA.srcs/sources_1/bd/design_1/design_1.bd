@@ -11,7 +11,10 @@
       "processing_system7_0": "",
       "clk_wiz_0": "",
       "rst_ps7_0_50M": "",
-      "blk_mem_gen_0": ""
+      "blk_mem_gen_0": "",
+      "vga_out_0": "",
+      "ov7670_IF_0": "",
+      "syncgen_0": ""
     },
     "interface_ports": {
       "DDR": {
@@ -50,6 +53,45 @@
         }
       },
       "CAM_XCLK": {
+        "direction": "O"
+      },
+      "RST": {
+        "direction": "I"
+      },
+      "CAM_PCLK": {
+        "direction": "I"
+      },
+      "CAM_VSYNC": {
+        "direction": "I"
+      },
+      "CAM_HREF": {
+        "direction": "I"
+      },
+      "data": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "VGA_R": {
+        "type": "data",
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "VGA_B": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "VGA_G": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "VGA_HS": {
+        "direction": "O"
+      },
+      "VGA_VS": {
         "direction": "O"
       }
     },
@@ -1200,6 +1242,142 @@
             "value": "Stand_Alone"
           }
         }
+      },
+      "vga_out_0": {
+        "vlnv": "xilinx.com:module_ref:vga_out:1.0",
+        "xci_name": "design_1_vga_out_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "vga_out",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "RST": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "VGA_R": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "VGA_G": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "VGA_B": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "VGA_HS": {
+            "direction": "O"
+          },
+          "VGA_VS": {
+            "direction": "O"
+          },
+          "DATAB": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "ADDR": {
+            "direction": "O",
+            "left": "18",
+            "right": "0"
+          },
+          "ENB": {
+            "direction": "O"
+          }
+        }
+      },
+      "ov7670_IF_0": {
+        "vlnv": "xilinx.com:module_ref:ov7670_IF:1.0",
+        "xci_name": "design_1_ov7670_IF_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ov7670_IF",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "RST": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "CAM_PCLK": {
+            "direction": "I"
+          },
+          "CAM_HREF": {
+            "direction": "I"
+          },
+          "CAM_VSYNC": {
+            "direction": "I"
+          },
+          "data": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "DATA_OUT": {
+            "direction": "O",
+            "left": "11",
+            "right": "0"
+          },
+          "ADDR": {
+            "direction": "O",
+            "left": "18",
+            "right": "0"
+          },
+          "ENA": {
+            "direction": "O"
+          },
+          "WENA": {
+            "direction": "O"
+          }
+        }
+      },
+      "syncgen_0": {
+        "vlnv": "xilinx.com:module_ref:syncgen:1.0",
+        "xci_name": "design_1_syncgen_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "syncgen",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "RST": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "PCK": {
+            "direction": "I"
+          },
+          "VGA_HS": {
+            "direction": "O"
+          },
+          "VGA_VS": {
+            "direction": "O"
+          },
+          "HCNT": {
+            "direction": "O",
+            "left": "9",
+            "right": "0"
+          },
+          "VCNT": {
+            "direction": "O",
+            "left": "9",
+            "right": "0"
+          }
+        }
       }
     },
     "interface_nets": {
@@ -1244,13 +1422,127 @@
       "processing_system7_0_FCLK_CLK0": {
         "ports": [
           "processing_system7_0/FCLK_CLK0",
-          "rst_ps7_0_50M/slowest_sync_clk"
+          "rst_ps7_0_50M/slowest_sync_clk",
+          "vga_out_0/CLK",
+          "syncgen_0/CLK"
         ]
       },
       "clk_wiz_0_clk_out2": {
         "ports": [
           "clk_wiz_0/clk_out2",
           "CAM_XCLK"
+        ]
+      },
+      "blk_mem_gen_0_doutb": {
+        "ports": [
+          "blk_mem_gen_0/doutb",
+          "vga_out_0/DATAB"
+        ]
+      },
+      "vga_out_0_ENB": {
+        "ports": [
+          "vga_out_0/ENB",
+          "blk_mem_gen_0/enb"
+        ]
+      },
+      "vga_out_0_ADDR": {
+        "ports": [
+          "vga_out_0/ADDR",
+          "blk_mem_gen_0/addrb"
+        ]
+      },
+      "ov7670_IF_0_ADDR": {
+        "ports": [
+          "ov7670_IF_0/ADDR",
+          "blk_mem_gen_0/addra"
+        ]
+      },
+      "ov7670_IF_0_DATA_OUT": {
+        "ports": [
+          "ov7670_IF_0/DATA_OUT",
+          "blk_mem_gen_0/dina"
+        ]
+      },
+      "ov7670_IF_0_ENA": {
+        "ports": [
+          "ov7670_IF_0/ENA",
+          "blk_mem_gen_0/ena"
+        ]
+      },
+      "ov7670_IF_0_WENA": {
+        "ports": [
+          "ov7670_IF_0/WENA",
+          "blk_mem_gen_0/wea"
+        ]
+      },
+      "RST_1": {
+        "ports": [
+          "RST",
+          "vga_out_0/RST",
+          "ov7670_IF_0/RST",
+          "syncgen_0/RST"
+        ]
+      },
+      "CAM_HREF_1": {
+        "ports": [
+          "CAM_HREF",
+          "ov7670_IF_0/CAM_HREF"
+        ]
+      },
+      "CAM_VSYNC_1": {
+        "ports": [
+          "CAM_VSYNC",
+          "ov7670_IF_0/CAM_VSYNC"
+        ]
+      },
+      "data_1": {
+        "ports": [
+          "data",
+          "ov7670_IF_0/data"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "syncgen_0/PCK",
+          "blk_mem_gen_0/clkb"
+        ]
+      },
+      "vga_out_0_VGA_R": {
+        "ports": [
+          "vga_out_0/VGA_R",
+          "VGA_R"
+        ]
+      },
+      "vga_out_0_VGA_G": {
+        "ports": [
+          "vga_out_0/VGA_G",
+          "VGA_G"
+        ]
+      },
+      "vga_out_0_VGA_B": {
+        "ports": [
+          "vga_out_0/VGA_B",
+          "VGA_B"
+        ]
+      },
+      "vga_out_0_VGA_VS": {
+        "ports": [
+          "vga_out_0/VGA_VS",
+          "VGA_VS"
+        ]
+      },
+      "vga_out_0_VGA_HS": {
+        "ports": [
+          "vga_out_0/VGA_HS",
+          "VGA_HS"
+        ]
+      },
+      "CAM_PCLK_1": {
+        "ports": [
+          "CAM_PCLK",
+          "ov7670_IF_0/CAM_PCLK",
+          "blk_mem_gen_0/clka"
         ]
       }
     },

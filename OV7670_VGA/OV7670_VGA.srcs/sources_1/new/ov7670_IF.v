@@ -29,8 +29,7 @@ module ov7670_IF(
     output reg [11:0] DATA_OUT,
     output [18:0] ADDR,
     output reg ENA,
-    output reg WENA,
-    output PCLK
+    output reg WENA
     );
     
     reg [9:0] HCNT, VCNT;

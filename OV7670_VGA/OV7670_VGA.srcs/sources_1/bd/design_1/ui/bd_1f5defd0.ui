@@ -1,34 +1,65 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"1.5",
-   "Default View_TopLeft":"-279,-67",
+   "Default View_ScaleFactor":"1.311",
+   "Default View_TopLeft":"-659,2",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
 #  -string -flagsOSRD
-preplace port DDR -pg 1 -lvl 3 -x 790 -y 60 -defaultsOSRD
-preplace port FIXED_IO -pg 1 -lvl 3 -x 790 -y 80 -defaultsOSRD
-preplace port IIC_0_0 -pg 1 -lvl 3 -x 790 -y 100 -defaultsOSRD
-preplace port sys_clock -pg 1 -lvl 0 -x -10 -y 360 -defaultsOSRD
-preplace port reset_rtl -pg 1 -lvl 0 -x -10 -y 340 -defaultsOSRD
-preplace port CAM_XCLK -pg 1 -lvl 3 -x 790 -y 360 -defaultsOSRD
-preplace inst processing_system7_0 -pg 1 -lvl 1 -x 220 -y 120 -defaultsOSRD
-preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 600 -y 350 -defaultsOSRD
-preplace inst rst_ps7_0_50M -pg 1 -lvl 2 -x 600 -y 200 -defaultsOSRD
-preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 600 -y 570 -defaultsOSRD
-preplace netloc sys_clock_1 1 0 2 NJ 360 NJ
-preplace netloc reset_rtl_1 1 0 2 NJ 340 NJ
-preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 N 180
-preplace netloc processing_system7_0_FCLK_CLK0 1 1 1 N 160
-preplace netloc clk_wiz_0_clk_out2 1 2 1 N 360
-preplace netloc processing_system7_0_FIXED_IO 1 1 2 NJ 80 NJ
-preplace netloc processing_system7_0_IIC_0 1 1 2 NJ 100 NJ
-preplace netloc processing_system7_0_DDR 1 1 2 NJ 60 NJ
-levelinfo -pg 1 -10 220 600 790
-pagesize -pg 1 -db -bbox -sgen -130 -20 920 760
+preplace port DDR -pg 1 -lvl 3 -x 860 -y 540 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 3 -x 860 -y 560 -defaultsOSRD
+preplace port IIC_0_0 -pg 1 -lvl 3 -x 860 -y 580 -defaultsOSRD
+preplace port sys_clock -pg 1 -lvl 0 -x -40 -y 940 -defaultsOSRD
+preplace port reset_rtl -pg 1 -lvl 0 -x -40 -y 920 -defaultsOSRD
+preplace port CAM_XCLK -pg 1 -lvl 3 -x 860 -y 940 -defaultsOSRD
+preplace port RST -pg 1 -lvl 0 -x -40 -y 90 -defaultsOSRD
+preplace port CAM_PCLK -pg 1 -lvl 0 -x -40 -y 110 -defaultsOSRD
+preplace port CAM_VSYNC -pg 1 -lvl 0 -x -40 -y 150 -defaultsOSRD
+preplace port CAM_HREF -pg 1 -lvl 0 -x -40 -y 130 -defaultsOSRD
+preplace port VGA_HS -pg 1 -lvl 3 -x 860 -y 360 -defaultsOSRD
+preplace port VGA_VS -pg 1 -lvl 3 -x 860 -y 380 -defaultsOSRD
+preplace portBus data -pg 1 -lvl 0 -x -40 -y 170 -defaultsOSRD
+preplace portBus VGA_R -pg 1 -lvl 3 -x 860 -y 300 -defaultsOSRD
+preplace portBus VGA_B -pg 1 -lvl 3 -x 860 -y 340 -defaultsOSRD
+preplace portBus VGA_G -pg 1 -lvl 3 -x 860 -y 320 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 200 -y 600 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 200 -y 930 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 2 -x 630 -y 700 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 630 -y 160 -defaultsOSRD
+preplace inst vga_out_0 -pg 1 -lvl 1 -x 200 -y 360 -defaultsOSRD
+preplace inst ov7670_IF_0 -pg 1 -lvl 1 -x 200 -y 130 -defaultsOSRD
+preplace inst syncgen_0 -pg 1 -lvl 2 -x 630 -y 870 -defaultsOSRD
+preplace netloc sys_clock_1 1 0 1 NJ 940
+preplace netloc reset_rtl_1 1 0 1 NJ 920
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 400 660n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 2 0 720 410
+preplace netloc clk_wiz_0_clk_out2 1 1 2 420J 960 800J
+preplace netloc blk_mem_gen_0_doutb 1 0 2 -10 240 NJ
+preplace netloc vga_out_0_ENB 1 1 1 440 260n
+preplace netloc vga_out_0_ADDR 1 1 1 400 200n
+preplace netloc ov7670_IF_0_ADDR 1 1 1 400 80n
+preplace netloc ov7670_IF_0_DATA_OUT 1 1 1 430 100n
+preplace netloc ov7670_IF_0_ENA 1 1 1 N 140
+preplace netloc ov7670_IF_0_WENA 1 1 1 N 160
+preplace netloc RST_1 1 0 2 -20 480 420J
+preplace netloc CAM_HREF_1 1 0 1 NJ 130
+preplace netloc CAM_VSYNC_1 1 0 1 NJ 150
+preplace netloc data_1 1 0 1 NJ 170
+preplace netloc clk_wiz_0_clk_out1 1 1 1 430 220n
+preplace netloc vga_out_0_VGA_R 1 1 2 410J 330 800J
+preplace netloc vga_out_0_VGA_G 1 1 2 NJ 320 NJ
+preplace netloc vga_out_0_VGA_B 1 1 2 NJ 340 NJ
+preplace netloc vga_out_0_VGA_VS 1 1 2 NJ 380 NJ
+preplace netloc vga_out_0_VGA_HS 1 1 2 NJ 360 NJ
+preplace netloc CAM_PCLK_1 1 0 2 0 30 440J
+preplace netloc processing_system7_0_DDR 1 1 2 NJ 540 NJ
+preplace netloc processing_system7_0_IIC_0 1 1 2 NJ 580 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 2 NJ 560 NJ
+levelinfo -pg 1 -40 200 630 860
+pagesize -pg 1 -db -bbox -sgen -180 0 990 1000
 "
 }
 {
    "da_board_cnt":"2",
-   "da_clkrst_cnt":"2",
+   "da_clkrst_cnt":"4",
    "da_ps7_cnt":"2"
 }
