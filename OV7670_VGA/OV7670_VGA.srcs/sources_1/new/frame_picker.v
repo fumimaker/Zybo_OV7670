@@ -24,6 +24,13 @@ module frame_picker(
     input [11:0] DATAB,
     output [18:0] ADDR,
     output ENB,
-    output [12:0] DATA_OUT
+    output [12:0] DATA_OUT,
+    input PCK,
+    input HCNT,
+    input VCNT
     );
+    
+    always @(posedge PCK) begin
+        
+    end
 endmodule

@@ -73,13 +73,4 @@ always @( posedge PCK ) begin
         {VGA_R, VGA_G, VGA_B} <= 12'h000;
 end
 
-always @(posedge PCK) begin
-    if(RST) begin
-        ADDR <= 0;
-    end
-    else if begin
-        
-    end
-end
-
 endmodule
