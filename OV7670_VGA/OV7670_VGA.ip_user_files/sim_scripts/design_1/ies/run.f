@@ -44,6 +44,42 @@
 -endlib
 -makelib ies_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_blk_mem_gen_0_0/sim/design_1_blk_mem_gen_0_0.v" \
+-endlib
+-makelib ies_lib/axi_lite_ipif_v3_0_4 \
+  "../../../../OV7670_VGA.srcs/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd" \
+-endlib
+-makelib ies_lib/interrupt_control_v3_1_4 \
+  "../../../../OV7670_VGA.srcs/sources_1/bd/design_1/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd" \
+-endlib
+-makelib ies_lib/axi_gpio_v2_0_22 \
+  "../../../../OV7670_VGA.srcs/sources_1/bd/design_1/ipshared/f71e/hdl/axi_gpio_v2_0_vh_rfs.vhd" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd" \
+-endlib
+-makelib ies_lib/generic_baseblocks_v2_1_0 \
+  "../../../../OV7670_VGA.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
+-endlib
+-makelib ies_lib/fifo_generator_v13_2_5 \
+  "../../../../OV7670_VGA.srcs/sources_1/bd/design_1/ipshared/276e/simulation/fifo_generator_vlog_beh.v" \
+-endlib
+-makelib ies_lib/fifo_generator_v13_2_5 \
+  "../../../../OV7670_VGA.srcs/sources_1/bd/design_1/ipshared/276e/hdl/fifo_generator_v13_2_rfs.vhd" \
+-endlib
+-makelib ies_lib/fifo_generator_v13_2_5 \
+  "../../../../OV7670_VGA.srcs/sources_1/bd/design_1/ipshared/276e/hdl/fifo_generator_v13_2_rfs.v" \
+-endlib
+-makelib ies_lib/axi_data_fifo_v2_1_19 \
+  "../../../../OV7670_VGA.srcs/sources_1/bd/design_1/ipshared/60de/hdl/axi_data_fifo_v2_1_vl_rfs.v" \
+-endlib
+-makelib ies_lib/axi_register_slice_v2_1_20 \
+  "../../../../OV7670_VGA.srcs/sources_1/bd/design_1/ipshared/72d4/hdl/axi_register_slice_v2_1_vl_rfs.v" \
+-endlib
+-makelib ies_lib/axi_protocol_converter_v2_1_20 \
+  "../../../../OV7670_VGA.srcs/sources_1/bd/design_1/ipshared/c4a6/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
   "../../../bd/design_1/sim/design_1.v" \
 -endlib
 -makelib ies_lib/xil_defaultlib \

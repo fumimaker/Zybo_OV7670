@@ -35,7 +35,13 @@ set_property target_language Verilog [current_project]
 set_property board_part digilentinc.com:zybo-z7-20:part0:1.0 [current_project]
 set_property ip_output_repo c:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_verilog -library xil_defaultlib C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+read_verilog C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/new/VGA_param.vh
+read_verilog -library xil_defaultlib {
+  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/new/ov7670_IF.v
+  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/new/syncgen.v
+  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/new/vga_out.v
+  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/new/top.v
+}
 add_files C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/design_1.bd
 set_property used_in_implementation false [get_files -all c:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc]
@@ -67,12 +73,12 @@ set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
-synth_design -top design_1_wrapper -part xc7z020clg400-1
+synth_design -top top -part xc7z020clg400-1
 
 
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef design_1_wrapper.dcp
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb"
+write_checkpoint -force -noxdef top.dcp
+create_report "synth_1_synth_report_utilization_0" "report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb"
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]
