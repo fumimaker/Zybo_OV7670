@@ -35,6 +35,7 @@ module top(
     input VGA_VSYNC,
     input VGA_HSYNC
     );
+    
     wire clk_25_175MHZ, clk_24MHZ;
     wire BRAM_DATAB, BRAM_ENB, BRAM_ADDRB;
     wire BRAM_DATAA,BRAM_ADDRA, BRAM_ENA, BRAM_WENA;
