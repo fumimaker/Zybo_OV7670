@@ -1,7 +1,7 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-//Date        : Tue Apr 21 01:16:41 2020
+//Date        : Fri Apr 24 00:07:55 2020
 //Host        : LAPTOP-AG87OV99 running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -9,7 +9,7 @@
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=1,numReposBlks=1,numNonXlnxBlks=0,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_ps7_cnt=2,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
+(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=4,numReposBlks=4,numNonXlnxBlks=0,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_board_cnt=2,da_clkrst_cnt=4,da_ps7_cnt=2,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
 module design_1
    (DDR_addr,
     DDR_ba,
@@ -37,7 +37,8 @@ module design_1
     IIC_0_0_scl_t,
     IIC_0_0_sda_i,
     IIC_0_0_sda_o,
-    IIC_0_0_sda_t);
+    IIC_0_0_sda_t,
+    sys_clock);
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR ADDR" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DDR, AXI_ARBITRATION_SCHEME TDM, BURST_LENGTH 8, CAN_DEBUG false, CAS_LATENCY 11, CAS_WRITE_LATENCY 11, CS_ENABLED true, DATA_MASK_ENABLED true, DATA_WIDTH 8, MEMORY_TYPE COMPONENTS, MEM_ADDR_MAP ROW_COLUMN_BANK, SLOT Single, TIMEPERIOD_PS 1250" *) inout [14:0]DDR_addr;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR BA" *) inout [2:0]DDR_ba;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR CAS_N" *) inout DDR_cas_n;
@@ -65,7 +66,9 @@ module design_1
   (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_0_0 SDA_I" *) input IIC_0_0_sda_i;
   (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_0_0 SDA_O" *) output IIC_0_0_sda_o;
   (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_0_0 SDA_T" *) output IIC_0_0_sda_t;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.SYS_CLOCK CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.SYS_CLOCK, CLK_DOMAIN design_1_sys_clock, FREQ_HZ 125000000, INSERT_VIP 0, PHASE 0.000" *) input sys_clock;
 
+  wire clk_wiz_0_clk_out1;
   wire [14:0]processing_system7_0_DDR_ADDR;
   wire [2:0]processing_system7_0_DDR_BA;
   wire processing_system7_0_DDR_CAS_N;
@@ -82,6 +85,7 @@ module design_1
   wire processing_system7_0_DDR_RESET_N;
   wire processing_system7_0_DDR_WE_N;
   wire processing_system7_0_FCLK_CLK0;
+  wire processing_system7_0_FCLK_RESET0_N;
   wire processing_system7_0_FIXED_IO_DDR_VRN;
   wire processing_system7_0_FIXED_IO_DDR_VRP;
   wire [53:0]processing_system7_0_FIXED_IO_MIO;
@@ -94,6 +98,7 @@ module design_1
   wire processing_system7_0_IIC_0_SDA_I;
   wire processing_system7_0_IIC_0_SDA_O;
   wire processing_system7_0_IIC_0_SDA_T;
+  wire sys_clock_1;
 
   assign IIC_0_0_scl_o = processing_system7_0_IIC_0_SCL_O;
   assign IIC_0_0_scl_t = processing_system7_0_IIC_0_SCL_T;
@@ -101,6 +106,20 @@ module design_1
   assign IIC_0_0_sda_t = processing_system7_0_IIC_0_SDA_T;
   assign processing_system7_0_IIC_0_SCL_I = IIC_0_0_scl_i;
   assign processing_system7_0_IIC_0_SDA_I = IIC_0_0_sda_i;
+  assign sys_clock_1 = sys_clock;
+  design_1_blk_mem_gen_0_0 blk_mem_gen_0
+       (.addra({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
+        .addrb({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
+        .clka(1'b0),
+        .clkb(clk_wiz_0_clk_out1),
+        .dina({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b1,1'b0,1'b0,1'b0}),
+        .ena(1'b0),
+        .enb(1'b0),
+        .wea(1'b0));
+  design_1_clk_wiz_0_0 clk_wiz_0
+       (.clk_in1(sys_clock_1),
+        .clk_out1(clk_wiz_0_clk_out1),
+        .reset(1'b0));
   design_1_processing_system7_0_1 processing_system7_0
        (.DDR_Addr(DDR_addr[14:0]),
         .DDR_BankAddr(DDR_ba[2:0]),
@@ -120,6 +139,7 @@ module design_1
         .DDR_VRP(FIXED_IO_ddr_vrp),
         .DDR_WEB(DDR_we_n),
         .FCLK_CLK0(processing_system7_0_FCLK_CLK0),
+        .FCLK_RESET0_N(processing_system7_0_FCLK_RESET0_N),
         .I2C0_SCL_I(processing_system7_0_IIC_0_SCL_I),
         .I2C0_SCL_O(processing_system7_0_IIC_0_SCL_O),
         .I2C0_SCL_T(processing_system7_0_IIC_0_SCL_T),
@@ -143,4 +163,10 @@ module design_1
         .PS_PORB(FIXED_IO_ps_porb),
         .PS_SRSTB(FIXED_IO_ps_srstb),
         .USB0_VBUS_PWRFAULT(1'b0));
+  design_1_rst_ps7_0_50M_0 rst_ps7_0_50M
+       (.aux_reset_in(1'b1),
+        .dcm_locked(1'b1),
+        .ext_reset_in(processing_system7_0_FCLK_RESET0_N),
+        .mb_debug_sys_rst(1'b0),
+        .slowest_sync_clk(processing_system7_0_FCLK_CLK0));
 endmodule

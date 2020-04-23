@@ -30,7 +30,8 @@ module vga_out(
     output                      VGA_VS,
     input           [11:0]  DATAB,
     output          [18:0]  ADDR,
-    output               ENB
+    output                      ENB,
+    input                       CLK25_175MHZ
     );
     
 /* VGA(640×480)用パラメータ読み込み */
@@ -42,6 +43,7 @@ localparam VSIZE = 10'd120;
 /* 同期信号作成回路の接続 */
 wire               PCK;
 wire    [9:0]   HCNT, VCNT;
+assign PCK = CLK25_175MHZ; //同期用クロックをClockWizから入れてつなぐ
 
 syncgen syncgen_inst(
     .CLK        (CLK),
