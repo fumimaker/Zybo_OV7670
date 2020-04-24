@@ -1,7 +1,7 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-//Date        : Fri Apr 24 04:27:22 2020
+//Date        : Fri Apr 24 21:09:30 2020
 //Host        : LAPTOP-AG87OV99 running 64-bit major release  (build 9200)
 //Command     : generate_target design_1_wrapper.bd
 //Design      : design_1_wrapper
@@ -34,9 +34,7 @@ module design_1_wrapper
     FIXED_IO_ps_srstb,
     IIC_0_0_scl_io,
     IIC_0_0_sda_io,
-    RST,
-    led,
-    rgb);
+    RST);
   input CLK;
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
@@ -62,8 +60,6 @@ module design_1_wrapper
   inout IIC_0_0_scl_io;
   inout IIC_0_0_sda_io;
   input RST;
-  output [3:0]led;
-  output [5:0]rgb;
 
   wire CLK;
   wire [14:0]DDR_addr;
@@ -96,8 +92,6 @@ module design_1_wrapper
   wire IIC_0_0_sda_o;
   wire IIC_0_0_sda_t;
   wire RST;
-  wire [3:0]led;
-  wire [5:0]rgb;
 
   IOBUF IIC_0_0_scl_iobuf
        (.I(IIC_0_0_scl_o),
@@ -138,7 +132,5 @@ module design_1_wrapper
         .IIC_0_0_sda_i(IIC_0_0_sda_i),
         .IIC_0_0_sda_o(IIC_0_0_sda_o),
         .IIC_0_0_sda_t(IIC_0_0_sda_t),
-        .RST(RST),
-        .led(led),
-        .rgb(rgb));
+        .RST(RST));
 endmodule
