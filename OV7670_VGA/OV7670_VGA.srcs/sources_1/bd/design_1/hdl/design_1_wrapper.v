@@ -162,19 +162,20 @@ IOBUF IIC_0_0_sda_iobuf
     assign CAM_XCLK = clk_24MHZ;
     
     blk_mem_gen_0 blk_mem_gen_0_inst (
-        .addra(BRAM_ADDRA),
-        .addrb(BRAM_ADDRB),
-        .clka(CAM_PCLK),
-        .clkb(clk_25_175MHZ),
-        .dina(BRAM_DATAA),
-        .ena(BRAM_ENA),
-        .enb(BRAM_ENB),
-        .wea(BRAM_WENA)
+        .clka(CAM_PCLK),    // input wire clka
+        .ena(BRAM_ENA),      // input wire ena
+        .wea(BRAM_WENA),      // input wire [0 : 0] wea
+        .addra(BRAM_ADDRA),  // input wire [18 : 0] addra
+        .dina(BRAM_DATAA),    // input wire [11 : 0] dina
+        .clkb(clk_25_175MHZ),    // input wire clkb
+        .enb(BRAM_ENB),      // input wire enb
+        .addrb(BRAM_ADDRB),  // input wire [18 : 0] addrb
+        .doutb(BRAM_DATAB)  // output wire [11 : 0] doutb
         );
-        
-    clk_wiz_0 instance_name
-       (
-        // Clock out ports
+
+clk_wiz_0 instance_name
+   (
+    // Clock out ports
         .CLKOUT_25_175MHZ(clk_25_175MHZ),     // output CLKOUT_25_175MHZ
         .CLKOUT_24MHZ(clk_24MHZ),     // output CLKOUT_24MHZ
         // Status and control signals
