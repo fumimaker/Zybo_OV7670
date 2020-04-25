@@ -207,6 +207,6 @@ clk_wiz_0 instance_name
             .ADDR(BRAM_ADDRA),
             .ENA(BRAM_ENA),
             .WENA(BRAM_WENA),
-            .CAM_XCLK()
+            .CAM_XCLK(clk_24MHZ)
             );
 endmodule

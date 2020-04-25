@@ -27,7 +27,7 @@ module ov7670_IF(
     input CAM_VSYNC,
     input [7:0] data,
     output reg [11:0] DATA_OUT,
-    output [18:0] ADDR,
+    output reg [18:0] ADDR,
     output reg ENA,
     output reg WENA,
     output CAM_XCLK
@@ -36,7 +36,7 @@ module ov7670_IF(
     reg [9:0] HCNT, VCNT;
     reg firstByteEn;
     assign PCLK = CAM_PCLK;
-    assign ADDR = HCNT + ( VCNT*640 ); 
+
 
     //アイパッドに書いた波形のアルゴリズムを実装するだけ。
     always @( posedge CAM_PCLK ) begin
@@ -46,6 +46,7 @@ module ov7670_IF(
             ENA <= 1;
             WENA <= 0; //まだ書き込み禁止
             firstByteEn <= 1;
+            
         end
         else begin
             if (CAM_HREF) begin
@@ -59,7 +60,6 @@ module ov7670_IF(
                     DATA_OUT <= {DATA_OUT[11:5], data[7], data[4:1]}; 
                     ENA <= 1;
                     WENA <= 1; //書き込み許可、次のCAM_PCLKで書き込まれる
-                    HCNT <= HCNT + 10'd1; //1ピクセル終了
                     firstByteEn <= 1;
                 end
             end
@@ -70,9 +70,14 @@ module ov7670_IF(
     always @(negedge CAM_HREF) begin
         if (RST) begin
                 HCNT <= 10'd0;
+                ADDR <= 0;
+        end
+        else if (HCNT == 680-1) begin
+                HCNT <= 0;
         end
         else begin
-                HCNT <= HCNT + 10'd1;
+            HCNT <= HCNT + 10'd1;
+            ADDR <= HCNT + ( VCNT*640 );
         end
     end
     
@@ -86,7 +91,6 @@ module ov7670_IF(
         end
         else begin //まだ途中なのでHCNTをリセット
             VCNT <= VCNT + 10'd1;
-            HCNT <= 0;
         end
     end
 endmodule

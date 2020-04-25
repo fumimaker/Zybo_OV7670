@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
-| Tool Version              : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-| Date                      : Sat Apr 25 03:24:19 2020
-| Host                      : tmroom3 running 64-bit Ubuntu 18.04.4 LTS
+| Tool Version              : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date                      : Sun Apr 26 02:56:46 2020
+| Host                      : LAPTOP-AG87OV99 running 64-bit major release  (build 9200)
 | Command                   : report_io -file design_1_wrapper_io_placed.rpt
 | Design                    : design_1_wrapper
 | Device                    : xc7z020
@@ -328,7 +328,7 @@ Table of Contents
 | R11        |                   | Dedicated  | DONE_0                  | Config      |                    |       0 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | R12        |                   |            | GND                     | GND         |                    |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | R13        |                   |            | VCCINT                  | VCCINT      |                    |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| R14        | CAM_XCLK          | High Range | IO_L6N_T0_VREF_34       | TRISTATE    | LVCMOS33           |      34 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
+| R14        | CAM_XCLK          | High Range | IO_L6N_T0_VREF_34       | OUTPUT      | LVCMOS33           |      34 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | R15        |                   | High Range | VCCO_34                 | VCCO        |                    |      34 |            |      |                     |                      |    3.30 |            |           |          |      |                  |              |                   |              |
 | R16        |                   | High Range | IO_L19P_T3_34           | User IO     |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | R17        |                   | High Range | IO_L19N_T3_VREF_34      | User IO     |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |

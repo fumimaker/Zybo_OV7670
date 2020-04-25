@@ -6,10 +6,14 @@
 # Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 # 
 
+echo "This script was generated under a different operating system."
+echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executing this script"
+exit
+
 if [ -z "$PATH" ]; then
-  PATH=/tools/Xilinx/Vivado/2019.2/ids_lite/ISE/bin/lin64:/tools/Xilinx/Vivado/2019.2/bin
+  PATH=C:/Xilinx/Vitis/2019.2/bin;C:/Xilinx/Vivado/2019.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2019.2/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2019.2/bin
 else
-  PATH=/tools/Xilinx/Vivado/2019.2/ids_lite/ISE/bin/lin64:/tools/Xilinx/Vivado/2019.2/bin:$PATH
+  PATH=C:/Xilinx/Vitis/2019.2/bin;C:/Xilinx/Vivado/2019.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2019.2/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2019.2/bin:$PATH
 fi
 export PATH
 
@@ -20,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/tmatsuya/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/impl_1'
+HD_PWD='C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

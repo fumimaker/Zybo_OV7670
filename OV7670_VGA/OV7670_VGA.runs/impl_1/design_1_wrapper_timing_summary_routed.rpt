@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-| Date         : Sat Apr 25 03:24:34 2020
-| Host         : tmroom3 running 64-bit Ubuntu 18.04.4 LTS
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Sun Apr 26 02:57:23 2020
+| Host         : LAPTOP-AG87OV99 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file design_1_wrapper_timing_summary_routed.rpt -pb design_1_wrapper_timing_summary_routed.pb -rpx design_1_wrapper_timing_summary_routed.rpx -warn_on_violation
 | Design       : design_1_wrapper
 | Device       : 7z020-clg400
@@ -128,7 +128,7 @@ Table of Contents
 
     WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
     -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
-         NA           NA                     NA                   NA           NA           NA                     NA                   NA       17.845        0.000                       0                     1  
+         NA           NA                     NA                   NA           NA           NA                     NA                   NA        2.000        0.000                       0                     7  
 
 
 All user specified timing constraints are met.
@@ -139,11 +139,15 @@ All user specified timing constraints are met.
 | -------------
 ------------------------------------------------------------------------------------------------
 
-Clock        Waveform(ns)         Period(ns)      Frequency(MHz)
------        ------------         ----------      --------------
-CLK          {0.000 5.000}        10.000          100.000         
-clk_fpga_0   {0.000 10.000}       20.000          50.000          
-sys_clk_pin  {0.000 4.000}        8.000           125.000         
+Clock                       Waveform(ns)         Period(ns)      Frequency(MHz)
+-----                       ------------         ----------      --------------
+CLK                         {0.000 4.000}        8.000           125.000         
+  CLKOUT_24MHZ_clk_wiz_0    {0.000 20.822}       41.644          24.013          
+  clkfbout_clk_wiz_0        {0.000 20.000}       40.000          25.000          
+clk_fpga_0                  {0.000 10.000}       20.000          50.000          
+sys_clk_pin                 {0.000 4.000}        8.000           125.000         
+  CLKOUT_24MHZ_clk_wiz_0_1  {0.000 20.822}       41.644          24.013          
+  clkfbout_clk_wiz_0_1      {0.000 20.000}       40.000          25.000          
 
 
 ------------------------------------------------------------------------------------------------
@@ -151,9 +155,15 @@ sys_clk_pin  {0.000 4.000}        8.000           125.000
 | -----------------
 ------------------------------------------------------------------------------------------------
 
-Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
------             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
-clk_fpga_0                                                                                                                                                     17.845        0.000                       0                     1  
+Clock                           WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----                           -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+CLK                                                                                                                                                                           2.000        0.000                       0                     1  
+  CLKOUT_24MHZ_clk_wiz_0                                                                                                                                                     39.489        0.000                       0                     2  
+  clkfbout_clk_wiz_0                                                                                                                                                         37.845        0.000                       0                     3  
+clk_fpga_0                                                                                                                                                                   17.845        0.000                       0                     1  
+sys_clk_pin                                                                                                                                                                   2.000        0.000                       0                     1  
+  CLKOUT_24MHZ_clk_wiz_0_1                                                                                                                                                   39.489        0.000                       0                     2  
+  clkfbout_clk_wiz_0_1                                                                                                                                                       37.845        0.000                       0                     3  
 
 
 ------------------------------------------------------------------------------------------------
@@ -181,6 +191,83 @@ Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing 
 
 
 ---------------------------------------------------------------------------------------------------
+From Clock:  CLK
+  To Clock:  CLK
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack        2.000ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         CLK
+Waveform(ns):       { 0.000 4.000 }
+Period(ns):         8.000
+Sources:            { CLK }
+
+Check Type        Corner  Lib Pin            Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period        n/a     MMCME2_ADV/CLKIN1  n/a            1.249         8.000       6.751      MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKIN1
+Max Period        n/a     MMCME2_ADV/CLKIN1  n/a            100.000       8.000       92.000     MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKIN1
+Low Pulse Width   Slow    MMCME2_ADV/CLKIN1  n/a            2.000         4.000       2.000      MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKIN1
+Low Pulse Width   Fast    MMCME2_ADV/CLKIN1  n/a            2.000         4.000       2.000      MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKIN1
+High Pulse Width  Slow    MMCME2_ADV/CLKIN1  n/a            2.000         4.000       2.000      MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKIN1
+High Pulse Width  Fast    MMCME2_ADV/CLKIN1  n/a            2.000         4.000       2.000      MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKIN1
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  CLKOUT_24MHZ_clk_wiz_0
+  To Clock:  CLKOUT_24MHZ_clk_wiz_0
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack       39.489ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         CLKOUT_24MHZ_clk_wiz_0
+Waveform(ns):       { 0.000 20.822 }
+Period(ns):         41.644
+Sources:            { instance_name/inst/mmcm_adv_inst/CLKOUT1 }
+
+Check Type  Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period  n/a     BUFG/I              n/a            2.155         41.644      39.489     BUFGCTRL_X0Y17   instance_name/inst/clkout2_buf/I
+Min Period  n/a     MMCME2_ADV/CLKOUT1  n/a            1.249         41.644      40.395     MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKOUT1
+Max Period  n/a     MMCME2_ADV/CLKOUT1  n/a            213.360       41.644      171.716    MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKOUT1
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clkfbout_clk_wiz_0
+  To Clock:  clkfbout_clk_wiz_0
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack       37.845ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clkfbout_clk_wiz_0
+Waveform(ns):       { 0.000 20.000 }
+Period(ns):         40.000
+Sources:            { instance_name/inst/mmcm_adv_inst/CLKFBOUT }
+
+Check Type  Corner  Lib Pin              Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period  n/a     BUFG/I               n/a            2.155         40.000      37.845     BUFGCTRL_X0Y18   instance_name/inst/clkf_buf/I
+Min Period  n/a     MMCME2_ADV/CLKFBOUT  n/a            1.249         40.000      38.751     MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKFBOUT
+Min Period  n/a     MMCME2_ADV/CLKFBIN   n/a            1.249         40.000      38.751     MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKFBIN
+Max Period  n/a     MMCME2_ADV/CLKFBIN   n/a            100.000       40.000      60.000     MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKFBIN
+Max Period  n/a     MMCME2_ADV/CLKFBOUT  n/a            213.360       40.000      173.360    MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKFBOUT
+
+
+
+---------------------------------------------------------------------------------------------------
 From Clock:  clk_fpga_0
   To Clock:  clk_fpga_0
 
@@ -199,6 +286,83 @@ Sources:            { design_1_i/processing_system7_0/inst/PS7_i/FCLKCLK[0] }
 
 Check Type  Corner  Lib Pin  Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location        Pin
 Min Period  n/a     BUFG/I   n/a            2.155         20.000      17.845     BUFGCTRL_X0Y16  design_1_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/I
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  sys_clk_pin
+  To Clock:  sys_clk_pin
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack        2.000ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         sys_clk_pin
+Waveform(ns):       { 0.000 4.000 }
+Period(ns):         8.000
+Sources:            { CLK }
+
+Check Type        Corner  Lib Pin            Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period        n/a     MMCME2_ADV/CLKIN1  n/a            1.249         8.000       6.751      MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKIN1
+Max Period        n/a     MMCME2_ADV/CLKIN1  n/a            100.000       8.000       92.000     MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKIN1
+Low Pulse Width   Slow    MMCME2_ADV/CLKIN1  n/a            2.000         4.000       2.000      MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKIN1
+Low Pulse Width   Fast    MMCME2_ADV/CLKIN1  n/a            2.000         4.000       2.000      MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKIN1
+High Pulse Width  Slow    MMCME2_ADV/CLKIN1  n/a            2.000         4.000       2.000      MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKIN1
+High Pulse Width  Fast    MMCME2_ADV/CLKIN1  n/a            2.000         4.000       2.000      MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKIN1
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  CLKOUT_24MHZ_clk_wiz_0_1
+  To Clock:  CLKOUT_24MHZ_clk_wiz_0_1
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack       39.489ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         CLKOUT_24MHZ_clk_wiz_0_1
+Waveform(ns):       { 0.000 20.822 }
+Period(ns):         41.644
+Sources:            { instance_name/inst/mmcm_adv_inst/CLKOUT1 }
+
+Check Type  Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period  n/a     BUFG/I              n/a            2.155         41.644      39.489     BUFGCTRL_X0Y17   instance_name/inst/clkout2_buf/I
+Min Period  n/a     MMCME2_ADV/CLKOUT1  n/a            1.249         41.644      40.395     MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKOUT1
+Max Period  n/a     MMCME2_ADV/CLKOUT1  n/a            213.360       41.644      171.716    MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKOUT1
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clkfbout_clk_wiz_0_1
+  To Clock:  clkfbout_clk_wiz_0_1
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack       37.845ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clkfbout_clk_wiz_0_1
+Waveform(ns):       { 0.000 20.000 }
+Period(ns):         40.000
+Sources:            { instance_name/inst/mmcm_adv_inst/CLKFBOUT }
+
+Check Type  Corner  Lib Pin              Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period  n/a     BUFG/I               n/a            2.155         40.000      37.845     BUFGCTRL_X0Y18   instance_name/inst/clkf_buf/I
+Min Period  n/a     MMCME2_ADV/CLKFBOUT  n/a            1.249         40.000      38.751     MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKFBOUT
+Min Period  n/a     MMCME2_ADV/CLKFBIN   n/a            1.249         40.000      38.751     MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKFBIN
+Max Period  n/a     MMCME2_ADV/CLKFBIN   n/a            100.000       40.000      60.000     MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKFBIN
+Max Period  n/a     MMCME2_ADV/CLKFBOUT  n/a            213.360       40.000      173.360    MMCME2_ADV_X1Y2  instance_name/inst/mmcm_adv_inst/CLKFBOUT
 
 
 
