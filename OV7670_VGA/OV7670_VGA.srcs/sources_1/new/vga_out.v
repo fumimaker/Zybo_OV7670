@@ -34,16 +34,16 @@ module vga_out(
     input                       CLK25_175MHZ
     );
     
-/* VGA(640~480)—pƒpƒ‰ƒ[ƒ^“Ç‚İ‚İ */
-`include "vga_param.vh"
+/* VGA(640ï¿½~480)ï¿½pï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ç‚İï¿½ï¿½ï¿½ */
+`include "VGA_param.v"
 
 localparam HSIZE = 10'd80;
 localparam VSIZE = 10'd120;
 
-/* “¯ŠúM†ì¬‰ñ˜H‚ÌÚ‘± */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ì¬ï¿½ï¿½Hï¿½ÌÚ‘ï¿½ */
 wire               PCK;
 wire    [9:0]   HCNT, VCNT;
-assign PCK = CLK25_175MHZ; //“¯Šú—pƒNƒƒbƒN‚ğClockWiz‚©‚ç“ü‚ê‚Ä‚Â‚È‚®
+assign PCK = CLK25_175MHZ; //ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ClockWizï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Â‚È‚ï¿½
 
 syncgen syncgen_inst(
     .CLK        (CLK),
@@ -55,14 +55,14 @@ syncgen syncgen_inst(
     .VCNT       (VCNT)
 );
 
-/* RGBo—Í‚ğì¬ */
+/* RGBï¿½oï¿½Í‚ï¿½ï¿½ì¬ */
 wire [9:0] HBLANK = HFRONT + HWIDTH + HBACK;
 wire [9:0] VBLANK = VFRONT + VWIDTH + VBACK;
 
 wire disp_enable = (VBLANK <= VCNT) &&
     (HBLANK-10'd1 <= HCNT) && (HCNT < HPERIOD-10'd1);
 
-/*BRAM“Ç‚İo‚µ‚Í‚¸‚Á‚Æ—LŒø*/
+/*BRAMï¿½Ç‚İoï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½Æ—Lï¿½ï¿½*/
 assign ENB = 1;
 assign ADDR = HCNT + VCNT*640;
 

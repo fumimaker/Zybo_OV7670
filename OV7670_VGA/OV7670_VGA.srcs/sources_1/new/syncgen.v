@@ -16,7 +16,7 @@
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
-// ‚±‚ê‚ÍƒeƒXƒg‚Å‚·
+// ï¿½ï¿½ï¿½ï¿½Íƒeï¿½Xï¿½gï¿½Å‚ï¿½
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -31,7 +31,8 @@ module syncgen(
     );
     
 /* VGA(640?~480)?p?p?????[?^?????? */
-`include "vga_param.vh"
+`include "VGA_param.v"
+
 
 /* ?????J?E???^ */
 wire hcntend = (HCNT==HPERIOD-10'h001);
