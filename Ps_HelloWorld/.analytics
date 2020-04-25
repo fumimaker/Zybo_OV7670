@@ -12,3 +12,7 @@ timestamp=[2020-04-18 02:59:33], mode=WORKBENCH_UI_INIT, duration=0:00:01.312, d
 timestamp=[2020-04-18 03:03:46], mode=PLATFORM_GENERATION, duration=0:00:30.967, duration_ms=30967, data={name=design_1_wrapper}
 timestamp=[2020-04-18 03:04:30], mode=PLATFORM_GENERATION, duration=0:00:04.083, duration_ms=4083, data={name=design_1_wrapper}
 timestamp=[2020-04-18 03:06:03], mode=PLATFORM_GENERATION, duration=0:01:00.667, duration_ms=60667, data={name=design_1_wrapper}
+timestamp=[2020-04-26 04:04:31], mode=WORKBENCH_START, duration=0:00:11.397, duration_ms=11397, data={}
+timestamp=[2020-04-26 04:04:32], mode=WORKBENCH_UI_INIT, duration=0:00:01.433, duration_ms=1433, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,hello_vitis,hello_vitis_system}
+timestamp=[2020-04-26 04:05:27], mode=PLATFORM_GENERATION, duration=0:00:07.884, duration_ms=7884, data={name=design_1_wrapper}
+timestamp=[2020-04-26 04:08:24], mode=PLATFORM_GENERATION, duration=0:01:21.223, duration_ms=81223, data={name=design_1_wrapper}

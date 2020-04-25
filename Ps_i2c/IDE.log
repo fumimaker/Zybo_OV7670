@@ -44,3 +44,13 @@
 21:09:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
 
 21:11:26 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...
+03:25:57 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\temp_xsdb_launch_script.tcl
+03:26:01 INFO  : XSCT server has started successfully.
+03:26:01 INFO  : plnx-install-location is set to ''
+03:26:01 INFO  : Successfully done setting XSCT server connection channel  
+03:26:01 INFO  : Successfully done setting workspace for the tool. 
+03:26:04 INFO  : Registering command handlers for Vitis TCF services
+03:26:08 INFO  : Successfully done query RDI_DATADIR 
+03:39:33 INFO  : Checking for BSP changes to sync application flags for project 'i2c_test'...
+03:39:42 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+

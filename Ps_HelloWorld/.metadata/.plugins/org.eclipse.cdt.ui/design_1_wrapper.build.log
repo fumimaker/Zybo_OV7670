@@ -1,10 +1,10 @@
-03:05:03 **** Build of project design_1_wrapper ****
-buildplatform.bat 65078 design_1_wrapper  
-XSDB Server Channel: tcfchan#4
+04:07:03 **** Build of project design_1_wrapper ****
+buildplatform.bat 64700 design_1_wrapper  
+XSDB Server Channel: tcfchan#3
 Building the zynq_fsbl application.
 make -C zynq_fsbl_bsp
 
-make[1]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp'
+make[1]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp'
 
 "Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
 
@@ -12,11 +12,11 @@ make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "
 -eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
 ard -nostartfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/coresightps_dcc_v1_6/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/coresightps_dcc_v1_6/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
 
@@ -24,11 +24,11 @@ make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COM
 bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
  -nostartfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/cpu_cortexa9_v2_8/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/cpu_cortexa9_v2_8/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
 
@@ -36,11 +36,11 @@ make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=a
 "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
 rtfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/ddrps_v1_0/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/ddrps_v1_0/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/ddrps_v1_0/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/ddrps_v1_0/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
 
@@ -48,11 +48,11 @@ make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=
  "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
 artfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/devcfg_v3_5/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/devcfg_v3_5/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/devcfg_v3_5/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/devcfg_v3_5/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
 
@@ -60,11 +60,11 @@ make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=a
 "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
 rtfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/dmaps_v2_5/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/dmaps_v2_5/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/dmaps_v2_5/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/dmaps_v2_5/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
 
@@ -72,11 +72,11 @@ make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER
 " "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
 tartfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/emacps_v3_10/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/emacps_v3_10/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/emacps_v3_10/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/emacps_v3_10/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
 
@@ -84,11 +84,11 @@ make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=
  "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
 artfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/gpiops_v3_6/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/gpiops_v3_6/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/gpiops_v3_6/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/gpiops_v3_6/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
 
@@ -96,11 +96,11 @@ make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=
  "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
 artfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/qspips_v3_6/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/qspips_v3_6/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/qspips_v3_6/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/qspips_v3_6/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
 
@@ -108,11 +108,11 @@ make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=
  "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
 artfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/scugic_v4_1/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/scugic_v4_1/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/scugic_v4_1/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/scugic_v4_1/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
 
@@ -120,11 +120,11 @@ make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILE
 s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
 startfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/scutimer_v2_1/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/scutimer_v2_1/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/scutimer_v2_1/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/scutimer_v2_1/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
 
@@ -132,11 +132,11 @@ make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=
  "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
 artfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/scuwdt_v2_1/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/scuwdt_v2_1/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/scuwdt_v2_1/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/scuwdt_v2_1/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
 
@@ -144,11 +144,11 @@ make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=CMD" "COMPILER=ar
 ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
 tfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/sdps_v3_8/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/sdps_v3_8/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/sdps_v3_8/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/sdps_v3_8/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
 
@@ -156,17 +156,17 @@ make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPI
 -as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
 nostartfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/standalone_v7_1/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/standalone_v7_1/src'
 
-make[3]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/standalone_v7_1/src/profile'
+make[3]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/standalone_v7_1/src/profile'
 
-make[3]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/standalone_v7_1/src/profile'
+make[3]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/standalone_v7_1/src/profile'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/standalone_v7_1/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/standalone_v7_1/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
 
@@ -174,11 +174,11 @@ make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=
  "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
 artfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/uartps_v3_8/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/uartps_v3_8/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/uartps_v3_8/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/uartps_v3_8/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
 
@@ -186,11 +186,11 @@ make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=a
 "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
 rtfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/usbps_v2_4/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/usbps_v2_4/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/usbps_v2_4/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/usbps_v2_4/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
 
@@ -198,11 +198,11 @@ make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=
  "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
 artfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/xadcps_v2_3/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/xadcps_v2_3/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/xadcps_v2_3/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/xadcps_v2_3/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
 
@@ -210,11 +210,11 @@ make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s include  "SHELL=CMD" "COMPILER=
  "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
 artfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/xilffs_v4_2/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/xilffs_v4_2/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/xilffs_v4_2/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/xilffs_v4_2/src'
 
 "Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
 
@@ -222,11 +222,11 @@ make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s include  "SHELL=CMD" "COMPILER=
  "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
 artfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/xilrsa_v1_5/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/xilrsa_v1_5/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/xilrsa_v1_5/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/xilrsa_v1_5/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
 
@@ -234,14 +234,14 @@ make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COM
 bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
  -nostartfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/coresightps_dcc_v1_6/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src'
 
 "Compiling coresightps_dcc"
 
 arm-none-eabi-ar: creating ../../../lib/libxil.a
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/coresightps_dcc_v1_6/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
 
@@ -249,13 +249,13 @@ make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPIL
 as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
 ostartfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/cpu_cortexa9_v2_8/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src'
 
 "Compiling cpu_cortexa9"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/cpu_cortexa9_v2_8/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
 
@@ -263,13 +263,13 @@ make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-
 CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
 iles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/ddrps_v1_0/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/ddrps_v1_0/src'
 
 "Compiling ddrps"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/ddrps_v1_0/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/ddrps_v1_0/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
 
@@ -277,13 +277,13 @@ make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/devcfg_v3_5/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/devcfg_v3_5/src'
 
 "Compiling devcfg"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/devcfg_v3_5/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/devcfg_v3_5/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
 
@@ -291,13 +291,13 @@ make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-
 CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
 iles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/dmaps_v2_5/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/dmaps_v2_5/src'
 
 "Compiling dmaps"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/dmaps_v2_5/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/dmaps_v2_5/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
 
@@ -305,13 +305,13 @@ make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=ar
 ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
 tfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/emacps_v3_10/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/emacps_v3_10/src'
 
 "Compiling emacps"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/emacps_v3_10/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/emacps_v3_10/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
 
@@ -319,13 +319,13 @@ make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/gpiops_v3_6/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/gpiops_v3_6/src'
 
 "Compiling gpiops"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/gpiops_v3_6/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/gpiops_v3_6/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
 
@@ -333,13 +333,13 @@ make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/qspips_v3_6/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/qspips_v3_6/src'
 
 "Compiling qspips"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/qspips_v3_6/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/qspips_v3_6/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
 
@@ -347,13 +347,13 @@ make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/scugic_v4_1/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/scugic_v4_1/src'
 
 "Compiling scugic"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/scugic_v4_1/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/scugic_v4_1/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
 
@@ -361,13 +361,13 @@ make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=a
 "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
 rtfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/scutimer_v2_1/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/scutimer_v2_1/src'
 
 "Compiling scutimer"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/scutimer_v2_1/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/scutimer_v2_1/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
 
@@ -375,13 +375,13 @@ make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/scuwdt_v2_1/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/scuwdt_v2_1/src'
 
 "Compiling scuwdt"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/scuwdt_v2_1/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/scuwdt_v2_1/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
 
@@ -389,13 +389,13 @@ make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-n
 HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
 les -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/sdps_v3_8/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/sdps_v3_8/src'
 
 "Compiling sdps"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/sdps_v3_8/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/sdps_v3_8/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
 
@@ -403,8 +403,8 @@ make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER
 " "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
 tartfiles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/standalone_v7_1/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/standalone_v7_1/src'
 
 "Compiling standalone"
 
@@ -424,8 +424,8 @@ In file included from sleep.c:51:
 xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
  #pragma message ("For the sleep routines, Global timer is being used")
          ^~~~~~~
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/standalone_v7_1/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/standalone_v7_1/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
 
@@ -433,13 +433,13 @@ make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/uartps_v3_8/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/uartps_v3_8/src'
 
 "Compiling uartps"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/uartps_v3_8/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/uartps_v3_8/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
 
@@ -447,13 +447,13 @@ make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-
 CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
 iles -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/usbps_v2_4/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/usbps_v2_4/src'
 
 "Compiling usbps"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/usbps_v2_4/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/usbps_v2_4/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
 
@@ -461,13 +461,13 @@ make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/xadcps_v2_3/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/xadcps_v2_3/src'
 
 "Compiling xadcps"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/xadcps_v2_3/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/xadcps_v2_3/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
 
@@ -475,13 +475,13 @@ make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/xilffs_v4_2/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/xilffs_v4_2/src'
 
 "Compiling XilFFs Library"
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/xilffs_v4_2/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/xilffs_v4_2/src'
 
 "Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
 
@@ -489,15 +489,15 @@ make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra"
 
-make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_
-0/libsrc/xilrsa_v1_5/src'
+make[2]: Entering directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/p
+s7_cortexa9_0/libsrc/xilrsa_v1_5/src'
 
-make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0
-/libsrc/xilrsa_v1_5/src'
+make[2]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps
+7_cortexa9_0/libsrc/xilrsa_v1_5/src'
 
 'Finished building libraries'
 
-make[1]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp'
+make[1]: Leaving directory 'C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp'
 
 arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cortexa9_0/
 include -I.
@@ -794,5 +794,5 @@ files -g -Wall -Wextra"
 'Finished building libraries'
 
 
-03:06:03 Build Finished (took 1m:580ms)
+04:08:24 Build Finished (took 1m:21s.127ms)
 

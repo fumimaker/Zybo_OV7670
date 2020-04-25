@@ -2,11 +2,11 @@
 # Webtalk v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # 
-# Start of session at: Sat Apr 18 03:06:41 2020
-# Process ID: 17264
-# Current directory: C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/webtalk
+# Start of session at: Sun Apr 26 04:08:48 2020
+# Process ID: 22140
+# Current directory: C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/webtalk
 # Command line: wbtcv.exe -mode batch -source vitis_webtalk.tcl
-# Log file: C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/webtalk/webtalk.log
-# Journal file: C:/Users/ivr/Documents/GitHub/Ps_HelloWorld/webtalk\webtalk.jou
+# Log file: C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/webtalk/webtalk.log
+# Journal file: C:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_HelloWorld/webtalk\webtalk.jou
 #-----------------------------------------------------------
 source vitis_webtalk.tcl

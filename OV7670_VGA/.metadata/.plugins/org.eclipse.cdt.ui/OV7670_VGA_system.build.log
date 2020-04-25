@@ -1,0 +1,10 @@
+04:10:27 **** Build of configuration Debug for project OV7670_VGA_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 64730 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif --bitstream C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf,ps7_cortexa9_0
+ELF does not exist: C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf
+make: *** [makefile:37: sd_card] Error 1
+
+04:10:30 Build Finished (took 3s.453ms)
+
