@@ -37,13 +37,6 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
 # To test this script, run the following commands from Vivado Tcl console:
 # source design_1_script.tcl
 
-
-# The design that will be created by this Tcl script contains the following 
-# module references:
-# ov7670_IF, syncgen, vga_out
-
-# Please add the sources of those modules before sourcing this Tcl script.
-
 # If there is no project opened, this script will create a
 # project, but make sure you do not have an existing project
 # <./myproj/project_1.xpr> in the current working folder.
@@ -171,22 +164,8 @@ proc create_root_design { parentCell } {
 
 
   # Create ports
-  set CAM_HREF [ create_bd_port -dir I CAM_HREF ]
-  set CAM_PCLK [ create_bd_port -dir I CAM_PCLK ]
-  set CAM_VSYNC [ create_bd_port -dir I CAM_VSYNC ]
-  set CAM_XCLK [ create_bd_port -dir O CAM_XCLK ]
   set CLK [ create_bd_port -dir I CLK ]
   set RST [ create_bd_port -dir I RST ]
-  set VGA_B [ create_bd_port -dir O -from 3 -to 0 VGA_B ]
-  set VGA_G [ create_bd_port -dir O -from 3 -to 0 VGA_G ]
-  set VGA_HS [ create_bd_port -dir O VGA_HS ]
-  set VGA_R [ create_bd_port -dir O -from 3 -to 0 -type data VGA_R ]
-  set VGA_VS [ create_bd_port -dir O VGA_VS ]
-  set data [ create_bd_port -dir I -from 7 -to 0 data ]
-  set sys_clock [ create_bd_port -dir I -type clk -freq_hz 125000000 sys_clock ]
-  set_property -dict [ list \
-   CONFIG.PHASE {0.000} \
- ] $sys_clock
 
   # Create instance: blk_mem_gen_0, and set properties
   set blk_mem_gen_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 blk_mem_gen_0 ]
@@ -240,17 +219,6 @@ proc create_root_design { parentCell } {
    CONFIG.USE_LOCKED {false} \
  ] $clk_wiz_0
 
-  # Create instance: ov7670_IF_0, and set properties
-  set block_name ov7670_IF
-  set block_cell_name ov7670_IF_0
-  if { [catch {set ov7670_IF_0 [create_bd_cell -type module -reference $block_name $block_cell_name] } errmsg] } {
-     catch {common::send_msg_id "BD_TCL-105" "ERROR" "Unable to add referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
-     return 1
-   } elseif { $ov7670_IF_0 eq "" } {
-     catch {common::send_msg_id "BD_TCL-106" "ERROR" "Unable to referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
-     return 1
-   }
-  
   # Create instance: processing_system7_0, and set properties
   set processing_system7_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0 ]
   set_property -dict [ list \
@@ -731,60 +699,15 @@ proc create_root_design { parentCell } {
    CONFIG.PCW_USE_M_AXI_GP0 {1} \
  ] $processing_system7_0
 
-  # Create instance: rst_ps7_0_50M, and set properties
-  set rst_ps7_0_50M [ create_bd_cell -type ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 rst_ps7_0_50M ]
-
-  # Create instance: syncgen_0, and set properties
-  set block_name syncgen
-  set block_cell_name syncgen_0
-  if { [catch {set syncgen_0 [create_bd_cell -type module -reference $block_name $block_cell_name] } errmsg] } {
-     catch {common::send_msg_id "BD_TCL-105" "ERROR" "Unable to add referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
-     return 1
-   } elseif { $syncgen_0 eq "" } {
-     catch {common::send_msg_id "BD_TCL-106" "ERROR" "Unable to referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
-     return 1
-   }
-  
-  # Create instance: vga_out_0, and set properties
-  set block_name vga_out
-  set block_cell_name vga_out_0
-  if { [catch {set vga_out_0 [create_bd_cell -type module -reference $block_name $block_cell_name] } errmsg] } {
-     catch {common::send_msg_id "BD_TCL-105" "ERROR" "Unable to add referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
-     return 1
-   } elseif { $vga_out_0 eq "" } {
-     catch {common::send_msg_id "BD_TCL-106" "ERROR" "Unable to referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
-     return 1
-   }
-  
   # Create interface connections
   connect_bd_intf_net -intf_net processing_system7_0_DDR [get_bd_intf_ports DDR] [get_bd_intf_pins processing_system7_0/DDR]
   connect_bd_intf_net -intf_net processing_system7_0_FIXED_IO [get_bd_intf_ports FIXED_IO] [get_bd_intf_pins processing_system7_0/FIXED_IO]
   connect_bd_intf_net -intf_net processing_system7_0_IIC_0 [get_bd_intf_ports IIC_0_0] [get_bd_intf_pins processing_system7_0/IIC_0]
 
   # Create port connections
-  connect_bd_net -net CAM_HREF_1 [get_bd_ports CAM_HREF] [get_bd_pins ov7670_IF_0/CAM_HREF]
-  connect_bd_net -net CAM_PCLK_1 [get_bd_ports CAM_PCLK] [get_bd_pins blk_mem_gen_0/clka] [get_bd_pins ov7670_IF_0/CAM_PCLK]
-  connect_bd_net -net CAM_VSYNC_1 [get_bd_ports CAM_VSYNC] [get_bd_pins ov7670_IF_0/CAM_VSYNC]
-  connect_bd_net -net CLK_1 [get_bd_ports CLK] [get_bd_pins syncgen_0/CLK] [get_bd_pins vga_out_0/CLK]
-  connect_bd_net -net RST_1 [get_bd_ports RST] [get_bd_pins clk_wiz_0/reset] [get_bd_pins ov7670_IF_0/RST] [get_bd_pins syncgen_0/RST] [get_bd_pins vga_out_0/RST]
-  connect_bd_net -net blk_mem_gen_0_doutb [get_bd_pins blk_mem_gen_0/doutb] [get_bd_pins vga_out_0/DATAB]
-  connect_bd_net -net clk_wiz_0_clk_out1 [get_bd_pins blk_mem_gen_0/clkb] [get_bd_pins clk_wiz_0/clk_out1] [get_bd_pins syncgen_0/PCK]
-  connect_bd_net -net clk_wiz_0_clk_out2 [get_bd_ports CAM_XCLK] [get_bd_pins clk_wiz_0/clk_out2]
-  connect_bd_net -net data_1 [get_bd_ports data] [get_bd_pins ov7670_IF_0/data]
-  connect_bd_net -net ov7670_IF_0_ADDR [get_bd_pins blk_mem_gen_0/addra] [get_bd_pins ov7670_IF_0/ADDR]
-  connect_bd_net -net ov7670_IF_0_DATA_OUT [get_bd_pins blk_mem_gen_0/dina] [get_bd_pins ov7670_IF_0/DATA_OUT]
-  connect_bd_net -net ov7670_IF_0_ENA [get_bd_pins blk_mem_gen_0/ena] [get_bd_pins ov7670_IF_0/ENA]
-  connect_bd_net -net ov7670_IF_0_WENA [get_bd_pins blk_mem_gen_0/wea] [get_bd_pins ov7670_IF_0/WENA]
-  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins rst_ps7_0_50M/slowest_sync_clk]
-  connect_bd_net -net processing_system7_0_FCLK_RESET0_N [get_bd_pins processing_system7_0/FCLK_RESET0_N] [get_bd_pins rst_ps7_0_50M/ext_reset_in]
-  connect_bd_net -net sys_clock_1 [get_bd_ports sys_clock] [get_bd_pins clk_wiz_0/clk_in1]
-  connect_bd_net -net vga_out_0_ADDR [get_bd_pins blk_mem_gen_0/addrb] [get_bd_pins vga_out_0/ADDR]
-  connect_bd_net -net vga_out_0_ENB [get_bd_pins blk_mem_gen_0/enb] [get_bd_pins vga_out_0/ENB]
-  connect_bd_net -net vga_out_0_VGA_B [get_bd_ports VGA_B] [get_bd_pins vga_out_0/VGA_B]
-  connect_bd_net -net vga_out_0_VGA_G [get_bd_ports VGA_G] [get_bd_pins vga_out_0/VGA_G]
-  connect_bd_net -net vga_out_0_VGA_HS [get_bd_ports VGA_HS] [get_bd_pins vga_out_0/VGA_HS]
-  connect_bd_net -net vga_out_0_VGA_R [get_bd_ports VGA_R] [get_bd_pins vga_out_0/VGA_R]
-  connect_bd_net -net vga_out_0_VGA_VS [get_bd_ports VGA_VS] [get_bd_pins vga_out_0/VGA_VS]
+  connect_bd_net -net CLK_1 [get_bd_ports CLK] [get_bd_pins clk_wiz_0/clk_in1]
+  connect_bd_net -net RST_1 [get_bd_ports RST] [get_bd_pins clk_wiz_0/reset]
+  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK]
 
   # Create address segments
 

@@ -29,14 +29,15 @@ module ov7670_IF(
     output reg [11:0] DATA_OUT,
     output [18:0] ADDR,
     output reg ENA,
-    output reg WENA
+    output reg WENA,
+    output CAM_XCLK
     );
     
     reg [9:0] HCNT, VCNT;
     reg firstByteEn;
     assign PCLK = CAM_PCLK;
     assign ADDR = HCNT + ( VCNT*640 ); 
-    
+
     //アイパッドに書いた波形のアルゴリズムを実装するだけ。
     always @( posedge CAM_PCLK ) begin
         if (RST) begin

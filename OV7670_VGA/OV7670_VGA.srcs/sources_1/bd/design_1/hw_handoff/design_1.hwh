@@ -1,17 +1,47 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Apr 23 01:59:00 2020" VIVADOVERSION="2019.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Apr 24 21:09:30 2020" VIVADOVERSION="2019.2">
 
   <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo-z7-20:part0:1.0" DEVICE="7z020" NAME="design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
   <EXTERNALPORTS>
-    <PORT CLKFREQUENCY="125000000" DIR="I" NAME="sys_clock" SIGIS="clk" SIGNAME="External_Ports_sys_clock">
+    <PORT DIR="I" NAME="RST" SIGIS="undef" SIGNAME="External_Ports_RST">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="clk_wiz_0" PORT="reset"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="CLK" SIGIS="undef" SIGNAME="External_Ports_CLK">
       <CONNECTIONS>
         <CONNECTION INSTANCE="clk_wiz_0" PORT="clk_in1"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" NAME="CAM_XCLK" SIGIS="undef" SIGNAME="clk_wiz_0_clk_out2">
+    <PORT DIR="I" NAME="IIC_0_0_sda_i" SIGIS="undef" SIGNAME="processing_system7_0_I2C0_SDA_I">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="clk_wiz_0" PORT="clk_out2"/>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="I2C0_SDA_I"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="IIC_0_0_sda_o" SIGIS="undef" SIGNAME="processing_system7_0_I2C0_SDA_O">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="I2C0_SDA_O"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="IIC_0_0_sda_t" SIGIS="undef" SIGNAME="processing_system7_0_I2C0_SDA_T">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="I2C0_SDA_T"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="IIC_0_0_scl_i" SIGIS="undef" SIGNAME="processing_system7_0_I2C0_SCL_I">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="I2C0_SCL_I"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="IIC_0_0_scl_o" SIGIS="undef" SIGNAME="processing_system7_0_I2C0_SCL_O">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="I2C0_SCL_O"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="IIC_0_0_scl_t" SIGIS="undef" SIGNAME="processing_system7_0_I2C0_SCL_T">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="processing_system7_0" PORT="I2C0_SCL_T"/>
       </CONNECTIONS>
     </PORT>
     <PORT DIR="IO" NAME="DDR_cas_n" SIGIS="undef" SIGNAME="processing_system7_0_DDR_CAS_n">
@@ -89,36 +119,6 @@
         <CONNECTION INSTANCE="processing_system7_0" PORT="DDR_DQS"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" NAME="IIC_0_0_sda_i" SIGIS="undef" SIGNAME="processing_system7_0_I2C0_SDA_I">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="processing_system7_0" PORT="I2C0_SDA_I"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="IIC_0_0_sda_o" SIGIS="undef" SIGNAME="processing_system7_0_I2C0_SDA_O">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="processing_system7_0" PORT="I2C0_SDA_O"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="IIC_0_0_sda_t" SIGIS="undef" SIGNAME="processing_system7_0_I2C0_SDA_T">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="processing_system7_0" PORT="I2C0_SDA_T"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="IIC_0_0_scl_i" SIGIS="undef" SIGNAME="processing_system7_0_I2C0_SCL_I">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="processing_system7_0" PORT="I2C0_SCL_I"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="IIC_0_0_scl_o" SIGIS="undef" SIGNAME="processing_system7_0_I2C0_SCL_O">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="processing_system7_0" PORT="I2C0_SCL_O"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="IIC_0_0_scl_t" SIGIS="undef" SIGNAME="processing_system7_0_I2C0_SCL_T">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="processing_system7_0" PORT="I2C0_SCL_T"/>
-      </CONNECTIONS>
-    </PORT>
     <PORT DIR="IO" LEFT="53" NAME="FIXED_IO_mio" RIGHT="0" SIGIS="undef" SIGNAME="processing_system7_0_MIO">
       <CONNECTIONS>
         <CONNECTION INSTANCE="processing_system7_0" PORT="MIO"/>
@@ -147,66 +147,6 @@
     <PORT DIR="IO" NAME="FIXED_IO_ps_porb" SIGIS="undef" SIGNAME="processing_system7_0_PS_PORB">
       <CONNECTIONS>
         <CONNECTION INSTANCE="processing_system7_0" PORT="PS_PORB"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="RST" SIGIS="undef" SIGNAME="External_Ports_RST">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="vga_out_0" PORT="RST"/>
-        <CONNECTION INSTANCE="ov7670_IF_0" PORT="RST"/>
-        <CONNECTION INSTANCE="syncgen_0" PORT="RST"/>
-        <CONNECTION INSTANCE="clk_wiz_0" PORT="reset"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="CAM_PCLK" SIGIS="undef" SIGNAME="External_Ports_CAM_PCLK">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ov7670_IF_0" PORT="CAM_PCLK"/>
-        <CONNECTION INSTANCE="blk_mem_gen_0" PORT="clka"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="CAM_VSYNC" SIGIS="undef" SIGNAME="External_Ports_CAM_VSYNC">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ov7670_IF_0" PORT="CAM_VSYNC"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="CAM_HREF" SIGIS="undef" SIGNAME="External_Ports_CAM_HREF">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ov7670_IF_0" PORT="CAM_HREF"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="7" NAME="data" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_data">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="ov7670_IF_0" PORT="data"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" LEFT="3" NAME="VGA_R" RIGHT="0" SIGIS="data" SIGNAME="vga_out_0_VGA_R">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="vga_out_0" PORT="VGA_R"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" LEFT="3" NAME="VGA_B" RIGHT="0" SIGIS="undef" SIGNAME="vga_out_0_VGA_B">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="vga_out_0" PORT="VGA_B"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" LEFT="3" NAME="VGA_G" RIGHT="0" SIGIS="undef" SIGNAME="vga_out_0_VGA_G">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="vga_out_0" PORT="VGA_G"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="VGA_HS" SIGIS="undef" SIGNAME="vga_out_0_VGA_HS">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="vga_out_0" PORT="VGA_HS"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="VGA_VS" SIGIS="undef" SIGNAME="vga_out_0_VGA_VS">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="vga_out_0" PORT="VGA_VS"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="CLK" SIGIS="undef" SIGNAME="External_Ports_CLK">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="vga_out_0" PORT="CLK"/>
-        <CONNECTION INSTANCE="syncgen_0" PORT="CLK"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -424,51 +364,15 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="clka" SIGIS="clk" SIGNAME="External_Ports_CAM_PCLK">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="CAM_PCLK"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="ena" SIGIS="undef" SIGNAME="ov7670_IF_0_ENA">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="ov7670_IF_0" PORT="ENA"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="wea" RIGHT="0" SIGIS="undef" SIGNAME="ov7670_IF_0_WENA">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="ov7670_IF_0" PORT="WENA"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="18" NAME="addra" RIGHT="0" SIGIS="undef" SIGNAME="ov7670_IF_0_ADDR">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="ov7670_IF_0" PORT="ADDR"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="11" NAME="dina" RIGHT="0" SIGIS="undef" SIGNAME="ov7670_IF_0_DATA_OUT">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="ov7670_IF_0" PORT="DATA_OUT"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT CLKFREQUENCY="25172413" DIR="I" NAME="clkb" SIGIS="clk" SIGNAME="clk_wiz_0_clk_out1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="clk_wiz_0" PORT="clk_out1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="enb" SIGIS="undef" SIGNAME="vga_out_0_ENB">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="vga_out_0" PORT="ENB"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="18" NAME="addrb" RIGHT="0" SIGIS="undef" SIGNAME="vga_out_0_ADDR">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="vga_out_0" PORT="ADDR"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="11" NAME="doutb" RIGHT="0" SIGIS="undef" SIGNAME="blk_mem_gen_0_doutb">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="vga_out_0" PORT="DATAB"/>
-          </CONNECTIONS>
-        </PORT>
+        <PORT DIR="I" NAME="clka" SIGIS="clk"/>
+        <PORT DIR="I" NAME="ena" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="0" NAME="wea" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="18" NAME="addra" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="11" NAME="dina" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" NAME="clkb" SIGIS="clk"/>
+        <PORT DIR="I" NAME="enb" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="18" NAME="addrb" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="11" NAME="doutb" RIGHT="0" SIGIS="undef"/>
       </PORTS>
       <BUSINTERFACES>
         <BUSINTERFACE BUSNAME="__NOC__" NAME="BRAM_PORTA" TYPE="TARGET" VLNV="xilinx.com:interface:bram:1.0">
@@ -1085,77 +989,13 @@
             <CONNECTION INSTANCE="External_Ports" PORT="RST"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="clk_in1" SIGIS="clk" SIGNAME="External_Ports_sys_clock">
+        <PORT CLKFREQUENCY="125000000" DIR="I" NAME="clk_in1" SIGIS="clk" SIGNAME="External_Ports_CLK">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="sys_clock"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="25172413" DIR="O" NAME="clk_out1" SIGIS="clk" SIGNAME="clk_wiz_0_clk_out1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="syncgen_0" PORT="PCK"/>
-            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="clkb"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT CLKFREQUENCY="24013157" DIR="O" NAME="clk_out2" SIGIS="clk" SIGNAME="clk_wiz_0_clk_out2">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="CAM_XCLK"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/ov7670_IF_0" HWVERSION="1.0" INSTANCE="ov7670_IF_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ov7670_IF" VLNV="xilinx.com:module_ref:ov7670_IF:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_ov7670_IF_0_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" NAME="RST" SIGIS="rst" SIGNAME="External_Ports_RST">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="RST"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="CAM_PCLK" SIGIS="undef" SIGNAME="External_Ports_CAM_PCLK">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="CAM_PCLK"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="CAM_HREF" SIGIS="undef" SIGNAME="External_Ports_CAM_HREF">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="CAM_HREF"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="CAM_VSYNC" SIGIS="undef" SIGNAME="External_Ports_CAM_VSYNC">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="CAM_VSYNC"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="7" NAME="data" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_data">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="data"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="11" NAME="DATA_OUT" RIGHT="0" SIGIS="undef" SIGNAME="ov7670_IF_0_DATA_OUT">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="dina"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="18" NAME="ADDR" RIGHT="0" SIGIS="undef" SIGNAME="ov7670_IF_0_ADDR">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="addra"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="ENA" SIGIS="undef" SIGNAME="ov7670_IF_0_ENA">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="ena"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="WENA" SIGIS="undef" SIGNAME="ov7670_IF_0_WENA">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="wea"/>
-          </CONNECTIONS>
-        </PORT>
+        <PORT CLKFREQUENCY="25172413" DIR="O" NAME="clk_out1" SIGIS="clk"/>
+        <PORT CLKFREQUENCY="24013157" DIR="O" NAME="clk_out2" SIGIS="clk"/>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
@@ -2180,14 +2020,9 @@
         <PORT CLKFREQUENCY="50000000" DIR="O" NAME="FCLK_CLK0" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="processing_system7_0" PORT="M_AXI_GP0_ACLK"/>
-            <CONNECTION INSTANCE="rst_ps7_0_50M" PORT="slowest_sync_clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="FCLK_RESET0_N" SIGIS="rst" SIGNAME="processing_system7_0_FCLK_RESET0_N">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="rst_ps7_0_50M" PORT="ext_reset_in"/>
-          </CONNECTIONS>
-        </PORT>
+        <PORT DIR="O" NAME="FCLK_RESET0_N" SIGIS="rst"/>
         <PORT DIR="IO" LEFT="53" NAME="MIO" RIGHT="0" SIGIS="undef" SIGNAME="processing_system7_0_MIO">
           <CONNECTIONS>
             <CONNECTION INSTANCE="design_1_imp" PORT="FIXED_IO_mio"/>
@@ -2432,136 +2267,6 @@
       </BUSINTERFACES>
       <MEMORYMAP/>
       <PERIPHERALS/>
-    </MODULE>
-    <MODULE COREREVISION="13" FULLNAME="/rst_ps7_0_50M" HWVERSION="5.0" INSTANCE="rst_ps7_0_50M" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
-      <DOCUMENTS>
-        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=proc_sys_reset;v=v5_0;d=pg164-proc-sys-reset.pdf"/>
-      </DOCUMENTS>
-      <PARAMETERS>
-        <PARAMETER NAME="C_FAMILY" VALUE="zynq"/>
-        <PARAMETER NAME="C_EXT_RST_WIDTH" VALUE="4"/>
-        <PARAMETER NAME="C_AUX_RST_WIDTH" VALUE="4"/>
-        <PARAMETER NAME="C_EXT_RESET_HIGH" VALUE="0"/>
-        <PARAMETER NAME="C_AUX_RESET_HIGH" VALUE="0"/>
-        <PARAMETER NAME="C_NUM_BUS_RST" VALUE="1"/>
-        <PARAMETER NAME="C_NUM_PERP_RST" VALUE="1"/>
-        <PARAMETER NAME="C_NUM_INTERCONNECT_ARESETN" VALUE="1"/>
-        <PARAMETER NAME="C_NUM_PERP_ARESETN" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_rst_ps7_0_50M_0"/>
-        <PARAMETER NAME="USE_BOARD_FLOW" VALUE="false"/>
-        <PARAMETER NAME="RESET_BOARD_INTERFACE" VALUE="Custom"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT CLKFREQUENCY="50000000" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="processing_system7_0_FCLK_CLK0">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_CLK0"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="ext_reset_in" SIGIS="rst" SIGNAME="processing_system7_0_FCLK_RESET0_N">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="processing_system7_0" PORT="FCLK_RESET0_N"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="aux_reset_in" SIGIS="rst"/>
-        <PORT DIR="I" NAME="mb_debug_sys_rst" SIGIS="rst"/>
-        <PORT DIR="I" NAME="dcm_locked" SIGIS="undef"/>
-        <PORT DIR="O" NAME="mb_reset" SIGIS="rst"/>
-        <PORT DIR="O" LEFT="0" NAME="bus_struct_reset" RIGHT="0" SIGIS="rst"/>
-        <PORT DIR="O" LEFT="0" NAME="peripheral_reset" RIGHT="0" SIGIS="rst"/>
-        <PORT DIR="O" LEFT="0" NAME="interconnect_aresetn" RIGHT="0" SIGIS="rst"/>
-        <PORT DIR="O" LEFT="0" NAME="peripheral_aresetn" RIGHT="0" SIGIS="rst"/>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/syncgen_0" HWVERSION="1.0" INSTANCE="syncgen_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="syncgen" VLNV="xilinx.com:module_ref:syncgen:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_syncgen_0_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT CLKFREQUENCY="50000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="RST" SIGIS="rst" SIGNAME="External_Ports_RST">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="RST"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="PCK" SIGIS="undef" SIGNAME="clk_wiz_0_clk_out1">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="clk_wiz_0" PORT="clk_out1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="VGA_HS" SIGIS="undef"/>
-        <PORT DIR="O" NAME="VGA_VS" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="9" NAME="HCNT" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="9" NAME="VCNT" RIGHT="0" SIGIS="undef"/>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/vga_out_0" HWVERSION="1.0" INSTANCE="vga_out_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="vga_out" VLNV="xilinx.com:module_ref:vga_out:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_vga_out_0_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT CLKFREQUENCY="50000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="RST" SIGIS="rst" SIGNAME="External_Ports_RST">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="RST"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="3" NAME="VGA_R" RIGHT="0" SIGIS="undef" SIGNAME="vga_out_0_VGA_R">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="VGA_R"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="3" NAME="VGA_G" RIGHT="0" SIGIS="undef" SIGNAME="vga_out_0_VGA_G">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="VGA_G"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="3" NAME="VGA_B" RIGHT="0" SIGIS="undef" SIGNAME="vga_out_0_VGA_B">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="VGA_B"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="VGA_HS" SIGIS="undef" SIGNAME="vga_out_0_VGA_HS">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="VGA_HS"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="VGA_VS" SIGIS="undef" SIGNAME="vga_out_0_VGA_VS">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="VGA_VS"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="11" NAME="DATAB" RIGHT="0" SIGIS="undef" SIGNAME="blk_mem_gen_0_doutb">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="doutb"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="18" NAME="ADDR" RIGHT="0" SIGIS="undef" SIGNAME="vga_out_0_ADDR">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="addrb"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="ENB" SIGIS="undef" SIGNAME="vga_out_0_ENB">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="blk_mem_gen_0" PORT="enb"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
     </MODULE>
   </MODULES>
 
