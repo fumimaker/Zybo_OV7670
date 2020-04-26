@@ -1,0 +1,48 @@
+#include "platform.h"
+#include "xparameters.h"
+#include "sleep.h"
+#include "xiicps.h"
+#include "stdio.h"
+#include "OV7670.c"
+
+int main()
+{
+	int result;
+
+    init_platform();
+
+    xil_printf("Start Initialize Camera Module\n");
+    result = Init();
+    if (result != XST_SUCCESS) {
+		xil_printf("Camera Module Initialization failed\n");
+		cleanup_platform();
+		return (-1);
+	}
+    xil_printf("Reset Camera Module\n");
+
+    xil_printf("Camera Module default register dump\n");
+	DumpReg();
+
+	xil_printf("Set RGB 565 mode\n");
+	InitRGB565();
+
+	xil_printf("Set VGA mode\n");
+	InitVGA();
+	xil_printf("Load default Camera registers\n");
+	InitDefaultReg();
+
+	//xil_printf("Camera Test\n");
+	//ShowQVGA_ColorBar();
+
+	xil_printf("\nCamera Module register dump after initialization\n");
+	DumpReg();
+
+	xil_printf("\nCamera Module register settings completed.\n");
+
+	while(1) {
+		// dummy loop
+	}
+
+    cleanup_platform();
+    return 0;
+}

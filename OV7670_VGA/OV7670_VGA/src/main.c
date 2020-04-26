@@ -4,7 +4,6 @@
 #include "xiicps.h"
 #include "stdio.h"
 #include "OV7670.h"
-#include "OV7670.c"
 
 int main()
 {

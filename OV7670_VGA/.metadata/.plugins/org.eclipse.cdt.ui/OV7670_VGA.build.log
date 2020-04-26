@@ -1,4 +1,4 @@
-04:10:24 **** Build of configuration Debug for project OV7670_VGA ****
+20:07:40 **** Incremental Build of configuration Debug for project OV7670_VGA ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -12,41 +12,23 @@ arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OV7670.o" -mcpu=co
 'Building file: ../src/main.c'
 'Invoking: ARM v7 gcc compiler'
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:15:14: warning: implicit declaration of function 'Init' [-Wimplicit-function-declaration]
+     result = Init();
+              ^~~~
 'Finished building: ../src/main.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
 ' '
 'Building target: OV7670_VGA.elf'
 'Invoking: ARM v7 gcc linker'
 arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "OV7670_VGA.elf"  ./src/OV7670.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `Init':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:20: multiple definition of `Init'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:20: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `WriteReg':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:95: multiple definition of `WriteReg'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:95: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `i2c_write':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:57: multiple definition of `i2c_write'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:57: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `i2c_read':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:83: multiple definition of `i2c_read'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:83: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `ReadReg':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:100: multiple definition of `ReadReg'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:100: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `DumpReg':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:118: multiple definition of `DumpReg'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:118: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `InitDefaultReg':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:134: multiple definition of `InitDefaultReg'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:134: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `InitRGB565':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:293: multiple definition of `InitRGB565'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:293: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `InitVGA':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:312: multiple definition of `InitVGA'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:312: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `InitQVGA':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:332: multiple definition of `InitQVGA'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:332: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `ShowQVGA_ColorBar':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:352: multiple definition of `ShowQVGA_ColorBar'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\OV7670_VGA\Debug/../src/OV7670.c:352: first defined here
-collect2.exe: error: ld returned 1 exit status
-make[1]: *** [makefile:43: OV7670_VGA.elf] Error 1
-make: *** [makefile:34: all] Error 2
+'Finished building target: OV7670_VGA.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size OV7670_VGA.elf  |tee "OV7670_VGA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  48612	   2600	  23384	  74596	  12364	OV7670_VGA.elf
+'Finished building: OV7670_VGA.elf.size'
+' '
 
-04:10:26 Build Finished (took 1s.688ms)
+20:07:42 Build Finished (took 1s.555ms)
 

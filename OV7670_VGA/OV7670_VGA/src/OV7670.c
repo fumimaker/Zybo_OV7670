@@ -16,7 +16,22 @@
 
 XIicPs Iic;
 
-int Init()
+
+/*
+void DumpReg(void);
+int i2c_write(XIicPs*, u8, u8);
+int i2c_read(XIicPs*, u8*, u32, u16);
+int Init(void);
+void InitDefaultReg(void);
+void InitQVGA(void);
+void InitVGA(void);
+void InitRGB565(void);
+int ReadReg(u8);
+void ShowQVGA(void);
+int WriteReg(u8, u8);
+*/
+
+int Init(void)
 {
     int Status, result;
     XIicPs_Config *Config;  /**< configuration information for the device */

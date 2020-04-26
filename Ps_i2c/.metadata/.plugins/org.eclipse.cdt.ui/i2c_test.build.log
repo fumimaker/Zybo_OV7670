@@ -1,37 +1,7 @@
-03:39:35 **** Incremental Build of configuration Debug for project i2c_test ****
-make all 
-make --no-print-directory pre-build
-a9-linaro-pre-build-step
+18:39:50 **** Clean-only build of configuration Debug for project i2c_test ****
+make clean 
+rm -rf  ./src/OV7670.o ./src/main.o ./src/platform.o  ./src/OV7670.d ./src/main.d ./src/platform.d  i2c_test.elf.size  i2c_test.elf
 ' '
-make --no-print-directory main-build
-'Building target: i2c_test.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ivr/Documents/GitHub/Zybo_OV7670/Ps_i2c/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "i2c_test.elf"  ./src/OV7670.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `Init':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:20: multiple definition of `Init'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:20: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `WriteReg':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:95: multiple definition of `WriteReg'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:95: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `i2c_write':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:57: multiple definition of `i2c_write'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:57: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `i2c_read':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:83: multiple definition of `i2c_read'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:83: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `ReadReg':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:100: multiple definition of `ReadReg'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:100: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `DumpReg':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:118: multiple definition of `DumpReg'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:118: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `InitDefaultReg':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:134: multiple definition of `InitDefaultReg'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:134: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `InitRGB565':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:293: multiple definition of `InitRGB565'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:293: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `InitVGA':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:312: multiple definition of `InitVGA'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:312: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `InitQVGA':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:332: multiple definition of `InitQVGA'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:332: first defined here
-c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `ShowQVGA_ColorBar':
-C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:352: multiple definition of `ShowQVGA_ColorBar'; ./src/OV7670.o:C:\Users\ivr\Documents\GitHub\Zybo_OV7670\Ps_i2c\i2c_test\Debug/../src/OV7670.c:352: first defined here
-collect2.exe: error: ld returned 1 exit status
-make[1]: *** [makefile:43: i2c_test.elf] Error 1
-make: *** [makefile:34: all] Error 2
 
-03:39:36 Build Finished (took 663ms)
+18:39:50 Build Finished (took 299ms)
 

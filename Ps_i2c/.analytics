@@ -8,3 +8,6 @@ timestamp=[2020-04-20 21:10:18], mode=PLATFORM_GENERATION, duration=0:00:08.705,
 timestamp=[2020-04-20 21:11:26], mode=PLATFORM_GENERATION, duration=0:01:07.177, duration_ms=67177, data={name=design_1_wrapper}
 timestamp=[2020-04-26 03:26:00], mode=WORKBENCH_START, duration=0:00:14.316, duration_ms=14316, data={}
 timestamp=[2020-04-26 03:26:02], mode=WORKBENCH_UI_INIT, duration=0:00:01.847, duration_ms=1847, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,i2c_test,i2c_test_system}
+timestamp=[2020-04-26 18:39:02], mode=WORKBENCH_START, duration=0:00:17.182, duration_ms=17182, data={}
+timestamp=[2020-04-26 18:39:04], mode=WORKBENCH_UI_INIT, duration=0:00:01.298, duration_ms=1298, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,i2c_test,i2c_test_system}
+timestamp=[2020-04-26 18:39:50], mode=PLATFORM_GENERATION, duration=0:00:19.370, duration_ms=19370, data={name=design_1_wrapper}
