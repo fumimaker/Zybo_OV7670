@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="OV7670_VGA-blankCheck"/>
+	<item value="OV7670_VGA" key="programflash.hwplatform"/>
+	<item value="Auto Detect" key="OV7670_VGA-device"/>
+	<item value="false" key="OV7670_VGA-verifyFlash"/>
+	<item value="Local" key="OV7670_VGA-target"/>
+	<item value="" key="OV7670_VGA-imgFile"/>
+	<item value="qspi-x4-single" key="OV7670_VGA-flashType"/>
+	<item value="C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/boot/fsbl.elf" key="OV7670_VGA-fsblFile"/>
+	<item value="" key="OV7670_VGA-offSet"/>
+</section>
