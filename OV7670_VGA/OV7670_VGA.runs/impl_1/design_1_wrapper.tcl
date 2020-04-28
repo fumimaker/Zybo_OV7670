@@ -67,14 +67,27 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 2
-  reset_param project.defaultXPMLibraries 
-  open_checkpoint C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/impl_1/design_1_wrapper.dcp
-  set_property webtalk.parent_dir C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.cache/wt [current_project]
-  set_property parent.project_path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.xpr [current_project]
-  set_property ip_output_repo C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.cache/ip [current_project]
+  set_param chipscope.maxJobs 3
+  create_project -in_memory -part xc7z020clg400-1
+  set_property design_mode GateLvl [current_fileset]
+  set_param project.singleFileAddWarning.threshold 0
+  set_property webtalk.parent_dir C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.cache/wt [current_project]
+  set_property parent.project_path C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.xpr [current_project]
+  set_property ip_output_repo C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
+  add_files -quiet C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/design_1_wrapper.dcp
+  set_msg_config -source 4 -id {BD 41-1661} -limit 0
+  set_param project.isImplRun true
+  add_files C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/design_1.bd
+  read_ip -quiet C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+  read_ip -quiet C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xci
+  set_param project.isImplRun false
+  read_xdc C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc
+  set_param project.isImplRun true
+  link_design -top design_1_wrapper -part xc7z020clg400-1
+  set_param project.isImplRun false
+  write_hwdef -force -file design_1_wrapper.hwdef
   close_msg_db -file init_design.pb
 } RESULT]
 if {$rc} {
@@ -162,25 +175,6 @@ if {$rc} {
   return -code error $RESULT
 } else {
   end_step route_design
-  unset ACTIVE_STEP 
-}
-
-start_step write_bitstream
-set ACTIVE_STEP write_bitstream
-set rc [catch {
-  create_msg_db write_bitstream.pb
-  set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
-  catch { write_mem_info -force design_1_wrapper.mmi }
-  write_bitstream -force design_1_wrapper.bit 
-  catch {write_debug_probes -quiet -force design_1_wrapper}
-  catch {file copy -force design_1_wrapper.ltx debug_nets.ltx}
-  close_msg_db -file write_bitstream.pb
-} RESULT]
-if {$rc} {
-  step_failed write_bitstream
-  return -code error $RESULT
-} else {
-  end_step write_bitstream
   unset ACTIVE_STEP 
 }
 

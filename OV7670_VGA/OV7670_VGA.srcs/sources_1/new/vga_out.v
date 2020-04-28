@@ -26,24 +26,24 @@ module vga_out(
     output  reg [3:0]   VGA_R,
     output  reg [3:0]   VGA_G,
     output  reg [3:0]   VGA_B,
-    output                      VGA_HS,
-    output                      VGA_VS,
+output                      VGA_HS,
+output                      VGA_VS,
     input           [11:0]  DATAB,
     output          [18:0]  ADDR,
     output                      ENB,
     input                       CLK25_175MHZ
     );
     
-/* VGA(640ï¿½~480)ï¿½pï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ç‚İï¿½ï¿½ï¿½ */
+/* VGA(640?¿½~480)?¿½p?¿½p?¿½?¿½?¿½?¿½?¿½[?¿½^?¿½Ç‚İï¿½?¿½?¿½ */
 `include "VGA_param.v"
 
 localparam HSIZE = 10'd80;
 localparam VSIZE = 10'd120;
 
-/* ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ì¬ï¿½ï¿½Hï¿½ÌÚ‘ï¿½ */
+/* ?¿½?¿½?¿½?¿½?¿½M?¿½?¿½?¿½?¬?¿½?¿½H?¿½ÌÚ‘ï¿½ */
 wire               PCK;
 wire    [9:0]   HCNT, VCNT;
-assign PCK = CLK25_175MHZ; //ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ClockWizï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚Â‚È‚ï¿½
+assign PCK = CLK25_175MHZ; //?¿½?¿½?¿½?¿½?¿½p?¿½N?¿½?¿½?¿½b?¿½N?¿½?¿½ClockWiz?¿½?¿½?¿½?¿½?¿½?¿½?¿½Ä‚Â‚È‚ï¿½
 
 syncgen syncgen_inst(
     .CLK        (CLK),
@@ -55,22 +55,26 @@ syncgen syncgen_inst(
     .VCNT       (VCNT)
 );
 
-/* RGBï¿½oï¿½Í‚ï¿½ï¿½ì¬ */
+/* RGB?¿½o?¿½Í‚ï¿½?¿½?¬ */
 wire [9:0] HBLANK = HFRONT + HWIDTH + HBACK;
 wire [9:0] VBLANK = VFRONT + VWIDTH + VBACK;
 
 wire disp_enable = (VBLANK <= VCNT) &&
     (HBLANK-10'd1 <= HCNT) && (HCNT < HPERIOD-10'd1);
 
-/*BRAMï¿½Ç‚İoï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½Æ—Lï¿½ï¿½*/
+/*BRAM?¿½Ç‚İo?¿½?¿½?¿½Í‚ï¿½?¿½?¿½?¿½Æ—L?¿½?¿½*/
 assign ENB = 1;
 assign ADDR = HCNT + VCNT*640;
 
 always @( posedge PCK ) begin
     if ( RST )
         {VGA_R, VGA_G, VGA_B} <= 12'h000;
-    else if ( disp_enable )
-        {VGA_R, VGA_G, VGA_B} <= {DATAB[11:8], DATAB[7:4], DATAB[3:0]};
+    else if ( disp_enable ) begin
+        //{VGA_R, VGA_G, VGA_B} <= {DATAB[11:8], DATAB[7:4], DATAB[3:0]};
+        VGA_R = DATAB[11:8];
+        VGA_G = DATAB[7:4];
+        VGA_B = DATAB[3:0];
+    end
     else
         {VGA_R, VGA_G, VGA_B} <= 12'h000;
 end

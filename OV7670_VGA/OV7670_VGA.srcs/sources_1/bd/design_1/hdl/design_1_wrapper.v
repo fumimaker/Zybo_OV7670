@@ -50,16 +50,18 @@ module design_1_wrapper
     
     input CLK; //K18 に配線してる125MHzのPLクロック
     input RST; //ボタン4に繋がってるやつ
+    
     input CAM_PCLK;//カメラから来るピクセルクロック
     input CAM_HREF;
     input CAM_VSYNC;
     output CAM_XCLK; //カメラを動かすためのクロック。　12~48(typ.24)MHZを供給しないとだめ
     input [7:0] data;
-    input [3:0] VGA_R;
-    input [3:0] VGA_G;
-    input [3:0] VGA_B;
-    input VGA_VSYNC;
-    input VGA_HSYNC;
+    
+    output [3:0] VGA_R;
+    output [3:0] VGA_G;
+    output [3:0] VGA_B;
+    output VGA_VSYNC;
+    output VGA_HSYNC;
     
     
     inout [14:0]DDR_addr;
@@ -157,8 +159,9 @@ IOBUF IIC_0_0_sda_iobuf
         
         
     wire clk_25_175MHZ, clk_24MHZ;
-    wire BRAM_DATAB, BRAM_ENB, BRAM_ADDRB;
-    wire BRAM_DATAA,BRAM_ADDRA, BRAM_ENA, BRAM_WENA;    
+    wire BRAM_DATAB, BRAM_ADDRB, BRAM_ENB;
+    wire BRAM_DATAA, BRAM_ADDRA, BRAM_ENA, BRAM_WENA;
+    
     assign CAM_XCLK = clk_24MHZ;
     
     blk_mem_gen_0 blk_mem_gen_0_inst (
@@ -173,7 +176,7 @@ IOBUF IIC_0_0_sda_iobuf
         .doutb(BRAM_DATAB)  // output wire [11 : 0] doutb
         );
 
-clk_wiz_0 instance_name
+clk_wiz_0 clk_wiz_0_inst
    (
     // Clock out ports
         .CLKOUT_25_175MHZ(clk_25_175MHZ),     // output CLKOUT_25_175MHZ
@@ -198,15 +201,15 @@ clk_wiz_0 instance_name
         );
         
     ov7670_IF ov7670_IF_inst(
-            .RST(RST),
-            .CAM_PCLK(CAM_PCLK),
-            .CAM_HREF(CAM_HREF),
-            .CAM_VSYNC(CAM_VSYNC),
-            .data(data),
-            .DATA_OUT(BRAM_DATAA),
-            .ADDR(BRAM_ADDRA),
-            .ENA(BRAM_ENA),
-            .WENA(BRAM_WENA),
-            .CAM_XCLK(clk_24MHZ)
-            );
+        .RST(RST),
+        .CAM_PCLK(CAM_PCLK),
+        .CAM_HREF(CAM_HREF),
+        .CAM_VSYNC(CAM_VSYNC),
+        .data(data),
+        .DATA_OUT(BRAM_DATAA),
+        .ADDR(BRAM_ADDRA),
+        .ENA(BRAM_ENA),
+        .WENA(BRAM_WENA),
+        .CAM_XCLK(clk_24MHZ)
+        );
 endmodule
