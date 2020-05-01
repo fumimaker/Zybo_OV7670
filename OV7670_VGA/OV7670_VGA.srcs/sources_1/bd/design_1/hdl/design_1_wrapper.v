@@ -10,8 +10,8 @@
 `timescale 1 ps / 1 ps
 `default_nettype none
 
-module design_1_wrapper
-   (inout wire [14:0]DDR_addr,
+module design_1_wrapper(
+    inout wire [14:0]DDR_addr,
     inout wire [2:0]DDR_ba,
     inout wire DDR_cas_n,
     inout wire DDR_ck_n,
@@ -217,7 +217,7 @@ module design_1_wrapper
         );
         
     ov7670_IF ov7670_IF_inst(//CLK???‚»‚ñ‚È‚à‚Ì‚Í‚È‚¢
-    .CLK(CLK),
+        .CLK(CLK),
         .RST(RST),//
         .CAM_PCLK(CAM_PCLK),//
         .CAM_HREF(CAM_HREF),//
