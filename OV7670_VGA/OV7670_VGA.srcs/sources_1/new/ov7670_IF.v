@@ -19,6 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 module ov7670_IF(
+input wire CLK,
     input wire RST,
     input wire CAM_PCLK,
     input wire CAM_HREF,
@@ -35,8 +36,8 @@ module ov7670_IF(
     reg firstByteEn;
 
 
-    //アイパッドに書いた波形のアルゴリズムを実装するだけ。
-    always @( posedge CAM_PCLK ) begin
+    //アイパッドに書いた波形のアルゴリズムを実装するだけ。 posedge CAM_PCLK
+    always @( posedge CLK ) begin
         if (RST) begin
             DATA_OUT <= 12'b0;
             ENA <= 1;
@@ -61,8 +62,8 @@ module ov7670_IF(
         end
     end
     
-    //HREFの立下りで列数をカウント
-    always @(negedge CAM_HREF) begin
+    //HREFの立下りで列数をカウント negedge CAM_HREF
+    always @(posedge CLK) begin
         if (RST) begin
                 HCNT <= 10'd0;
                 ADDR <= 19'b0;
@@ -76,8 +77,8 @@ module ov7670_IF(
         end
     end
     
-         //VSYNCの立下りで行数をカウント+HCNTをリセット
-    always @(negedge CAM_VSYNC) begin
+         //VSYNCの立下りで行数をカウント+HCNTをリセット negedge CAM_VSYNC
+    always @(posedge CLK) begin
          if (RST) begin
             VCNT <= 10'd0;
         end

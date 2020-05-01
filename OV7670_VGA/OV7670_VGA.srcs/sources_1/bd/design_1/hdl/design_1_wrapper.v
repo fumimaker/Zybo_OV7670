@@ -217,6 +217,7 @@ module design_1_wrapper
         );
         
     ov7670_IF ov7670_IF_inst(//CLK???‚»‚ñ‚È‚à‚Ì‚Í‚È‚¢
+    .CLK(CLK),
         .RST(RST),//
         .CAM_PCLK(CAM_PCLK),//
         .CAM_HREF(CAM_HREF),//
