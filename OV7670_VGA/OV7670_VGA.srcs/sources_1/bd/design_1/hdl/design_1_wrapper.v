@@ -158,9 +158,17 @@ IOBUF IIC_0_0_sda_iobuf
         .IIC_0_0_sda_t(IIC_0_0_sda_t));
         
         
-    wire clk_25_175MHZ, clk_24MHZ;
-    wire BRAM_DATAB, BRAM_ADDRB, BRAM_ENB;
-    wire BRAM_DATAA, BRAM_ADDRA, BRAM_ENA, BRAM_WENA;
+    wire clk_25_175MHZ;
+    wire clk_24MHZ;
+    
+    wire BRAM_DATAB[11:0];
+    wire BRAM_ADDRB[18:0];
+    wire BRAM_ENB;
+    
+    wire BRAM_DATAA[11:0];
+    wire BRAM_ADDRA[18:0];
+    wire BRAM_ENA;
+    wire BRAM_WENA;
     
     assign CAM_XCLK = clk_24MHZ;
     
