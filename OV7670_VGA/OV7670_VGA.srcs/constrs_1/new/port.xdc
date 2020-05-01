@@ -25,9 +25,9 @@ set_property -dict {PACKAGE_PIN Y14 IOSTANDARD LVCMOS33} [get_ports VGA_VSYNC]
 #set_property -dict { PACKAGE_PIN U12   IOSTANDARD LVCMOS33     } [get_ports { data[7] }]; #IO_L2N_T0_34 Sch=jc_n[4]
 
 ##Pmod Header JD
-set_property -dict {PACKAGE_PIN T14 IOSTANDARD LVCMOS33} [get_ports CAM_VSYNC]
-set_property -dict {PACKAGE_PIN T15 IOSTANDARD LVCMOS33} [get_ports CAM_HREF]
-set_property -dict {PACKAGE_PIN P14 IOSTANDARD LVCMOS33} [get_ports CAM_PCLK]
+set_property -dict {PACKAGE_PIN T14 IOSTANDARD LVCMOS33} CLOCK_DEDICATED_ROUTE FALSE [get_ports CAM_VSYNC]
+set_property -dict {PACKAGE_PIN T15 IOSTANDARD LVCMOS33} CLOCK_DEDICATED_ROUTE FALSE [get_ports CAM_HREF]
+set_property -dict {PACKAGE_PIN P14 IOSTANDARD LVCMOS33} CLOCK_DEDICATED_ROUTE FALSE [get_ports CAM_PCLK]
 set_property -dict {PACKAGE_PIN R14 IOSTANDARD LVCMOS33} [get_ports CAM_XCLK]
 set_property -dict {PACKAGE_PIN U14 IOSTANDARD LVCMOS33} [get_ports IIC_0_0_scl_io]
 set_property -dict {PACKAGE_PIN U15 IOSTANDARD LVCMOS33} [get_ports IIC_0_0_sda_io]

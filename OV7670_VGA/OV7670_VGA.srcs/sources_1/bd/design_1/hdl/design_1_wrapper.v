@@ -192,15 +192,15 @@ module design_1_wrapper
         .doutb(BRAM_DATAB)  // output wire [11 : 0] doutb
         );
 
-clk_wiz_0 clk_wiz_0_inst
-   (
-    // Clock out ports
+    clk_wiz_0 clk_wiz_0_inst(
+        // Clock out ports
         .CLKOUT_25_175MHZ(clk_25_175MHZ),     // output CLKOUT_25_175MHZ
         .CLKOUT_24MHZ(clk_24MHZ),     // output CLKOUT_24MHZ
         // Status and control signals
         .reset(RST), // input reset
        // Clock in ports
-        .CLK(CLK));      // input CLK
+        .CLK(CLK) // input CLK
+        );     
         
     vga_out vga_out_inst(
         .CLK(CLK),
@@ -216,17 +216,17 @@ clk_wiz_0 clk_wiz_0_inst
         .CLK25_175MHZ(clk_25_175MHZ)
         );
         
-    ov7670_IF ov7670_IF_inst(
-        .RST(RST),
-        .CAM_PCLK(CAM_PCLK),
-        .CAM_HREF(CAM_HREF),
-        .CAM_VSYNC(CAM_VSYNC),
-        .data(data),
-        .DATA_OUT(BRAM_DATAA),
-        .ADDR(BRAM_ADDRA),
-        .ENA(BRAM_ENA),
-        .WENA(BRAM_WENA),
-        .CAM_XCLK(clk_24MHZ)
+    ov7670_IF ov7670_IF_inst(//CLK???‚»‚ñ‚È‚à‚Ì‚Í‚È‚¢
+        .RST(RST),//
+        .CAM_PCLK(CAM_PCLK),//
+        .CAM_HREF(CAM_HREF),//
+        .CAM_VSYNC(CAM_VSYNC),//
+        .data(data),//
+        .DATA_OUT(BRAM_DATAA),//
+        .ADDR(BRAM_ADDRA),//
+        .ENA(BRAM_ENA),//
+        .WENA(BRAM_WENA),//
+        .CAM_XCLK(clk_24MHZ)//
         );
 endmodule
 `default_nettype wire
