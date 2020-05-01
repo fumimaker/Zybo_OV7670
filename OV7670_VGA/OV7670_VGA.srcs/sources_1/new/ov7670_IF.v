@@ -34,10 +34,10 @@ module ov7670_IF(
     reg [9:0] HCNT, VCNT;
     reg firstByteEn;
 
+
     //アイパッドに書いた波形のアルゴリズムを実装するだけ。
     always @( posedge CAM_PCLK ) begin
         if (RST) begin
-            VCNT <= 10'b0;
             DATA_OUT <= 12'b0;
             ENA <= 1;
             WENA <= 0; //まだ書き込み禁止
