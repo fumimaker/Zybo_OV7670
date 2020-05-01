@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/impl_1'
+HD_PWD='C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

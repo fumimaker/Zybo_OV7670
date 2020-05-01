@@ -26,8 +26,8 @@ module vga_out(
     output  reg [3:0]   VGA_R,
     output  reg [3:0]   VGA_G,
     output  reg [3:0]   VGA_B,
-output                      VGA_HS,
-output                      VGA_VS,
+    output                      VGA_HS,
+    output                      VGA_VS,
     input           [11:0]  DATAB,
     output          [18:0]  ADDR,
     output                      ENB,
@@ -71,9 +71,9 @@ always @( posedge PCK ) begin
         {VGA_R, VGA_G, VGA_B} <= 12'h000;
     else if ( disp_enable ) begin
         //{VGA_R, VGA_G, VGA_B} <= {DATAB[11:8], DATAB[7:4], DATAB[3:0]};
-        VGA_R = DATAB[11:8];
-        VGA_G = DATAB[7:4];
-        VGA_B = DATAB[3:0];
+        VGA_R <= DATAB[11:8];
+        VGA_G <= DATAB[7:4];
+        VGA_B <= DATAB[3:0];
     end
     else
         {VGA_R, VGA_G, VGA_B} <= 12'h000;
