@@ -16,14 +16,14 @@
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
-// ï¿½ï¿½ï¿½ï¿½Íƒeï¿½Xï¿½gï¿½Å‚ï¿½
+// ?¿½?¿½?¿½?¿½Íƒe?¿½X?¿½g?¿½Å‚ï¿½
 //////////////////////////////////////////////////////////////////////////////////
 
 
 module syncgen(
-    input                   CLK,
-    input                   RST,
-    input                   PCK, //25.174MHz
+    input    wire          CLK,
+    input    wire          RST,
+    input    wire          PCK, //25.174MHz
     output  reg         VGA_HS,
     output  reg         VGA_VS,
     output  reg [9:0]   HCNT,

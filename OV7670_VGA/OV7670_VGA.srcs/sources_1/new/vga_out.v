@@ -21,17 +21,17 @@
 
 
 module vga_out(
-    input               CLK,
-    input               RST,
+    input     wire      CLK,
+    input   wire     RST,
     output  reg [3:0]   VGA_R,
     output  reg [3:0]   VGA_G,
     output  reg [3:0]   VGA_B,
-    output                      VGA_HS,
-    output                      VGA_VS,
-    input           [11:0]  DATAB,
-    output          [18:0]  ADDR,
-    output                      ENB,
-    input                       CLK25_175MHZ
+    output  wire          VGA_HS,
+    output  wire          VGA_VS,
+    input    wire  [11:0]  DATAB,
+    output  wire    [18:0] ADDR,
+    output  wire            ENB,
+    input    wire           CLK25_175MHZ
     );
     
 /* VGA(640?øΩ~480)?øΩp?øΩp?øΩ?øΩ?øΩ?øΩ?øΩ[?øΩ^?øΩ«Ç›çÔøΩ?øΩ?øΩ */

@@ -19,16 +19,16 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 module ov7670_IF(
-    input RST,
-    input CAM_PCLK,
-    input CAM_HREF,
-    input CAM_VSYNC,
-    input [7:0] data,
+    input wire RST,
+    input wire CAM_PCLK,
+    input wire CAM_HREF,
+    input wire CAM_VSYNC,
+    input wire [7:0] data,
     output reg [11:0] DATA_OUT,
     output reg [18:0] ADDR,
     output reg ENA,
     output reg WENA,
-    output CAM_XCLK
+    output wire CAM_XCLK
     );
     
     reg [9:0] HCNT, VCNT;
