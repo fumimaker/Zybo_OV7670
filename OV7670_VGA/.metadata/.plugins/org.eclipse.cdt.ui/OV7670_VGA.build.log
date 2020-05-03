@@ -1,34 +1,10 @@
-20:07:40 **** Incremental Build of configuration Debug for project OV7670_VGA ****
+18:51:14 **** Incremental Build of configuration Debug for project OV7670_VGA ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
-'Building file: ../src/OV7670.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OV7670.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/OV7670.d" -MT"src/OV7670.o" -o "src/OV7670.o" "../src/OV7670.c"
-'Finished building: ../src/OV7670.c'
-' '
-'Building file: ../src/main.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-../src/main.c: In function 'main':
-../src/main.c:15:14: warning: implicit declaration of function 'Init' [-Wimplicit-function-declaration]
-     result = Init();
-              ^~~~
-'Finished building: ../src/main.c'
-' '
-'Building target: OV7670_VGA.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "OV7670_VGA.elf"  ./src/OV7670.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: OV7670_VGA.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size OV7670_VGA.elf  |tee "OV7670_VGA.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  48612	   2600	  23384	  74596	  12364	OV7670_VGA.elf
-'Finished building: OV7670_VGA.elf.size'
-' '
+make[1]: Nothing to be done for 'main-build'.
 
-20:07:42 Build Finished (took 1s.555ms)
+18:51:15 Build Finished (took 380ms)
 

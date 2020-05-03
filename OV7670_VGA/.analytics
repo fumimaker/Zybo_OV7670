@@ -18,3 +18,6 @@ timestamp=[2020-04-26 19:02:22], mode=PLATFORM_GENERATION, duration=0:01:03.499,
 timestamp=[2020-04-26 19:17:45], mode=WORKBENCH_START, duration=0:00:11.722, duration_ms=11722, data={}
 timestamp=[2020-04-26 19:17:46], mode=WORKBENCH_UI_INIT, duration=0:00:01.061, duration_ms=1061, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=OV7670_VGA,OV7670_VGA_system,RemoteSystemsTempFiles,design_1_wrapper}
 timestamp=[2020-04-26 19:18:58], mode=PLATFORM_GENERATION, duration=0:00:02.754, duration_ms=2754, data={name=design_1_wrapper}
+timestamp=[2020-05-02 17:51:45], mode=WORKBENCH_START, duration=0:00:18.714, duration_ms=18714, data={}
+timestamp=[2020-05-02 17:51:47], mode=WORKBENCH_UI_INIT, duration=0:00:01.725, duration_ms=1725, data={editors_count=9, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=OV7670_VGA,OV7670_VGA_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2020-05-02 18:51:11], mode=PLATFORM_GENERATION, duration=0:00:03.451, duration_ms=3451, data={name=design_1_wrapper}

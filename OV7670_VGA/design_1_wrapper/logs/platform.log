@@ -8494,3 +8494,530 @@ TRACE::2020-04-26.19:18:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents
 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
 
 TRACE::2020-04-26.19:18:58::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:50:35::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:35::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:35::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:38::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:38::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:38::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:38::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-05-02.18:50:41::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:41::SCWReader::Active system found as  design_1_wrapper
+TRACE::2020-05-02.18:50:41::SCWReader::Handling sysconfig design_1_wrapper
+TRACE::2020-05-02.18:50:41::SCWDomain::checking for install qemu data   : 
+TRACE::2020-05-02.18:50:41::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-05-02.18:50:41::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-05-02.18:50:41::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:41::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:41::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:41::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:41::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2020-05-02.18:50:41::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:41::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:41::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:41::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-05-02.18:50:41::SCWMssOS::No sw design opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:41::SCWMssOS::mss exists loading the mss file  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:41::SCWMssOS::Opened the sw design from mss  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:41::SCWMssOS::Adding the swdes entry C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-05-02.18:50:41::SCWMssOS::updating the scw layer about changes
+TRACE::2020-05-02.18:50:41::SCWMssOS::Opened the sw design.  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:41::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:41::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:41::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:50:41::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:41::SCWMssOS:: library already available in sw design:  xilffs:4.2
+TRACE::2020-05-02.18:50:41::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:41::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-05-02.18:50:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:41::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:50:41::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:41::SCWMssOS:: library already available in sw design:  xilrsa:1.5
+TRACE::2020-05-02.18:50:41::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-05-02.18:50:41::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-05-02.18:50:41::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:41::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:42::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:42::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-05-02.18:50:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:42::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:42::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:50:42::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:42::SCWReader::No isolation master present  
+TRACE::2020-05-02.18:50:42::SCWDomain::checking for install qemu data   : 
+TRACE::2020-05-02.18:50:42::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-05-02.18:50:42::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-05-02.18:50:42::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:42::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:42::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:42::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:42::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:42::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-05-02.18:50:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:42::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:42::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:42::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:42::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:42::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:42::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-05-02.18:50:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:42::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:50:42::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:50:42::SCWMssOS::No sw design opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:50:42::SCWMssOS::mss exists loading the mss file  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:50:42::SCWMssOS::Opened the sw design from mss  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:50:42::SCWMssOS::Adding the swdes entry C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-05-02.18:50:42::SCWMssOS::updating the scw layer about changes
+TRACE::2020-05-02.18:50:42::SCWMssOS::Opened the sw design.  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:50:42::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-05-02.18:50:42::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-05-02.18:50:42::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:42::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:42::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:42::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:42::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:42::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-05-02.18:50:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:42::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:50:42::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:50:42::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:50:42::SCWReader::No isolation master present  
+TRACE::2020-05-02.18:50:45::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:45::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:45::SCWPlatform:: Platform location is C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa
+TRACE::2020-05-02.18:50:45::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:45::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:48::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2020-05-02.18:50:48::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:48::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:48::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:48::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:48::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:48::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-05-02.18:50:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:48::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:48::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:48::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:48::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:48::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:48::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:48::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-05-02.18:50:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:49::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:50:49::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:49::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa
+TRACE::2020-05-02.18:50:49::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:49::SCWPlatform::update - Opened existing hwdb design_1_wrapper_1
+TRACE::2020-05-02.18:50:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:49::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2020-05-02.18:50:49::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:49::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:49::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-05-02.18:50:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:49::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:49::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2020-05-02.18:50:49::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2020-05-02.18:50:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:49::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:50:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:50:49::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:50:49::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa
+TRACE::2020-05-02.18:50:49::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:49::SCWPlatform::update - Opened existing hwdb design_1_wrapper_1
+TRACE::2020-05-02.18:50:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:49::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2020-05-02.18:50:49::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2020-05-02.18:50:49::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:49::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:49::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:49::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-05-02.18:50:52::SCWPlatform::Opened new HwDB with name design_1_wrapper_2
+TRACE::2020-05-02.18:50:52::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:52::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:52::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:52::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:52::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:52::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2020-05-02.18:50:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2020-05-02.18:50:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:52::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:50:52::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:52::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:52::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:52::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:52::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:52::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:52::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2020-05-02.18:50:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2020-05-02.18:50:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:52::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:50:52::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:50:52::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:52::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:52::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:52::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:50:52::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:50:52::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:50:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2020-05-02.18:50:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2020-05-02.18:50:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:50:52::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:50:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:50:52::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:50:52::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"a2a7fb1ba3bae783f29af0941283893a",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"992f864773402163fecd55454a557faf",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2020-05-02.18:51:10::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2020-05-02.18:51:10::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-05-02.18:51:10::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2020-05-02.18:51:10::SCWSystem::Checking the domain zynq_fsbl
+LOG::2020-05-02.18:51:10::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2020-05-02.18:51:10::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-05-02.18:51:10::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2020-05-02.18:51:10::SCWSystem::Checking the domain standalone_domain
+LOG::2020-05-02.18:51:10::SCWSystem::Not a boot domain 
+LOG::2020-05-02.18:51:10::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-05-02.18:51:10::SCWDomain::Generating domain artifcats
+TRACE::2020-05-02.18:51:10::SCWMssOS::Generating standalone artifcats
+TRACE::2020-05-02.18:51:10::SCWMssOS::Copying the qemu file from  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/resources/design_1_wrapper/standalone_domain/qemu_args.txt To C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/qemu/
+TRACE::2020-05-02.18:51:10::SCWMssOS::Copying the qemu file from  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/resources/design_1_wrapper/standalone_domain/qemu_args.txt To C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/qemu/
+TRACE::2020-05-02.18:51:10::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-05-02.18:51:10::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:10::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:10::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:10::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:51:10::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:10::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:51:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2020-05-02.18:51:10::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2020-05-02.18:51:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:51:10::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:51:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:51:10::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:51:10::SCWMssOS::Completed writing the mss file at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2020-05-02.18:51:10::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:51:10::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-05-02.18:51:10::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-05-02.18:51:10::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-05-02.18:51:10::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-05-02.18:51:10::SCWMssOS::Copying to export directory.
+TRACE::2020-05-02.18:51:11::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-05-02.18:51:11::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-05-02.18:51:11::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-05-02.18:51:11::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2020-05-02.18:51:11::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2020-05-02.18:51:11::SCWPlatform::Started preparing the platform 
+TRACE::2020-05-02.18:51:11::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2020-05-02.18:51:11::SCWSystem::dir created 
+TRACE::2020-05-02.18:51:11::SCWSystem::Writing the bif 
+TRACE::2020-05-02.18:51:11::SCWPlatform::Started writing the spfm file 
+TRACE::2020-05-02.18:51:11::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-05-02.18:51:11::SCWPlatform::Completed generating the platform
+TRACE::2020-05-02.18:51:11::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:11::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:11::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:11::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:51:11::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:11::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:51:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2020-05-02.18:51:11::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2020-05-02.18:51:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:51:11::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:51:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:51:11::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-05-02.18:51:11::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:11::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:11::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:11::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:51:11::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:11::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:51:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2020-05-02.18:51:11::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2020-05-02.18:51:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:51:11::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:51:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:51:11::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:51:11::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"a2a7fb1ba3bae783f29af0941283893a",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"992f864773402163fecd55454a557faf",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-05-02.18:51:11::SCWPlatform::updated the xpfm file.
+TRACE::2020-05-02.18:51:11::SCWPlatform::Trying to open the hw design at C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:11::SCWPlatform::DSA given C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:11::SCWPlatform::DSA absoulate path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:11::SCWPlatform::DSA directory C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw
+TRACE::2020-05-02.18:51:11::SCWPlatform:: Platform Path C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2020-05-02.18:51:11::SCWPlatform:: Unique name xilinx:zybo-z7-20::0.0
+TRACE::2020-05-02.18:51:11::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2020-05-02.18:51:11::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2020-05-02.18:51:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-05-02.18:51:11::SCWMssOS::Checking the sw design at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-05-02.18:51:11::SCWMssOS::DEBUG:  swdes dump  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-05-02.18:51:11::SCWMssOS::Sw design exists and opened at  C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss

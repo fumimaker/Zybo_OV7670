@@ -187,3 +187,13 @@ con
 
 20:23:27 INFO  : Launch script is exported to file 'C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\.sdk\launch_scripts\single_application_debug\systemdebugger_ov7670_vga_system_standalone.tcl'
 21:09:07 INFO  : Disconnected from the channel tcfchan#10.
+17:51:39 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ivr\Documents\GitHub\Zybo_OV7670\OV7670_VGA\temp_xsdb_launch_script.tcl
+17:51:44 INFO  : XSCT server has started successfully.
+17:51:44 INFO  : plnx-install-location is set to ''
+17:51:44 INFO  : Successfully done setting XSCT server connection channel  
+17:51:44 INFO  : Successfully done setting workspace for the tool. 
+17:51:45 INFO  : Registering command handlers for Vitis TCF services
+17:51:50 INFO  : Successfully done query RDI_DATADIR 
+18:50:22 INFO  : Checking for BSP changes to sync application flags for project 'OV7670_VGA'...
+18:50:52 INFO  : Hardware specification for platform project 'design_1_wrapper' is updated.
+18:51:11 INFO  : Checking for BSP changes to sync application flags for project 'OV7670_VGA'...
