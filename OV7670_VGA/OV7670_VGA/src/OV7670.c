@@ -38,29 +38,29 @@ int Init(void)
 
     Config = XIicPs_LookupConfig(IIC_DEVICE_ID);
     if(Config == NULL){
-        printf("Error: XIicPs_LookupConfig()\n");
+        printf("Error: XIicPs_LookupConfig()\n\r");
         return XST_FAILURE;
     }
 
     Status = XIicPs_CfgInitialize(&Iic, Config, Config->BaseAddress);
     if(Status != XST_SUCCESS){
-        printf("Error: XIicPs_CfgInitialize()\n");
+        printf("Error: XIicPs_CfgInitialize()\n\r");
         return XST_FAILURE;
     }
 
     Status = XIicPs_SelfTest(&Iic);
     if(Status != XST_SUCCESS){
-        printf("Error: XIicPs_SelfTest()\n");
+        printf("Error: XIicPs_SelfTest()\n\r");
         return XST_FAILURE;
     }
 
     XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
-    printf("I2C configuration done.\n");
+    printf("I2C configuration done.\n\r");
 
-    xil_printf("Soft Rest OV7670.\n");
+    xil_printf("Soft Rest OV7670.\n\r");
 	result = WriteReg(REG_COM7, COM7_RESET);
 	if(result != XST_SUCCESS){
-		xil_printf("Error: OV767 RESET\n");
+		xil_printf("Error: OV767 RESET\n\r");
 		return XST_FAILURE;
 	}
 	usleep(300*1000);
@@ -77,7 +77,7 @@ int i2c_write(XIicPs *Iic, u8 _register, u8 _command)
 
     Status = XIicPs_MasterSendPolled(Iic, buffer, 2, OV7670_ADDRESS);
     if(Status != XST_SUCCESS){
-		xil_printf("WriteReg:I2C Write Fail\n");
+		xil_printf("WriteReg:I2C Write Fail\n\r");
 		return XST_FAILURE;
 	}
 
@@ -138,11 +138,11 @@ void DumpReg(void)
         int data ;
         data = ReadReg(i) ; // READ REG
         if ((i & 0x0F) == 0) {
-            xil_printf("\n%02X : ", i) ;
+            xil_printf("\n\r%02X : ", i) ;
         }
         xil_printf("%02X ",data) ;
     }
-    xil_printf("\n") ;
+    xil_printf("\n\r") ;
 
 }
 
@@ -303,6 +303,7 @@ void InitDefaultReg(void) {
     WriteReg(0x79, 0x05);
     WriteReg(0xc8, 0x30);
     WriteReg(0x79, 0x26);
+    xil_printf("Init Default Register\n\r");
 }
 
 void InitRGB565(void){
@@ -321,6 +322,7 @@ void InitRGB565(void){
     WriteReg(0x53, 0xa7);          // "matrix coefficient 5"
     WriteReg(0x54, 0xe4);          // "matrix coefficient 6"
     WriteReg(REG_COM13, COM13_GAMMA|COM13_UVSAT);
+    xil_printf("RGB565\n\r");
 }
 
 
@@ -341,6 +343,7 @@ void InitVGA(void) {
     WriteReg(REG_SCALING_DCWCTR, SCALING_DCWCTR_VGA);
     WriteReg(REG_SCALING_PCLK_DIV, SCALING_PCLK_DIV_VGA);
     WriteReg(REG_SCALING_PCLK_DELAY, SCALING_PCLK_DELAY_VGA);
+    xil_printf("InitVGA\n\r");
 }
 
 
@@ -361,6 +364,7 @@ void InitQVGA(void) {
     WriteReg(REG_SCALING_DCWCTR, SCALING_DCWCTR_QVGA);
     WriteReg(REG_SCALING_PCLK_DIV, SCALING_PCLK_DIV_QVGA);	// Divided by 2
     WriteReg(REG_SCALING_PCLK_DELAY, SCALING_PCLK_DELAY_QVGA);
+    xil_printf("InitQVGA\n\r");
 }
 
 

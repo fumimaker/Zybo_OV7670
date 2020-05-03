@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Sat May  2 19:56:34 2020
-| Host         : LAPTOP-AG87OV99 running 64-bit major release  (build 9200)
+| Date         : Mon May  4 00:31:39 2020
+| Host         : FUMIMAKER6BEE running 64-bit major release  (build 9200)
 | Command      : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
 | Design       : design_1_wrapper
 | Device       : xc7z020clg400-1
@@ -53,37 +53,37 @@ Related violations: <none>
 
 IOSR-1#1 Warning
 IOB set reset sharing  
-IO data[0] connects to flops which have these u_ila_0/inst/ila_core_inst/use_probe_debug_circuit, RST_IBUF set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+IO data[0] connects to flops which have these RST_IBUF, u_ila_0/inst/ila_core_inst/use_probe_debug_circuit set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 IOSR-1#2 Warning
 IOB set reset sharing  
-IO data[1] connects to flops which have these u_ila_0/inst/ila_core_inst/use_probe_debug_circuit, RST_IBUF set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+IO data[1] connects to flops which have these RST_IBUF, u_ila_0/inst/ila_core_inst/use_probe_debug_circuit set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 IOSR-1#3 Warning
 IOB set reset sharing  
-IO data[2] connects to flops which have these u_ila_0/inst/ila_core_inst/use_probe_debug_circuit, RST_IBUF set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+IO data[2] connects to flops which have these RST_IBUF, u_ila_0/inst/ila_core_inst/use_probe_debug_circuit set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 IOSR-1#4 Warning
 IOB set reset sharing  
-IO data[4] connects to flops which have these u_ila_0/inst/ila_core_inst/use_probe_debug_circuit, RST_IBUF set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+IO data[4] connects to flops which have these RST_IBUF, u_ila_0/inst/ila_core_inst/use_probe_debug_circuit set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 IOSR-1#5 Warning
 IOB set reset sharing  
-IO data[5] connects to flops which have these u_ila_0/inst/ila_core_inst/use_probe_debug_circuit, RST_IBUF set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+IO data[5] connects to flops which have these RST_IBUF, u_ila_0/inst/ila_core_inst/use_probe_debug_circuit set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 IOSR-1#6 Warning
 IOB set reset sharing  
-IO data[6] connects to flops which have these u_ila_0/inst/ila_core_inst/use_probe_debug_circuit, RST_IBUF set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+IO data[6] connects to flops which have these RST_IBUF, u_ila_0/inst/ila_core_inst/use_probe_debug_circuit set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 IOSR-1#7 Warning
 IOB set reset sharing  
-IO data[7] connects to flops which have these u_ila_0/inst/ila_core_inst/use_probe_debug_circuit, RST_IBUF set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+IO data[7] connects to flops which have these RST_IBUF, u_ila_0/inst/ila_core_inst/use_probe_debug_circuit set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 PLCK-12#1 Warning
