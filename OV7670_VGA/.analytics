@@ -27,3 +27,10 @@ timestamp=[2020-05-04 00:59:18], mode=PLATFORM_GENERATION, duration=0:00:48.374,
 timestamp=[2020-05-04 01:19:57], mode=PLATFORM_GENERATION, duration=0:00:07.489, duration_ms=7489, data={name=design_1_wrapper}
 timestamp=[2020-05-04 01:22:32], mode=PLATFORM_GENERATION, duration=0:02:03.640, duration_ms=123640, data={name=design_1_wrapper}
 timestamp=[2020-05-04 01:23:34], mode=PLATFORM_GENERATION, duration=0:00:03.657, duration_ms=3657, data={name=design_1_wrapper}
+timestamp=[2020-05-04 19:50:54], mode=WORKBENCH_START, duration=0:00:21.947, duration_ms=21947, data={}
+timestamp=[2020-05-04 19:50:56], mode=WORKBENCH_UI_INIT, duration=0:00:01.996, duration_ms=1996, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=OV7670_VGA,OV7670_VGA_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2020-05-04 21:31:26], mode=PLATFORM_GENERATION, duration=0:00:04.166, duration_ms=4166, data={name=design_1_wrapper}
+timestamp=[2020-05-04 23:05:30], mode=PLATFORM_GENERATION, duration=0:00:06.461, duration_ms=6461, data={name=design_1_wrapper}
+timestamp=[2020-05-04 23:05:46], mode=PLATFORM_GENERATION, duration=0:00:03.143, duration_ms=3143, data={name=design_1_wrapper}
+timestamp=[2020-05-04 23:07:46], mode=PLATFORM_GENERATION, duration=0:01:28.913, duration_ms=88913, data={name=design_1_wrapper}
+timestamp=[2020-05-04 23:38:34], mode=PLATFORM_GENERATION, duration=0:00:03.608, duration_ms=3608, data={name=design_1_wrapper}
