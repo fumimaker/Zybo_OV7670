@@ -46,6 +46,7 @@ module ov7670_IF(
             address_next <= 19'd0;
             wr_hold <= 2'd0;
             WENA <= 0;
+            ENA <= 1;
         end else begin
             if(CAM_VSYNC) begin
                 address <= 19'd0;
@@ -56,7 +57,7 @@ module ov7670_IF(
                 address <= address_next;
                 WENA <= wr_hold[1];
                 wr_hold <= {wr_hold[0], (CAM_HREF & ~wr_hold[0])};
-                data_in <= {data_in[7:0], data};
+                data_in <= {data_in[7:4], data_in[2:0], data[7], data[4:1]};
                 if (wr_hold) begin
                     address_next <= address_next + 1;
                 end
