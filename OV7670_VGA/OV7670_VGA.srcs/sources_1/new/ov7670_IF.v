@@ -35,7 +35,7 @@ module ov7670_IF(
     reg [18:0] address;
     reg [18:0] address_next;
     reg [1:0] wr_hold;
-    reg [16:0] data_in;
+    reg [11:0] data_in;
     
     assign ADDR = address;
 
