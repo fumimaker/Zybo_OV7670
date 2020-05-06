@@ -1,4 +1,4 @@
-01:34:04 **** Incremental Build of configuration Debug for project OV7670_VGA_system ****
+02:37:29 **** Incremental Build of configuration Debug for project OV7670_VGA_system ****
 make all 
 Generating bif file for the system project
 generate_system_bif.bat 49815 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif
@@ -11,5 +11,5 @@ xpfm path is not valid
     (file "C:/Xilinx/Vitis/2019.2\scripts\vitis\util\generate_system_bif.tcl" line 25)
 make: *** [makefile:36: sd_card] Error 1
 
-01:34:06 Build Finished (took 2s.243ms)
+02:37:32 Build Finished (took 2s.486ms)
 
