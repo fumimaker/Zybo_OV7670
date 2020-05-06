@@ -35,8 +35,8 @@ module ov7670_IF(
     reg [18:0] address;
     reg [18:0] address_next;
     reg [1:0] wr_hold;
-    reg [11:0] data_in;
-    
+    reg [15:0] data_in;
+    reg [7:0] buff;
     assign ADDR = address;
 
     //アイパッドに書いた波形のアルゴリズムを実装するだけ。 posedge CAM_PCLK
@@ -53,11 +53,11 @@ module ov7670_IF(
                 address_next <= 19'd0;
                 wr_hold <= 2'd0;
             end else begin
-                DATA_OUT <= data_in;
+                DATA_OUT <= {data_in[15:12], data_in[10:7], data_in[4:1]};
                 address <= address_next;
                 WENA <= wr_hold[1];
                 wr_hold <= {wr_hold[0], (CAM_HREF & ~wr_hold[0])};
-                data_in <= {data_in[7:4], data_in[2:0], data[7], data[4:1]};
+                data_in <= {data_in[7:0], data};
                 if (wr_hold) begin
                     address_next <= address_next + 1;
                 end
