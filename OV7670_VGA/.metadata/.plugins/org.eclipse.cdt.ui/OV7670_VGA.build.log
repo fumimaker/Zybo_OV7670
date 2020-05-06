@@ -1,4 +1,4 @@
-23:38:34 **** Incremental Build of configuration Debug for project OV7670_VGA ****
+01:11:43 **** Incremental Build of configuration Debug for project OV7670_VGA ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -6,5 +6,5 @@ a9-linaro-pre-build-step
 make --no-print-directory main-build
 make[1]: Nothing to be done for 'main-build'.
 
-23:38:34 Build Finished (took 520ms)
+01:11:44 Build Finished (took 406ms)
 

@@ -25,28 +25,46 @@ module ov7670_IF(
     input wire CAM_HREF,
     input wire CAM_VSYNC,
     input wire [7:0] data,
+    output wire [18:0] ADDR,
     output reg [11:0] DATA_OUT,
-    output reg [18:0] ADDR,
     output reg ENA,
     output reg WENA,
     output wire CAM_XCLK
     );
     
-    reg [9:0] HCNT, VCNT;
-    reg firstByteEn;
+    reg [18:0] address;
+    reg [18:0] address_next;
+    reg [1:0] wr_hold;
+    reg [16:0] data_in;
+    
+    assign ADDR = address;
 
     //アイパッドに書いた波形のアルゴリズムを実装するだけ。 posedge CAM_PCLK
     always @( posedge CAM_PCLK ) begin
-        if (RST) begin
-            DATA_OUT <= 12'b0;
-            ENA <= 1;
-            WENA <= 0; //まだ書き込み禁止
-            firstByteEn <= 1;
-            HCNT <= 10'd0;
-            VCNT <= 10'd0;
-            ADDR <= 19'b0;
+        if(RST) begin
+            address <= 19'd0;
+            address_next <= 19'd0;
+            wr_hold <= 2'd0;
+            WENA <= 0;
+        end else begin
+            if(CAM_VSYNC) begin
+                address <= 19'd0;
+                address_next <= 19'd0;
+                wr_hold <= 2'd0;
+            end else begin
+                DATA_OUT <= data_in;
+                address <= address_next;
+                WENA <= wr_hold[1];
+                wr_hold <= {wr_hold[0], (CAM_HREF & ~wr_hold[0])};
+                data_in <= {data_in[7:0], data};
+                if (wr_hold) begin
+                    address_next <= address_next + 1;
+                end
+            end
         end
-        else begin
+    end 
+        
+        /*else begin
             if (CAM_HREF) begin
                 if (firstByteEn) begin
                     // 7bit{Red4bit + Green上位3ビット} + 00000=12bit
@@ -72,12 +90,14 @@ module ov7670_IF(
         if (CAM_VSYNC) begin
             if (VCNT==480-1) begin //最終ピクセル
                 VCNT <= 10'd0;
+                ADDR <= 19'd0;
             end
             else begin //まだ途中なのでHCNTをリセット
                 VCNT <= VCNT + 10'd1;
             end
         end
-    end
+    end*/
+    
 /*
     //HREFの立下りで列数をカウント negedge CAM_HREF
     always @(posedge PCLK) begin
