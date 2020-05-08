@@ -29,7 +29,7 @@ module vga_out(
     output  wire          VGA_HS,
     output  wire          VGA_VS,
     input    wire  [11:0]  DATAB,
-    output  wire    [18:0] ADDR,
+    output  reg    [18:0] ADDR,
     output  wire            ENB,
     input    wire           CLK25_175MHZ
     );
@@ -59,21 +59,28 @@ syncgen syncgen_inst(
 wire [9:0] HBLANK = HFRONT + HWIDTH + HBACK;
 wire [9:0] VBLANK = VFRONT + VWIDTH + VBACK;
 
-wire disp_enable = (VBLANK <= VCNT) &&
+(* mark_debug = "true" *) wire disp_enable = (VBLANK <= VCNT) &&
     (HBLANK-10'd1 <= HCNT) && (HCNT < HPERIOD-10'd1);
+
+(* mark_debug = "true" *) wire frame_end = VCNT >= VPERIOD-10'd1;
 
 /*BRAM?øΩ«Ç›èo?øΩ?øΩ?øΩÕÇÔøΩ?øΩ?øΩ?øΩ∆óL?øΩ?øΩ*/
 assign ENB = 1;
-assign ADDR = HCNT + VCNT*640;
 
 always @( posedge PCK ) begin
-    if ( RST )
+    if ( RST ) begin
         {VGA_R, VGA_G, VGA_B} <= 12'h000;
+        ADDR <= 19'd0;
+    end
     else if ( disp_enable ) begin
         //{VGA_R, VGA_G, VGA_B} <= {DATAB[11:8], DATAB[7:4], DATAB[3:0]};
         VGA_R <= DATAB[11:8];
         VGA_G <= DATAB[7:4];
         VGA_B <= DATAB[3:0];
+        ADDR <= ADDR + 1;
+    end
+    else if (frame_end) begin
+        ADDR <= 19'd0;
     end
     else
         {VGA_R, VGA_G, VGA_B} <= 12'h000;

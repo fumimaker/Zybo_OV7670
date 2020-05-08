@@ -41,18 +41,19 @@ always @( posedge PCK ) begin
         HCNT <= 10'h000;
     else if ( hcntend )
         HCNT <= 10'h000;
-    else
+    else begin
         HCNT <= HCNT + 10'h001;
+    end
 end
 
 /* ?????J?E???^ */
 always @( posedge PCK ) begin
-    if ( RST )
+    if ( RST ) begin
         VCNT <= 10'h000;
-    else if ( hcntend ) begin
-        if ( VCNT == VPERIOD - 10'h001 )
+    end else if ( hcntend ) begin
+        if ( VCNT == VPERIOD - 10'h001 ) begin
             VCNT <= 10'h000;
-        else
+        end else
             VCNT <= VCNT + 10'h001;
     end
 end

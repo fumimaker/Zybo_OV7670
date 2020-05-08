@@ -18,9 +18,9 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 4120 
+INFO: Helper process launched with PID 7728 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1009.164 ; gain = 235.027
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1008.516 ; gain = 233.051
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
@@ -30,14 +30,14 @@ INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2019.2/script
 	Parameter SLEW bound to: SLOW - type: string 
 INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (1#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_1' [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/.Xil/Vivado-7072-FUMIMAKER6BEE/realtime/design_1_processing_system7_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_1' (2#1) [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/.Xil/Vivado-7072-FUMIMAKER6BEE/realtime/design_1_processing_system7_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_1' [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/.Xil/Vivado-8220-FUMIMAKER6BEE/realtime/design_1_processing_system7_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_1' (2#1) [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/.Xil/Vivado-8220-FUMIMAKER6BEE/realtime/design_1_processing_system7_0_1_stub.v:6]
 WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_processing_system7_0_1' has 71 connections declared, but only 41 given [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/synth/design_1.v:104]
 INFO: [Synth 8-6155] done synthesizing module 'design_1' (3#1) [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/.Xil/Vivado-7072-FUMIMAKER6BEE/realtime/blk_mem_gen_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (4#1) [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/.Xil/Vivado-7072-FUMIMAKER6BEE/realtime/blk_mem_gen_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/.Xil/Vivado-7072-FUMIMAKER6BEE/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (5#1) [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/.Xil/Vivado-7072-FUMIMAKER6BEE/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/.Xil/Vivado-8220-FUMIMAKER6BEE/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (4#1) [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/.Xil/Vivado-8220-FUMIMAKER6BEE/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/.Xil/Vivado-8220-FUMIMAKER6BEE/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (5#1) [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/.Xil/Vivado-8220-FUMIMAKER6BEE/realtime/clk_wiz_0_stub.v:5]
 INFO: [Synth 8-6157] synthesizing module 'vga_out' [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/new/vga_out.v:23]
 	Parameter HPERIOD bound to: 10'b1100100000 
 	Parameter HFRONT bound to: 10'b0000010000 
@@ -68,7 +68,7 @@ WARNING: [Synth 8-3331] design ov7670_IF has unconnected port CAM_XCLK
 WARNING: [Synth 8-3331] design ov7670_IF has unconnected port CLK
 WARNING: [Synth 8-3331] design syncgen has unconnected port CLK
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1085.199 ; gain = 311.063
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1084.852 ; gain = 309.387
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -81,14 +81,14 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1085.199 ; gain = 311.063
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1084.852 ; gain = 309.387
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1085.199 ; gain = 311.063
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1084.852 ; gain = 309.387
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1085.199 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1084.852 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -103,32 +103,32 @@ Parsing XDC File [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new
 WARNING: [Vivado 12-507] No nets matched 'CAM_PCLK_IBUF'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:31]
 WARNING: [Vivado 12-507] No nets matched 'CAM_HREF_IBUF'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:86]
 WARNING: [Vivado 12-507] No nets matched 'CAM_VSYNC_IBUF'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:87]
-WARNING: [Vivado 12-507] No nets matched 'data_IBUF[0]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:88]
-WARNING: [Vivado 12-507] No nets matched 'data_IBUF[6]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:89]
-WARNING: [Vivado 12-507] No nets matched 'data_IBUF[5]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:90]
-WARNING: [Vivado 12-507] No nets matched 'RST_IBUF'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:105]
-WARNING: [Vivado 12-507] No nets matched '<const1>'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:121]
-WARNING: [Vivado 12-507] No nets matched 'CAM_PCLK_IBUF_BUFG'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:122]
-WARNING: [Vivado 12-507] No nets matched 'VGA_B_OBUF[1]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:133]
-WARNING: [Vivado 12-507] No nets matched 'VGA_R_OBUF[0]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:134]
-WARNING: [Vivado 12-507] No nets matched 'VGA_G_OBUF[2]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:138]
-WARNING: [Vivado 12-507] No nets matched 'VGA_VSYNC_OBUF'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:140]
-WARNING: [Vivado 12-507] No nets matched 'VGA_B_OBUF[3]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:145]
-WARNING: [Vivado 12-507] No nets matched 'VGA_G_OBUF[1]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:146]
-WARNING: [Vivado 12-507] No nets matched 'VGA_R_OBUF[2]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:147]
-WARNING: [Vivado 12-507] No nets matched 'VGA_B_OBUF[2]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:148]
-WARNING: [Vivado 12-507] No nets matched 'VGA_G_OBUF[0]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:149]
-WARNING: [Vivado 12-507] No nets matched 'VGA_R_OBUF[1]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:150]
-WARNING: [Vivado 12-507] No nets matched 'VGA_HSYNC_OBUF'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:151]
-WARNING: [Vivado 12-507] No nets matched 'VGA_B_OBUF[0]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:157]
-WARNING: [Vivado 12-507] No nets matched 'VGA_R_OBUF[3]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:158]
-WARNING: [Vivado 12-507] No nets matched 'VGA_G_OBUF[3]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:159]
-WARNING: [Vivado 12-507] No nets matched 'CAM_XCLK_OBUF'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:161]
-WARNING: [Vivado 12-507] No nets matched 'data_IBUF[1]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:303]
-WARNING: [Vivado 12-507] No nets matched 'data_IBUF[2]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:304]
-WARNING: [Vivado 12-507] No nets matched 'data_IBUF[3]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:305]
-WARNING: [Vivado 12-507] No nets matched 'data_IBUF[4]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:306]
-WARNING: [Vivado 12-507] No nets matched 'data_IBUF[7]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:307]
+WARNING: [Vivado 12-507] No nets matched 'RST_IBUF'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:102]
+WARNING: [Vivado 12-507] No nets matched '<const1>'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:118]
+WARNING: [Vivado 12-507] No nets matched 'CAM_PCLK_IBUF_BUFG'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:119]
+WARNING: [Vivado 12-507] No nets matched 'VGA_B_OBUF[1]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:130]
+WARNING: [Vivado 12-507] No nets matched 'VGA_R_OBUF[0]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:131]
+WARNING: [Vivado 12-507] No nets matched 'VGA_G_OBUF[2]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:135]
+WARNING: [Vivado 12-507] No nets matched 'VGA_VSYNC_OBUF'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:137]
+WARNING: [Vivado 12-507] No nets matched 'VGA_B_OBUF[3]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:142]
+WARNING: [Vivado 12-507] No nets matched 'VGA_G_OBUF[1]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:143]
+WARNING: [Vivado 12-507] No nets matched 'VGA_R_OBUF[2]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:144]
+WARNING: [Vivado 12-507] No nets matched 'VGA_B_OBUF[2]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:145]
+WARNING: [Vivado 12-507] No nets matched 'VGA_G_OBUF[0]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:146]
+WARNING: [Vivado 12-507] No nets matched 'VGA_R_OBUF[1]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:147]
+WARNING: [Vivado 12-507] No nets matched 'VGA_HSYNC_OBUF'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:148]
+WARNING: [Vivado 12-507] No nets matched 'VGA_B_OBUF[0]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:154]
+WARNING: [Vivado 12-507] No nets matched 'VGA_R_OBUF[3]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:155]
+WARNING: [Vivado 12-507] No nets matched 'VGA_G_OBUF[3]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:156]
+WARNING: [Vivado 12-507] No nets matched 'CAM_XCLK_OBUF'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:158]
+WARNING: [Vivado 12-507] No nets matched 'data_IBUF[0]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:180]
+WARNING: [Vivado 12-507] No nets matched 'data_IBUF[1]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:181]
+WARNING: [Vivado 12-507] No nets matched 'data_IBUF[2]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:182]
+WARNING: [Vivado 12-507] No nets matched 'data_IBUF[3]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:183]
+WARNING: [Vivado 12-507] No nets matched 'data_IBUF[4]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:184]
+WARNING: [Vivado 12-507] No nets matched 'data_IBUF[5]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:185]
+WARNING: [Vivado 12-507] No nets matched 'data_IBUF[6]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:186]
+WARNING: [Vivado 12-507] No nets matched 'data_IBUF[7]'. [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc:187]
 Finished Parsing XDC File [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc]
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/design_1_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
@@ -137,21 +137,21 @@ Parsing XDC File [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/dont_
 Finished Parsing XDC File [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1186.004 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1192.684 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 2 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1186.004 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1192.684 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1186.004 ; gain = 411.867
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1186.004 ; gain = 411.867
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -418,24 +418,24 @@ Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint fi
 Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint file  c:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 261).
 Applied set_property IO_BUFFER_TYPE = NONE for CLK. (constraint file  c:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
 Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK. (constraint file  c:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
-Applied set_property MARK_DEBUG = true for BRAM_ADDRA[7]. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 91).
-Applied set_property MARK_DEBUG = true for BRAM_DATAA[6]. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 92).
-Applied set_property MARK_DEBUG = true for clk_25_175MHZ. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 94).
-Applied set_property MARK_DEBUG = true for BRAM_WENA. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 104).
-Applied set_property MARK_DEBUG = true for BRAM_ADDRB[1]. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 127).
-Applied set_property MARK_DEBUG = true for BRAM_DATAB[0]. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 162).
-Applied set_property MARK_DEBUG = true for IIC_0_0_sda_o. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 174).
-Applied set_property MARK_DEBUG = true for IIC_0_0_sda_t. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 175).
-Applied set_property MARK_DEBUG = true for IIC_0_0_sda_i. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 176).
-Applied set_property MARK_DEBUG = true for IIC_0_0_scl_i. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 177).
-Applied set_property MARK_DEBUG = true for IIC_0_0_scl_t. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 178).
-Applied set_property MARK_DEBUG = true for IIC_0_0_scl_o. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 179).
+Applied set_property MARK_DEBUG = true for BRAM_ADDRA[7]. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 88).
+Applied set_property MARK_DEBUG = true for BRAM_DATAA[6]. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 89).
+Applied set_property MARK_DEBUG = true for clk_25_175MHZ. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 91).
+Applied set_property MARK_DEBUG = true for BRAM_WENA. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 101).
+Applied set_property MARK_DEBUG = true for BRAM_ADDRB[1]. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 124).
+Applied set_property MARK_DEBUG = true for BRAM_DATAB[0]. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 159).
+Applied set_property MARK_DEBUG = true for IIC_0_0_sda_o. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 171).
+Applied set_property MARK_DEBUG = true for IIC_0_0_sda_t. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 172).
+Applied set_property MARK_DEBUG = true for IIC_0_0_sda_i. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 173).
+Applied set_property MARK_DEBUG = true for IIC_0_0_scl_i. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 174).
+Applied set_property MARK_DEBUG = true for IIC_0_0_scl_t. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 175).
+Applied set_property MARK_DEBUG = true for IIC_0_0_scl_o. (constraint file  C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/constrs_1/new/port.xdc, line 176).
 Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for blk_mem_gen_0_inst. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for clk_wiz_0_inst. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1186.004 ; gain = 411.867
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ov7670_IF_inst'. This will prevent further optimization [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:219]
 INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'blk_mem_gen_0_inst'. This will prevent further optimization [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:183]
@@ -445,7 +445,7 @@ INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance '
 INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'IIC_0_0_sda_iobuf'. This will prevent further optimization [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:134]
 INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'IIC_0_0_scl_iobuf'. This will prevent further optimization [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:129]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1186.004 ; gain = 411.867
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -469,7 +469,7 @@ Detailed RTL Component Info :
 	                1 Bit    Registers := 4     
 +---Muxes : 
 	   2 Input      4 Bit        Muxes := 3     
-	   2 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 6     
 	   3 Input      1 Bit        Muxes := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -494,6 +494,7 @@ Detailed RTL Component Info :
 	                4 Bit    Registers := 3     
 +---Muxes : 
 	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 2     
 Module ov7670_IF 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -520,11 +521,6 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-DSP Report: Generating DSP ADDR, operation Mode is: C'+A2*(B:0x280).
-DSP Report: register syncgen_inst/VCNT_reg is absorbed into DSP ADDR.
-DSP Report: register syncgen_inst/HCNT_reg is absorbed into DSP ADDR.
-DSP Report: operator ADDR is absorbed into DSP ADDR.
-DSP Report: operator ADDR0 is absorbed into DSP ADDR.
 WARNING: [Synth 8-3331] design ov7670_IF has unconnected port CAM_XCLK
 WARNING: [Synth 8-3331] design ov7670_IF has unconnected port CLK
 WARNING: [Synth 8-3331] design vga_out has unconnected port CLK
@@ -535,22 +531,7 @@ INFO: [Synth 8-3886] merging instance 'ov7670_IF_inst/data_in_reg[15]' (FDE) to 
 INFO: [Synth 8-3886] merging instance 'ov7670_IF_inst/data_in_reg[11]' (FDE) to 'ov7670_IF_inst/DATA_OUT_reg[2]'
 INFO: [Synth 8-3333] propagating constant 1 across sequential element (ov7670_IF_inst/ENA_reg)
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1186.004 ; gain = 411.867
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start ROM, RAM, DSP and Shift Register Reporting
----------------------------------------------------------------------------------
-
-DSP: Preliminary Mapping	Report (see note below)
-+------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|Module Name | DSP Mapping     | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
-+------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|vga_out     | C'+A2*(B:0x280) | 10     | 10     | 10     | -      | 19     | 1    | 0    | 1    | -    | -     | 0    | 0    | 
-+------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-
-Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
----------------------------------------------------------------------------------
-Finished ROM, RAM, DSP and Shift Register Reporting
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -562,13 +543,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1207.320 ; gain = 433.184
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 1227.629 ; gain = 453.492
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -580,7 +561,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 1228.777 ; gain = 454.641
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -603,15 +584,15 @@ Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-5396] Clock pin CLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/new/syncgen.v:38]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sources_1/new/vga_out.v:72]
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1233.578 ; gain = 459.441
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1233.578 ; gain = 459.441
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -630,25 +611,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1233.578 ; gain = 459.441
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1233.578 ; gain = 459.441
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1233.578 ; gain = 459.441
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1233.578 ; gain = 459.441
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -671,44 +652,43 @@ Report Cell Usage:
 |2     |clk_wiz_0                       |     1|
 |3     |design_1_processing_system7_0_1 |     1|
 |4     |BUFG                            |     1|
-|5     |CARRY4                          |     5|
-|6     |DSP48E1                         |     1|
-|7     |LUT1                            |     2|
-|8     |LUT2                            |     8|
-|9     |LUT3                            |     2|
-|10    |LUT4                            |     6|
-|11    |LUT5                            |     8|
-|12    |LUT6                            |    27|
-|13    |FDRE                            |    96|
-|14    |FDSE                            |     2|
-|15    |IBUF                            |    12|
-|16    |IOBUF                           |     2|
-|17    |OBUF                            |    15|
+|5     |CARRY4                          |    10|
+|6     |LUT1                            |     3|
+|7     |LUT2                            |    10|
+|8     |LUT3                            |     2|
+|9     |LUT4                            |     5|
+|10    |LUT5                            |     8|
+|11    |LUT6                            |    33|
+|12    |FDRE                            |   115|
+|13    |FDSE                            |     2|
+|14    |IBUF                            |    12|
+|15    |IOBUF                           |     2|
+|16    |OBUF                            |    15|
 +------+--------------------------------+------+
 
 Report Instance Areas: 
 +------+-----------------+----------+------+
 |      |Instance         |Module    |Cells |
 +------+-----------------+----------+------+
-|1     |top              |          |   396|
+|1     |top              |          |   427|
 |2     |  design_1_i     |design_1  |   195|
-|3     |  vga_out_inst   |vga_out   |    82|
-|4     |    syncgen_inst |syncgen   |    69|
+|3     |  vga_out_inst   |vga_out   |   113|
+|4     |    syncgen_inst |syncgen   |    76|
 |5     |  ov7670_IF_inst |ov7670_IF |    75|
 +------+-----------------+----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1233.578 ; gain = 459.441
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1192.684 ; gain = 417.219
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 1233.578 ; gain = 358.637
-Synthesis Optimization Complete : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1233.578 ; gain = 459.441
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:37 . Memory (MB): peak = 1192.684 ; gain = 309.387
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 1192.684 ; gain = 417.219
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1233.578 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1192.684 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1249.320 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1206.473 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 2 instances
@@ -716,10 +696,12 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 48 Infos, 39 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 1249.320 ; gain = 774.969
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1249.320 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1206.473 ; gain = 732.156
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1206.473 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu May  7 02:05:16 2020...
+INFO: [Common 17-206] Exiting Vivado at Sat May  9 00:43:21 2020...

@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Thu May  7 02:29:58 2020
+| Date             : Sat May  9 00:49:28 2020
 | Host             : FUMIMAKER6BEE running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.699        |
+| Total On-Chip Power (W)  | 1.702        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.542        |
+| Dynamic (W)              | 1.545        |
 | Device Static (W)        | 0.157        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 65.4         |
@@ -52,24 +52,23 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.013 |       12 |       --- |             --- |
-| Slice Logic              |     0.001 |    11243 |       --- |             --- |
-|   LUT as Logic           |     0.001 |     3216 |     53200 |            6.05 |
-|   Register               |    <0.001 |     5314 |    106400 |            4.99 |
-|   CARRY4                 |    <0.001 |      136 |     13300 |            1.02 |
-|   LUT as Shift Register  |    <0.001 |      360 |     17400 |            2.07 |
+| Clocks                   |     0.014 |       12 |       --- |             --- |
+| Slice Logic              |     0.002 |    11856 |       --- |             --- |
+|   LUT as Logic           |     0.001 |     3377 |     53200 |            6.35 |
+|   Register               |    <0.001 |     5594 |    106400 |            5.26 |
+|   LUT as Shift Register  |    <0.001 |      406 |     17400 |            2.33 |
+|   CARRY4                 |    <0.001 |      151 |     13300 |            1.14 |
+|   F7/F8 Muxes            |    <0.001 |      140 |     53200 |            0.26 |
 |   LUT as Distributed RAM |    <0.001 |       24 |     17400 |            0.14 |
 |   BUFG                   |    <0.001 |        1 |        32 |            3.13 |
-|   F7/F8 Muxes            |    <0.001 |      162 |     53200 |            0.30 |
-|   Others                 |     0.000 |     1211 |       --- |             --- |
-| Signals                  |     0.007 |     8632 |       --- |             --- |
-| Block RAM                |     0.003 |    126.5 |       140 |           90.36 |
+|   Others                 |     0.000 |     1266 |       --- |             --- |
+| Signals                  |     0.007 |     9105 |       --- |             --- |
+| Block RAM                |     0.004 |      133 |       140 |           95.00 |
 | MMCM                     |     0.115 |        1 |         4 |           25.00 |
-| DSPs                     |    <0.001 |        1 |       220 |            0.45 |
 | I/O                      |     0.004 |       30 |       125 |           24.00 |
 | PS7                      |     1.399 |        1 |       --- |             --- |
 | Static Power             |     0.157 |          |           |                 |
-| Total                    |     1.699 |          |           |                 |
+| Total                    |     1.702 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -79,7 +78,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.044 |       0.024 |      0.019 |
+| Vccint    |       1.000 |     0.046 |       0.027 |      0.019 |
 | Vccaux    |       1.800 |     0.079 |       0.064 |      0.015 |
 | Vcco33    |       3.300 |     0.002 |       0.001 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -88,7 +87,7 @@ Table of Contents
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.009 |       0.000 |      0.009 |
+| Vccbram   |       1.000 |     0.010 |       0.000 |      0.009 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
@@ -164,7 +163,7 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| design_1_wrapper         |     1.542 |
+| design_1_wrapper         |     1.545 |
 |   blk_mem_gen_0_inst     |     0.003 |
 |     U0                   |     0.003 |
 |       inst_blk_mem_gen   |     0.003 |
@@ -177,12 +176,12 @@ Table of Contents
 |     processing_system7_0 |     1.399 |
 |       inst               |     1.399 |
 |   ov7670_IF_inst         |     0.005 |
-|   u_ila_0                |     0.005 |
-|     inst                 |     0.005 |
-|       ila_core_inst      |     0.005 |
-|   u_ila_1                |     0.005 |
-|     inst                 |     0.005 |
-|       ila_core_inst      |     0.005 |
+|   u_ila_0                |     0.006 |
+|     inst                 |     0.006 |
+|       ila_core_inst      |     0.006 |
+|   u_ila_1                |     0.006 |
+|     inst                 |     0.006 |
+|       ila_core_inst      |     0.006 |
 |   u_ila_2                |     0.004 |
 |     inst                 |     0.004 |
 |       ila_core_inst      |     0.004 |
