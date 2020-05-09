@@ -58,8 +58,8 @@ module ov7670_IF(
                 WENA <= wr_hold[1];
                 wr_hold <= {wr_hold[0], (CAM_HREF & ~wr_hold[0])};
                 data_in <= {data_in[7:0], data};
-                if (wr_hold) begin
-                    address_next <= address_next + 1;
+                if (wr_hold[1]==1) begin
+                    address_next <= address_next + 19'd1;
                 end
             end
         end

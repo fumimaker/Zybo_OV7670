@@ -62,7 +62,7 @@ wire [9:0] VBLANK = VFRONT + VWIDTH + VBACK;
 (* mark_debug = "true" *) wire disp_enable = (VBLANK <= VCNT) &&
     (HBLANK-10'd1 <= HCNT) && (HCNT < HPERIOD-10'd1);
 
-(* mark_debug = "true" *) wire frame_end = VCNT >= VPERIOD-10'd1;
+(* mark_debug = "true" *) wire frame_end = VCNT == 0;//VCNT>525-1
 
 /*BRAM?øΩ«Ç›èo?øΩ?øΩ?øΩÕÇÔøΩ?øΩ?øΩ?øΩ∆óL?øΩ?øΩ*/
 assign ENB = 1;
@@ -77,13 +77,13 @@ always @( posedge PCK ) begin
         VGA_R <= DATAB[11:8];
         VGA_G <= DATAB[7:4];
         VGA_B <= DATAB[3:0];
-        ADDR <= ADDR + 1;
-    end
-    else if (frame_end) begin
+        ADDR <= ADDR + 19'd1;
+    end else if (frame_end) begin
         ADDR <= 19'd0;
-    end
-    else
+    end else begin
         {VGA_R, VGA_G, VGA_B} <= 12'h000;
+    end
+    
 end
 
 endmodule
