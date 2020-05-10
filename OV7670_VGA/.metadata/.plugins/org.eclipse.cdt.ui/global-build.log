@@ -1,14 +1,14 @@
-00:59:24 **** Incremental Build of project design_1_wrapper ****
+22:52:41 **** Incremental Build of project design_1_wrapper ****
 buildplatform.bat 50610 design_1_wrapper no_domain_build 
-XSDB Server Channel: tcfchan#14
-00:59:30 **** Incremental Build of configuration Debug for project OV7670_VGA ****
+XSDB Server Channel: tcfchan#53
+22:52:48 **** Incremental Build of configuration Debug for project OV7670_VGA ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
 make[1]: Nothing to be done for 'main-build'.
-00:59:42 **** Build of configuration Debug for project OV7670_VGA_system ****
+22:53:00 **** Incremental Build of configuration Debug for project OV7670_VGA_system ****
 make all 
 Generating bif file for the system project
 generate_system_bif.bat 50610 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif

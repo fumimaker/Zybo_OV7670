@@ -10,53 +10,18 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="9341fs"></ZoomEndTime>
+      <ZoomEndTime time="10730fs"></ZoomEndTime>
       <Cursor1Time time="0fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="175"></NameColumnWidth>
-      <ValueColumnWidth column_width="126"></ValueColumnWidth>
+      <ValueColumnWidth column_width="118"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="6" />
-   <wvobject fp_name="IIC_0_0_scl_i" type="logic">
+   <WVObjectSize size="1" />
+   <wvobject fp_name="CAM_PCLK_IBUF_BUFG" type="logic">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">IIC_0_0_scl_i</obj_property>
-      <obj_property name="ObjectShortName">IIC_0_0_scl_i</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="IIC_0_0_scl_o" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">IIC_0_0_scl_o</obj_property>
-      <obj_property name="ObjectShortName">IIC_0_0_scl_o</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="IIC_0_0_scl_t" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">IIC_0_0_scl_t</obj_property>
-      <obj_property name="ObjectShortName">IIC_0_0_scl_t</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="IIC_0_0_sda_i" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">IIC_0_0_sda_i</obj_property>
-      <obj_property name="ObjectShortName">IIC_0_0_sda_i</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="IIC_0_0_sda_o" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">IIC_0_0_sda_o</obj_property>
-      <obj_property name="ObjectShortName">IIC_0_0_sda_o</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="IIC_0_0_sda_t" type="logic">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">IIC_0_0_sda_t</obj_property>
-      <obj_property name="ObjectShortName">IIC_0_0_sda_t</obj_property>
+      <obj_property name="ElementShortName">CAM_PCLK_IBUF_BUFG</obj_property>
+      <obj_property name="ObjectShortName">CAM_PCLK_IBUF_BUFG</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
