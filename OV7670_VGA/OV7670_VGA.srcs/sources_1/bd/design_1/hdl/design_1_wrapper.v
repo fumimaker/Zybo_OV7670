@@ -46,7 +46,14 @@ module design_1_wrapper(
     output wire[3:0] VGA_G,
     output wire [3:0]VGA_B,
     output wire VGA_VSYNC,
-    output wire VGA_HSYNC
+    output wire VGA_HSYNC,
+    output wire [11:0]BRAM_DATAB,
+    output wire [18:0]BRAM_ADDRB,
+    output wire BRAM_ENB,
+    output wire [11:0]BRAM_DATAA,
+    output wire [18:0]BRAM_ADDRA,
+    output wire BRAM_ENA,
+    output wire BRAM_WENA
 );
 
     wire IIC_0_0_scl_i;
@@ -98,15 +105,7 @@ module design_1_wrapper(
         
     wire clk_25_175MHZ;
     wire clk_24MHZ;
-    
-    wire [11:0]BRAM_DATAB;
-    wire [18:0]BRAM_ADDRB;
-    wire BRAM_ENB;
-    
-    wire [11:0]BRAM_DATAA;
-    wire [18:0]BRAM_ADDRA;
-    wire BRAM_ENA;
-    wire BRAM_WENA;
+
     
     assign CAM_XCLK = clk_24MHZ;
     
