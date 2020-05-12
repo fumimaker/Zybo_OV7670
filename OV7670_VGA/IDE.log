@@ -3848,3 +3848,73 @@ con
 
 22:54:40 INFO  : Launch script is exported to file 'C:\Github\Zybo_OV7670\OV7670_VGA\.sdk\launch_scripts\single_application_debug\systemdebugger_ov7670_vga_system_standalone.tcl'
 02:00:51 INFO  : Disconnected from the channel tcfchan#55.
+20:08:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Github\Zybo_OV7670\OV7670_VGA\temp_xsdb_launch_script.tcl
+20:08:18 INFO  : XSCT server has started successfully.
+20:08:19 INFO  : Successfully done setting XSCT server connection channel  
+20:08:19 INFO  : plnx-install-location is set to ''
+20:08:19 INFO  : Successfully done setting workspace for the tool. 
+20:08:24 INFO  : Registering command handlers for Vitis TCF services
+20:08:29 INFO  : Successfully done query RDI_DATADIR 
+20:15:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:15:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+20:15:49 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+20:16:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:16:25 INFO  : Jtag cable 'Digilent Zybo Z7 210351A6C9E3A' is selected.
+20:16:25 INFO  : 'jtag frequency' command is executed.
+20:16:25 INFO  : Context for 'APU' is selected.
+20:16:26 INFO  : System reset is completed.
+20:16:29 INFO  : 'after 3000' command is executed.
+20:16:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1' command is executed.
+20:16:31 INFO  : FPGA configured successfully with bitstream "C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit"
+20:16:31 INFO  : Context for 'APU' is selected.
+20:16:31 INFO  : Hardware design information is loaded from 'C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+20:16:31 INFO  : 'configparams force-mem-access 1' command is executed.
+20:16:31 INFO  : Context for 'APU' is selected.
+20:16:31 INFO  : Sourcing of 'C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl' is done.
+20:16:33 INFO  : 'ps7_init' command is executed.
+20:16:33 INFO  : 'ps7_post_config' command is executed.
+20:16:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:16:34 INFO  : The application 'C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:16:34 INFO  : 'configparams force-mem-access 0' command is executed.
+20:16:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1
+fpga -file C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:16:34 INFO  : Memory regions updated for context APU
+20:16:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:16:35 INFO  : 'con' command is executed.
+20:16:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:16:35 INFO  : Launch script is exported to file 'C:\Github\Zybo_OV7670\OV7670_VGA\.sdk\launch_scripts\single_application_debug\systemdebugger_ov7670_vga_system_standalone.tcl'
+04:09:04 INFO  : Disconnected from the channel tcfchan#1.

@@ -38,31 +38,8 @@ wire [3:0]VGA_B;
 wire VGA_VSYNC;
 wire VGA_HSYNC;
 
-design_1_wapper design_1_wrapper_inst(
-    .DDR_addr (DDR_addr),
-    .DDR_ba (DDR_ba),
-    .DDR_cas_n (DDR_cas_n),
-    .DDR_ck_n (DDR_ck_n ),
-    .DDR_ck_p (DDR_ck_p),
-    .DDR_cke (DDR_cke),
-    .DDR_cs_n (DDR_cs_n),
-    .DDR_dm (DDR_dm),
-    .DDR_dq (DDR_dq),
-    .DDR_dqs_n (DDR_dqs_n),
-    .DDR_dqs_p (DDR_dqs_p),
-    .DDR_odt (DDR_odt),
-    .DDR_ras_n (DDR_ras_n),
-    .DDR_reset_n (DDR_reset_n),
-    .DDR_we_n (DDR_we_n),
-    .FIXED_IO_ddr_vrn (FIXED_IO_ddr_vrn),
-    .FIXED_IO_ddr_vrp (FIXED_IO_ddr_vrp),
-    .FIXED_IO_mio (FIXED_IO_mio),
-    .FIXED_IO_ps_clk (FIXED_IO_ps_clk),
-    .FIXED_IO_ps_porb (FIXED_IO_ps_porb),
-    .FIXED_IO_ps_srstb (FIXED_IO_ps_srstb),
-    .IIC_0_0_scl_io (IIC_0_0_scl_io),
-    .IIC_0_0_sda_io (IIC_0_0_sda_io),
-   
+
+design_1_wrapper design_1_wrapper_inst(
     .CLK (CLK), //K18 に配線してる125MHzのPLクロック
     .RST (RST), //ボタン4に繋がってるやつ
     .CAM_PCLK (CAM_PCLK),//カメラから来るピクセルクロック
@@ -82,11 +59,49 @@ always begin
     CLK = 1; #(STEP/2);
 end
 
+localparam TP=2;
+localparam TLINE=784*TP;
+
+assign CAM_PCLK=CAM_XCLK;
+reg vsync, href;
+reg [7:0] outdata; 
+assign CAM_VSYNC = vsync;
+assign CAM_HREF = href;
+assign data = outdata;
+integer cnt=0;
+integer pclkcounter=0;
+reg ff;
 initial begin
     RST=0;
     #(STEP*500) RST=1;
     #(STEP*10) RST=0;
-    #(STEP*CLKNUM);
+    
+    vsync <= 0;
+    href <= 0;
+    ff <= 0;
+    repeat(100) @(posedge CAM_PCLK);
+    
+    vsync <= 1;
+    repeat(3*TLINE) @(posedge CAM_PCLK);
+    vsync <= 0;
+    repeat(17*TLINE) @(posedge CAM_PCLK);
+    for(cnt=0; cnt<480; cnt=cnt+1)begin
+        href <= 1;
+        for(pclkcounter=0; pclkcounter<640*TP; pclkcounter=pclkcounter+1)begin
+            if (ff)begin
+                outdata <= pclkcounter[15:8];
+            end
+            else begin
+                outdata <= pclkcounter[7:0];
+            end
+            ff <= ~ff;
+        end
+        href <= 0;
+        outdata <= 0;
+        repeat(144*TP) @(posedge CAM_PCLK);
+    end
+    href <= 0;
+    repeat((784-144)*TP+(10-1)*TLINE) @(posedge CAM_PCLK);
     $stop;
 end
 
