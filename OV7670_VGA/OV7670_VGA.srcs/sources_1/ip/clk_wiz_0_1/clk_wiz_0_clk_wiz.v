@@ -57,7 +57,7 @@
 //   Clock     Freq (MHz)  (degrees)    (%)     Jitter (ps)  Error (ps)
 //----------------------------------------------------------------------------
 // CLKOUT_25_175MHZ__25.17241______0.000______50.0______312.274____245.713
-// CLKOUT_24MHZ__24.01316______0.000______50.0______314.925____245.713
+// CLKOUT_24MHZ__48.02632______0.000______50.0______268.917____245.713
 //
 //----------------------------------------------------------------------------
 // Input Clock   Freq (MHz)    Input Jitter (UI)
@@ -135,7 +135,7 @@ wire clk_in2_clk_wiz_0;
     .CLKOUT0_PHASE        (0.000),
     .CLKOUT0_DUTY_CYCLE   (0.500),
     .CLKOUT0_USE_FINE_PS  ("FALSE"),
-    .CLKOUT1_DIVIDE       (38),
+    .CLKOUT1_DIVIDE       (19),
     .CLKOUT1_PHASE        (0.000),
     .CLKOUT1_DUTY_CYCLE   (0.500),
     .CLKOUT1_USE_FINE_PS  ("FALSE"),

@@ -101,8 +101,7 @@ initial begin
     
     vsync <= 0;
     href <= 0;
-    
-
+    for (counter=0; counter<1; counter=counter+1) begin
         repeat(100) @(posedge CAM_PCLK);
         vsync <= 1;
         repeat(3*TLINE) @(posedge CAM_PCLK);
@@ -116,7 +115,7 @@ initial begin
         end
         href <= 0;
         repeat((784-144)*TP+(10-1)*TLINE) @(posedge CAM_PCLK);
-
+    end
     $fclose(fd);
     $stop;
 end
@@ -131,19 +130,20 @@ always @(posedge CAM_PCLK)begin
         ff <= 0;
         bytecnt <= 0;
         outdata <= 0;
+        color <= 0;
     end
     if(CAM_HREF)begin
-        if (bytecnt<230)begin
+        if (bytecnt<210)begin
             color <= 16'b1111100000000000;
-        end else if (bytecnt<460)begin
+        end else if (bytecnt<420)begin
             color <= 16'b0000011111100000;
         end else begin
             color <= 16'b0000000000011111;
         end
         
-        if (ff==0) begin
+        if (ff==1) begin
             outdata <= color[15:8];
-        end else if(ff==1)begin
+        end else if(ff==0)begin
             outdata <= color[7:0];
             bytecnt <= bytecnt + 1;
         end
@@ -157,7 +157,7 @@ end
 
     
 always @(posedge clk_25_175MHZ)begin
-    if( BRAM_ENB ) begin
+    if( BRAM_ENB && counter==0) begin
         $fwrite(fd, "%c", {VGA_R, 4'h0});
         $fwrite(fd, "%c", {VGA_G, 4'h0});
         $fwrite(fd, "%c", {VGA_B, 4'h0});

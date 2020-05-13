@@ -1,7 +1,7 @@
-Running: xsim.dir/sim_ov7670vga_behav/xsimk.exe -simmode gui -wdb sim_ov7670vga_behav.wdb -simrunnum 0 -socket 50070
+Running: xsim.dir/sim_ov7670vga_behav/xsimk.exe -simmode gui -wdb sim_ov7670vga_behav.wdb -simrunnum 0 -socket 49834
 Design successfully loaded
-Design Loading Memory Usage: 18432 KB (Peak: 18432 KB)
+Design Loading Memory Usage: 18348 KB (Peak: 18348 KB)
 Design Loading CPU Usage: 61 ms
 Simulation completed
-Simulation Memory Usage: 5279900 KB (Peak: 5279900 KB)
-Simulation CPU Usage: 775327 ms
+Simulation Memory Usage: 5279860 KB (Peak: 5279860 KB)
+Simulation CPU Usage: 445592 ms
