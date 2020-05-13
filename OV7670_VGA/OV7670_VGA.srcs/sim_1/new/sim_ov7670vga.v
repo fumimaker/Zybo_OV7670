@@ -38,6 +38,14 @@ wire [3:0]VGA_B;
 wire VGA_VSYNC;
 wire VGA_HSYNC;
 
+//debug wire
+wire [11:0]BRAM_DATAB;
+wire [18:0]BRAM_ADDRB;
+wire BRAM_ENB;
+wire [11:0]BRAM_DATAA;
+wire [18:0]BRAM_ADDRA;
+wire BRAM_ENA;
+wire BRAM_WENA;
 
 design_1_wrapper design_1_wrapper_inst(
     .CLK (CLK), //K18 に配線してる125MHzのPLクロック
@@ -50,9 +58,16 @@ design_1_wrapper design_1_wrapper_inst(
     .VGA_R (VGA_R),
     .VGA_G (VGA_G),
     .VGA_B (VGA_B),
+    //debug signal
     .VGA_VSYNC (VGA_VSYNC),
     .VGA_HSYNC (VGA_HSYNC),
-    .BRAM_DATAA (BRAM_DATAA)
+    .BRAM_ADDRA (BRAM_ADDRA),
+    .BRAM_DATAA (BRAM_DATAA),
+    .BRAM_ENA (BRAM_ENA),
+    .BRAM_WENA (BRAM_WENA),
+    .BRAM_ADDRB (BRAM_ADDRB),
+    .BRAM_DATAB (BRAM_DATAB),
+    .BRAM_ENB (BRAM_ENB)
 );
 
 always begin
