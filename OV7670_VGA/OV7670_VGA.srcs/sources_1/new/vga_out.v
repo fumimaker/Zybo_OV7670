@@ -65,7 +65,7 @@ wire [9:0] VBLANK = VFRONT + VWIDTH + VBACK;
 (* mark_debug = "true" *) wire frame_end = VCNT == 0;//VCNT>525-1
 
 /*BRAM?øΩ«Ç›èo?øΩ?øΩ?øΩÕÇÔøΩ?øΩ?øΩ?øΩ∆óL?øΩ?øΩ*/
-assign ENB = 1;
+assign ENB = disp_enable;
 
 always @( posedge PCK ) begin
     if ( RST ) begin

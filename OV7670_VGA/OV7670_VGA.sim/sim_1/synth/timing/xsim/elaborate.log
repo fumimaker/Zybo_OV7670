@@ -1,0 +1,14 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto a8a82e20069542ac89e258d19fbf865f --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L xilinx_vip -L simprims_ver -L secureip --snapshot sim_ov7670vga_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.sim_ov7670vga xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'BRAM_ENB' on this module [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sim_1/new/sim_ov7670vga.v:70]
+ERROR: [VRFC 10-3180] cannot find port 'BRAM_DATAB' on this module [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sim_1/new/sim_ov7670vga.v:69]
+ERROR: [VRFC 10-3180] cannot find port 'BRAM_ADDRB' on this module [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sim_1/new/sim_ov7670vga.v:68]
+ERROR: [VRFC 10-3180] cannot find port 'BRAM_WENA' on this module [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sim_1/new/sim_ov7670vga.v:67]
+ERROR: [VRFC 10-3180] cannot find port 'BRAM_ENA' on this module [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sim_1/new/sim_ov7670vga.v:66]
+ERROR: [VRFC 10-3180] cannot find port 'BRAM_DATAA' on this module [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sim_1/new/sim_ov7670vga.v:65]
+ERROR: [VRFC 10-3180] cannot find port 'BRAM_ADDRA' on this module [C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.srcs/sim_1/new/sim_ov7670vga.v:64]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

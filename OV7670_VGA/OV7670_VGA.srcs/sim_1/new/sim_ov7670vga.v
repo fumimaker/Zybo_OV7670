@@ -25,6 +25,8 @@ module sim_ov7670vga;
 localparam STEP=8;
 localparam CLKNUM=(800*525+12000)*5;
 
+
+
 reg CLK;
 reg RST;
 wire CAM_PCLK;//カメラから来るピクセルクロック
@@ -46,6 +48,8 @@ wire [11:0]BRAM_DATAA;
 wire [18:0]BRAM_ADDRA;
 wire BRAM_ENA;
 wire BRAM_WENA;
+wire clk_25_175MHZ;
+wire clk_24MHZ;
 
 design_1_wrapper design_1_wrapper_inst(
     .CLK (CLK), //K18 に配線してる125MHzのPLクロック
@@ -67,7 +71,9 @@ design_1_wrapper design_1_wrapper_inst(
     .BRAM_WENA (BRAM_WENA),
     .BRAM_ADDRB (BRAM_ADDRB),
     .BRAM_DATAB (BRAM_DATAB),
-    .BRAM_ENB (BRAM_ENB)
+    .BRAM_ENB (BRAM_ENB),
+    .clk_25_175MHZ (clk_25_175MHZ),
+    .clk_24MHZ (clk_24MHZ)
 );
 
 always begin
@@ -84,18 +90,19 @@ reg vsync, href;
 reg [7:0] outdata; 
 assign CAM_VSYNC = vsync;
 assign CAM_HREF = href;
-
+integer fd;
 integer cnt=0;
 integer counter=0;
 initial begin
     RST=0;
     #(STEP*500) RST=1;
+    fd = $fopen("imagedata.raw", "wb");
     #(STEP*10) RST=0;
     
     vsync <= 0;
     href <= 0;
     
-    for(counter=0; counter<5; counter=counter+1)begin
+
         repeat(100) @(posedge CAM_PCLK);
         vsync <= 1;
         repeat(3*TLINE) @(posedge CAM_PCLK);
@@ -109,32 +116,53 @@ initial begin
         end
         href <= 0;
         repeat((784-144)*TP+(10-1)*TLINE) @(posedge CAM_PCLK);
-    end
+
+    $fclose(fd);
     $stop;
 end
 
 reg ff;
 reg [15:0]bytecnt;
+reg [15:0]color;
 assign data = outdata;
 
 always @(posedge CAM_PCLK)begin
     if(RST)begin
         ff <= 0;
         bytecnt <= 0;
+        outdata <= 0;
     end
     if(CAM_HREF)begin
+        if (bytecnt<230)begin
+            color <= 16'b1111100000000000;
+        end else if (bytecnt<460)begin
+            color <= 16'b0000011111100000;
+        end else begin
+            color <= 16'b0000000000011111;
+        end
+        
         if (ff==0) begin
-            outdata <= bytecnt[15:8];
+            outdata <= color[15:8];
         end else if(ff==1)begin
-            outdata <= bytecnt[7:0];
+            outdata <= color[7:0];
+            bytecnt <= bytecnt + 1;
         end
         ff <= ~ff;
-        bytecnt <= bytecnt + 1;
     end else begin
         ff <= 0;
         bytecnt <= 0;
         outdata <= 0;
     end
+end
+
+    
+always @(posedge clk_25_175MHZ)begin
+    if( BRAM_ENB ) begin
+        $fwrite(fd, "%c", {VGA_R, 4'h0});
+        $fwrite(fd, "%c", {VGA_G, 4'h0});
+        $fwrite(fd, "%c", {VGA_B, 4'h0});
+    end
+    
 end
 
 endmodule
