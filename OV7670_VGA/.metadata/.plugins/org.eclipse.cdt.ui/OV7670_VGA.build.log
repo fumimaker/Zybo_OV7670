@@ -1,4 +1,4 @@
-21:26:18 **** Incremental Build of configuration Debug for project OV7670_VGA ****
+19:12:27 **** Incremental Build of configuration Debug for project OV7670_VGA ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -21,9 +21,9 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size OV7670_VGA.elf  |tee "OV7670_VGA.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  68208	   2600	  23392	  94200	  16ff8	OV7670_VGA.elf
+  68224	   2600	  23392	  94216	  17008	OV7670_VGA.elf
 'Finished building: OV7670_VGA.elf.size'
 ' '
 
-21:26:20 Build Finished (took 1s.969ms)
+19:12:28 Build Finished (took 1s.260ms)
 

@@ -1,6 +1,6 @@
 Nothing to build in platform 'design_1_wrapper'
 
-21:26:18 **** Incremental Build of configuration Debug for project OV7670_VGA ****
+19:12:27 **** Incremental Build of configuration Debug for project OV7670_VGA ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -23,13 +23,13 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size OV7670_VGA.elf  |tee "OV7670_VGA.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  68208	   2600	  23392	  94200	  16ff8	OV7670_VGA.elf
+  68224	   2600	  23392	  94216	  17008	OV7670_VGA.elf
 'Finished building: OV7670_VGA.elf.size'
 ' '
-21:26:22 **** Incremental Build of configuration Debug for project OV7670_VGA_system ****
+19:12:30 **** Incremental Build of configuration Debug for project OV7670_VGA_system ****
 make all 
 Generating bif file for the system project
-generate_system_bif.bat 50222 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif
+generate_system_bif.bat 50444 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif
 xpfm path is not valid
     invoked from within
 "::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{::scw::generate_bif -xpfm C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm -domains standalone_domain -bifpath C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif}}}"

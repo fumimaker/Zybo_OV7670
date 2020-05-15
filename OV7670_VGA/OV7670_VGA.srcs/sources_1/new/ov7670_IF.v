@@ -36,47 +36,14 @@ module ov7670_IF(
     reg [18:0] address_next;
     reg [1:0] wr_hold;
     reg [15:0] data_in;
-    reg [7:0] buff;
-    reg [1:0] rcvflg;
     assign ADDR = address;
     
     (* mark_debug = "true" *) wire [15:0] debug_data_in = data_in;
     (* mark_debug = "true" *) wire [1:0] debug_wr_hold = wr_hold;
     (* mark_debug = "true" *) wire [18:0] debug_address_next = address_next;
+    (* mark_debug = "true" *) wire [11:0] debug_dataout = DATA_OUT;
     
     always @( posedge CAM_PCLK ) begin
-        /*if(RST) begin
-            address <= 19'd0;
-            ENA <= 1;
-            WENA <= 0;
-            rcvflg <= 2'd0;
-            buff <= 0;
-        end
-        else begin
-            if (CAM_HREF) begin
-                if (rcvflg==0) begin//first
-                    buff <= data;
-                    rcvflg <= 2'd1;
-                end
-                else if (rcvflg==1) begin //second
-                    DATA_OUT <= { buff[7:4], buff[2:0], data[7], data[4:1] }; 
-                    rcvflg <= 2'd2;
-                    WENA <= 1;
-                end
-                else begin
-                    WENA <= 0;
-                    rcvflg <= 0;
-                    address <= address + 1;
-                end
-            end
-            if(CAM_VSYNC) begin
-                address <= 19'd0;
-                buff <= 0;
-                WENA <= 0;
-                rcvflg <= 2'd0;
-                ENA <= 1;
-            end
-        end*/
        if(RST) begin
             address <= 19'd0;
             address_next <= 19'd0;

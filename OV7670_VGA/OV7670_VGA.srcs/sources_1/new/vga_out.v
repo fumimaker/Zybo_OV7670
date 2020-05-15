@@ -41,8 +41,8 @@ localparam HSIZE = 10'd80;
 localparam VSIZE = 10'd120;
 
 /* ?øΩ?øΩ?øΩ?øΩ?øΩM?øΩ?øΩ?øΩ?ê¨?øΩ?øΩH?øΩÃê⁄ëÔøΩ */
-wire               PCK;
-wire    [9:0]   HCNT, VCNT;
+(* mark_debug = "true" *)wire               PCK;
+(* mark_debug = "true" *)wire    [9:0]   HCNT, VCNT;
 assign PCK = CLK25_175MHZ; //?øΩ?øΩ?øΩ?øΩ?øΩp?øΩN?øΩ?øΩ?øΩb?øΩN?øΩ?øΩClockWiz?øΩ?øΩ?øΩ?øΩ?øΩ?øΩ?øΩƒÇ¬Ç»ÇÔøΩ
 
 syncgen syncgen_inst(

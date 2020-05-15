@@ -106,8 +106,8 @@ module design_1_wrapper(
         .IIC_0_0_sda_t(IIC_0_0_sda_t));
         
         
-    wire VGA_VSYNC;
-    wire VGA_HSYNC;
+//    wire VGA_VSYNC;
+//    wire VGA_HSYNC;
     wire [11:0]BRAM_DATAB;
     wire [18:0]BRAM_ADDRB;
     wire BRAM_ENB;
