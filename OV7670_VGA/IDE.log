@@ -4857,3 +4857,159 @@ Reason: Failed to execute command 'platform config -updatehw {C:/Github/Zybo_OV7
 21:01:25 INFO  : Successfully done query RDI_DATADIR 
 21:01:43 ERROR : Failed to update hardware specification for project 'design_1_wrapper'.
 Reason: Failed to execute command 'platform config -updatehw {C:/Github/Zybo_OV7670/OV7670_VGA/ov7670_test.xsa}'. Click on details for more information.
+21:46:00 INFO  : Hardware specification for platform project 'design_1_wrapper' is updated.
+21:46:23 INFO  : Checking for BSP changes to sync application flags for project 'OV7670_VGA'...
+21:46:30 INFO  : The hardware specfication used by project 'OV7670_VGA' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+21:46:30 INFO  : The file 'C:\Github\Zybo_OV7670\OV7670_VGA\OV7670_VGA\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+21:46:30 INFO  : The updated bitstream files are copied from platform to folder 'C:\Github\Zybo_OV7670\OV7670_VGA\OV7670_VGA\_ide\bitstream' in project 'OV7670_VGA'.
+21:46:30 INFO  : The file 'C:\Github\Zybo_OV7670\OV7670_VGA\OV7670_VGA\_ide\psinit\ps7_init.tcl' stored in project is removed.
+21:46:41 INFO  : The updated ps init files are copied from platform to folder 'C:\Github\Zybo_OV7670\OV7670_VGA\OV7670_VGA\_ide\psinit' in project 'OV7670_VGA'.
+21:46:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:46:55 INFO  : Jtag cable 'Digilent Zybo Z7 210351A6C9E3A' is selected.
+21:46:55 INFO  : 'jtag frequency' command is executed.
+21:46:56 INFO  : Context for 'APU' is selected.
+21:46:56 INFO  : System reset is completed.
+21:47:00 INFO  : 'after 3000' command is executed.
+21:47:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1' command is executed.
+21:47:04 INFO  : FPGA configured successfully with bitstream "C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit"
+21:47:04 INFO  : Context for 'APU' is selected.
+21:47:04 INFO  : Hardware design information is loaded from 'C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+21:47:04 INFO  : 'configparams force-mem-access 1' command is executed.
+21:47:04 INFO  : Context for 'APU' is selected.
+21:47:04 INFO  : Sourcing of 'C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl' is done.
+21:47:06 INFO  : 'ps7_init' command is executed.
+21:47:06 INFO  : 'ps7_post_config' command is executed.
+21:47:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:47:07 INFO  : The application 'C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:47:07 INFO  : 'configparams force-mem-access 0' command is executed.
+21:47:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1
+fpga -file C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:47:08 INFO  : Memory regions updated for context APU
+21:47:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:47:08 INFO  : 'con' command is executed.
+21:47:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:47:08 INFO  : Launch script is exported to file 'C:\Github\Zybo_OV7670\OV7670_VGA\.sdk\launch_scripts\single_application_debug\systemdebugger_ov7670_vga_system_standalone.tcl'
+23:53:53 INFO  : Checking for BSP changes to sync application flags for project 'OV7670_VGA'...
+23:54:04 INFO  : Disconnected from the channel tcfchan#3.
+23:54:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:54:05 INFO  : Jtag cable 'Digilent Zybo Z7 210351A6C9E3A' is selected.
+23:54:05 INFO  : 'jtag frequency' command is executed.
+23:54:05 INFO  : Context for 'APU' is selected.
+23:54:05 INFO  : System reset is completed.
+23:54:08 INFO  : 'after 3000' command is executed.
+23:54:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1' command is executed.
+23:54:11 INFO  : FPGA configured successfully with bitstream "C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit"
+23:54:11 INFO  : Context for 'APU' is selected.
+23:54:11 INFO  : Hardware design information is loaded from 'C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+23:54:11 INFO  : 'configparams force-mem-access 1' command is executed.
+23:54:11 INFO  : Context for 'APU' is selected.
+23:54:11 INFO  : Sourcing of 'C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl' is done.
+23:54:13 INFO  : 'ps7_init' command is executed.
+23:54:13 INFO  : 'ps7_post_config' command is executed.
+23:54:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:54:14 INFO  : The application 'C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:54:14 INFO  : 'configparams force-mem-access 0' command is executed.
+23:54:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1
+fpga -file C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:54:14 INFO  : Memory regions updated for context APU
+23:54:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:54:14 INFO  : 'con' command is executed.
+23:54:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:54:14 INFO  : Launch script is exported to file 'C:\Github\Zybo_OV7670\OV7670_VGA\.sdk\launch_scripts\single_application_debug\systemdebugger_ov7670_vga_system_standalone.tcl'
+00:24:09 INFO  : Hardware specification for platform project 'design_1_wrapper' is updated.
+00:24:18 INFO  : Checking for BSP changes to sync application flags for project 'OV7670_VGA'...
+00:24:23 INFO  : The hardware specfication used by project 'OV7670_VGA' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+00:24:23 INFO  : The file 'C:\Github\Zybo_OV7670\OV7670_VGA\OV7670_VGA\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+00:24:24 INFO  : The updated bitstream files are copied from platform to folder 'C:\Github\Zybo_OV7670\OV7670_VGA\OV7670_VGA\_ide\bitstream' in project 'OV7670_VGA'.
+00:24:24 INFO  : The file 'C:\Github\Zybo_OV7670\OV7670_VGA\OV7670_VGA\_ide\psinit\ps7_init.tcl' stored in project is removed.
+00:24:35 INFO  : The updated ps init files are copied from platform to folder 'C:\Github\Zybo_OV7670\OV7670_VGA\OV7670_VGA\_ide\psinit' in project 'OV7670_VGA'.
+00:24:46 INFO  : Disconnected from the channel tcfchan#5.
+00:24:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:24:47 INFO  : Jtag cable 'Digilent Zybo Z7 210351A6C9E3A' is selected.
+00:24:47 INFO  : 'jtag frequency' command is executed.
+00:24:47 INFO  : Context for 'APU' is selected.
+00:24:47 INFO  : System reset is completed.
+00:24:50 INFO  : 'after 3000' command is executed.
+00:24:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1' command is executed.
+00:24:53 INFO  : FPGA configured successfully with bitstream "C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit"
+00:24:53 INFO  : Context for 'APU' is selected.
+00:24:53 INFO  : Hardware design information is loaded from 'C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+00:24:53 INFO  : 'configparams force-mem-access 1' command is executed.
+00:24:53 INFO  : Context for 'APU' is selected.
+00:24:53 INFO  : Sourcing of 'C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl' is done.
+00:24:54 INFO  : 'ps7_init' command is executed.
+00:24:54 INFO  : 'ps7_post_config' command is executed.
+00:24:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:24:56 INFO  : The application 'C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:24:56 INFO  : 'configparams force-mem-access 0' command is executed.
+00:24:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1
+fpga -file C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:24:56 INFO  : Memory regions updated for context APU
+00:24:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:24:56 INFO  : 'con' command is executed.
+00:24:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:24:56 INFO  : Launch script is exported to file 'C:\Github\Zybo_OV7670\OV7670_VGA\.sdk\launch_scripts\single_application_debug\systemdebugger_ov7670_vga_system_standalone.tcl'
+00:55:40 INFO  : Disconnected from the channel tcfchan#8.

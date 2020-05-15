@@ -34,7 +34,7 @@ input wire CLK,
     output wire CAM_XCLK
     );
     
-     reg [18:0] address;
+    reg [18:0] address;
     reg [18:0] address_next;
     reg [1:0] wr_hold;
     reg [15:0] data_in;
@@ -50,17 +50,18 @@ input wire CLK,
             address <= 19'd0;
             address_next <= 19'd0;
             wr_hold <= 2'd0;
-            WENA <= 0;
-            ENA <= 1;
+            WENA <= 1;
+            ENA <= 0;
         end else begin
             if(CAM_VSYNC) begin
                 address <= 19'd0;
                 address_next <= 19'd0;
                 wr_hold <= 2'd0;
+                ENA <= 1;
             end else begin
                 DATA_OUT <= {data_in[15:12], data_in[10:7], data_in[4:1]};
                 address <= address_next;
-                WENA <= wr_hold[1];
+                ENA <= wr_hold[1];
                 wr_hold <= {wr_hold[0], (CAM_HREF & ~wr_hold[0])};
                 data_in <= {data_in[7:0], data};
                 if (wr_hold[1]==1) begin

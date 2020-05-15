@@ -1,35 +1,17 @@
-Nothing to build in platform 'design_1_wrapper'
-
-19:12:27 **** Incremental Build of configuration Debug for project OV7670_VGA ****
+00:24:15 **** Incremental Build of project design_1_wrapper ****
+buildplatform.bat 50745 design_1_wrapper no_domain_build 
+XSDB Server Channel: tcfchan#6
+00:24:22 **** Incremental Build of configuration Debug for project OV7670_VGA ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
-'Building file: ../src/main.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-../src/main.c: In function 'main':
-../src/main.c:15:14: warning: implicit declaration of function 'Init' [-Wimplicit-function-declaration]
-     result = Init();
-              ^~~~
-'Finished building: ../src/main.c'
-' '
-'Building target: OV7670_VGA.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "OV7670_VGA.elf"  ./src/OV7670.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: OV7670_VGA.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size OV7670_VGA.elf  |tee "OV7670_VGA.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  68224	   2600	  23392	  94216	  17008	OV7670_VGA.elf
-'Finished building: OV7670_VGA.elf.size'
-' '
-19:12:30 **** Incremental Build of configuration Debug for project OV7670_VGA_system ****
+make[1]: Nothing to be done for 'main-build'.
+00:24:35 **** Incremental Build of configuration Debug for project OV7670_VGA_system ****
 make all 
 Generating bif file for the system project
-generate_system_bif.bat 50444 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif
+generate_system_bif.bat 50745 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif
 xpfm path is not valid
     invoked from within
 "::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{::scw::generate_bif -xpfm C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm -domains standalone_domain -bifpath C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif}}}"

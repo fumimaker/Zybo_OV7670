@@ -65,7 +65,9 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param tcl.collectionResultDisplayLimit 0
   set_param chipscope.maxJobs 3
+  set_param xicom.use_bs_reader 1
   reset_param project.defaultXPMLibraries 
   open_checkpoint C:/Github/Zybo_OV7670/ov7670_capture/ov7670_capture.runs/impl_1/ov7670_test.dcp
   set_property webtalk.parent_dir C:/Github/Zybo_OV7670/ov7670_capture/ov7670_capture.cache/wt [current_project]
