@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Thu May 14 04:23:40 2020
+| Date             : Thu May 14 20:48:42 2020
 | Host             : FUMIMAKER6BEE running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.686        |
+| Total On-Chip Power (W)  | 1.685        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.532        |
+| Dynamic (W)              | 1.531        |
 | Device Static (W)        | 0.154        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 65.6         |
@@ -53,20 +53,20 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.002 |       11 |       --- |             --- |
-| Slice Logic    |    <0.001 |     1226 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      389 |     53200 |            0.73 |
-|   Register     |    <0.001 |      133 |    106400 |            0.13 |
+| Slice Logic    |    <0.001 |     1242 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      403 |     53200 |            0.76 |
+|   Register     |    <0.001 |      135 |    106400 |            0.13 |
 |   CARRY4       |    <0.001 |       10 |     13300 |            0.08 |
 |   BUFG         |    <0.001 |        1 |        32 |            3.13 |
 |   F7/F8 Muxes  |    <0.001 |      129 |     53200 |            0.24 |
 |   Others       |     0.000 |      501 |       --- |             --- |
-| Signals        |     0.006 |     1166 |       --- |             --- |
+| Signals        |     0.005 |     1183 |       --- |             --- |
 | Block RAM      |     0.001 |    103.5 |       140 |           73.93 |
 | MMCM           |     0.115 |        1 |         4 |           25.00 |
-| I/O            |     0.008 |       28 |       125 |           22.40 |
+| I/O            |     0.008 |       30 |       125 |           24.00 |
 | PS7            |     1.399 |        1 |       --- |             --- |
 | Static Power   |     0.154 |          |           |                 |
-| Total          |     1.686 |          |           |                 |
+| Total          |     1.685 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -160,7 +160,7 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| design_1_wrapper         |     1.532 |
+| design_1_wrapper         |     1.531 |
 |   blk_mem_gen_0_inst     |     0.003 |
 |     U0                   |     0.003 |
 |       inst_blk_mem_gen   |     0.003 |
@@ -169,7 +169,7 @@ Table of Contents
 |   design_1_i             |     1.399 |
 |     processing_system7_0 |     1.399 |
 |       inst               |     1.399 |
-|   ov7670_IF_inst         |     0.005 |
+|   ov7670_IF_inst         |     0.004 |
 +--------------------------+-----------+
 
 

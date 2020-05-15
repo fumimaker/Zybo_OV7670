@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date                      : Thu May 14 04:22:36 2020
+| Date                      : Thu May 14 20:47:01 2020
 | Host                      : FUMIMAKER6BEE running 64-bit major release  (build 9200)
 | Command                   : report_io -file design_1_wrapper_io_placed.rpt
 | Design                    : design_1_wrapper
@@ -25,7 +25,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|           158 |
+|           160 |
 +---------------+
 
 
@@ -408,7 +408,7 @@ Table of Contents
 | W11        |                   | High Range | IO_L18P_T2_13           | User IO     |                    |      13 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | W12        |                   |            | GND                     | GND         |                    |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | W13        |                   | High Range | IO_L4N_T0_34            | User IO     |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| W14        |                   | High Range | IO_L8P_T1_34            | User IO     |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
+| W14        | VGA_HSYNC         | High Range | IO_L8P_T1_34            | OUTPUT      | LVCMOS33           |      34 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | W15        | VGA_G[1]          | High Range | IO_L10N_T1_34           | OUTPUT      | LVCMOS33           |      34 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | W16        | data[1]           | High Range | IO_L18N_T2_34           | INPUT       | LVCMOS33           |      34 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | W17        |                   | High Range | VCCO_34                 | VCCO        |                    |      34 |            |      |                     |                      |    3.30 |            |           |          |      |                  |              |                   |              |
@@ -428,7 +428,7 @@ Table of Contents
 | Y11        |                   | High Range | IO_L18N_T2_13           | User IO     |                    |      13 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | Y12        |                   | High Range | IO_L20P_T3_13           | User IO     |                    |      13 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | Y13        |                   | High Range | IO_L20N_T3_13           | User IO     |                    |      13 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| Y14        |                   | High Range | IO_L8N_T1_34            | User IO     |                    |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
+| Y14        | VGA_VSYNC         | High Range | IO_L8N_T1_34            | OUTPUT      | LVCMOS33           |      34 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | Y15        |                   |            | GND                     | GND         |                    |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | Y16        | RST               | High Range | IO_L7P_T1_34            | INPUT       | LVCMOS33           |      34 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | Y17        | data[7]           | High Range | IO_L7N_T1_34            | INPUT       | LVCMOS33           |      34 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |

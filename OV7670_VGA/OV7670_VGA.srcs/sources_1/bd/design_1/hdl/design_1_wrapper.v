@@ -44,11 +44,10 @@ module design_1_wrapper(
     input wire [7:0]data,
     output wire [3:0]VGA_R,
     output wire[3:0] VGA_G,
-    output wire [3:0]VGA_B
-    
+    output wire [3:0]VGA_B,
+    output wire VGA_VSYNC,
+    output wire VGA_HSYNC
     //debug
-//    output wire VGA_VSYNC,
-//    output wire VGA_HSYNC,
 //    output wire [11:0]BRAM_DATAB,
 //    output wire [18:0]BRAM_ADDRB,
 //    output wire BRAM_ENB,
@@ -142,8 +141,8 @@ module design_1_wrapper(
         .reset(RST), // input reset
        // Clock in ports
         .CLK(CLK) // input CLK
-        );     
-        
+        );
+
     vga_out vga_out_inst(
         .CLK(CLK),
         .RST(RST),
@@ -157,7 +156,7 @@ module design_1_wrapper(
         .ENB(BRAM_ENB),
         .CLK25_175MHZ(clk_25_175MHZ)
         );
-        
+
     ov7670_IF ov7670_IF_inst(//CLK???‚»‚ñ‚È‚à‚Ì‚Í‚È‚¢
         .CLK(CLK),
         .RST(RST),//

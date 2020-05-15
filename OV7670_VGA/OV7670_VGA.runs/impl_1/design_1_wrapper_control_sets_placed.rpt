@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Thu May 14 04:22:36 2020
+| Date         : Thu May 14 20:47:01 2020
 | Host         : FUMIMAKER6BEE running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
 | Design       : design_1_wrapper
@@ -23,11 +23,11 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Total control sets                                       |    10 |
-|    Minimum number of control sets                        |    10 |
+| Total control sets                                       |    12 |
+|    Minimum number of control sets                        |    12 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    43 |
+| Unused register locations in slices containing registers |    57 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -39,8 +39,8 @@ Table of Contents
 +--------------------+-------+
 |       Fanout       | Count |
 +--------------------+-------+
-| Total control sets |    10 |
-| >= 0 to < 4        |     1 |
+| Total control sets |    12 |
+| >= 0 to < 4        |     3 |
 | >= 4 to < 6        |     1 |
 | >= 6 to < 8        |     0 |
 | >= 8 to < 10       |     0 |
@@ -60,29 +60,31 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |               5 |            5 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              31 |            9 |
-| Yes          | No                    | No                     |              37 |           15 |
+| No           | Yes                   | No                     |              31 |           11 |
+| Yes          | No                    | No                     |              37 |           19 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |              60 |           22 |
+| Yes          | Yes                   | No                     |              62 |           27 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 4. Detailed Control Set Information
 -----------------------------------
 
-+---------------------------------------+------------------------------------+-------------------------------------------+------------------+----------------+
-|              Clock Signal             |            Enable Signal           |              Set/Reset Signal             | Slice Load Count | Bel Load Count |
-+---------------------------------------+------------------------------------+-------------------------------------------+------------------+----------------+
-|  CAM_PCLK_IBUF_BUFG                   |                                    |                                           |                1 |              1 |
-|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ |                                    |                                           |                4 |              4 |
-|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ |                                    | vga_out_inst/syncgen_inst/HCNT[9]_i_1_n_0 |                3 |             10 |
-|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ | vga_out_inst/syncgen_inst/hcntend  | RST_IBUF                                  |                4 |             10 |
-|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ | vga_out_inst/VGA_R[3]_i_1_n_0      | RST_IBUF                                  |                8 |             12 |
-|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ | vga_out_inst/syncgen_inst/in0      |                                           |                5 |             14 |
-|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ | vga_out_inst/syncgen_inst/in0      | vga_out_inst/ADDR[18]_i_1_n_0             |                5 |             19 |
-|  CAM_PCLK_IBUF_BUFG                   | ov7670_IF_inst/debug_wr_hold[1]    | ov7670_IF_inst/wr_hold[1]_i_1_n_0         |                5 |             19 |
-|  CAM_PCLK_IBUF_BUFG                   |                                    | ov7670_IF_inst/wr_hold[1]_i_1_n_0         |                6 |             21 |
-|  CAM_PCLK_IBUF_BUFG                   | ov7670_IF_inst/data_in[14]_i_1_n_0 |                                           |               10 |             23 |
-+---------------------------------------+------------------------------------+-------------------------------------------+------------------+----------------+
++---------------------------------------+------------------------------------------+-------------------------------------------+------------------+----------------+
+|              Clock Signal             |               Enable Signal              |              Set/Reset Signal             | Slice Load Count | Bel Load Count |
++---------------------------------------+------------------------------------------+-------------------------------------------+------------------+----------------+
+|  CAM_PCLK_IBUF_BUFG                   |                                          |                                           |                1 |              1 |
+|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ | vga_out_inst/syncgen_inst/VGA_HS_i_1_n_0 | RST_IBUF                                  |                1 |              1 |
+|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ | vga_out_inst/syncgen_inst/VGA_VS_0       | RST_IBUF                                  |                1 |              1 |
+|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ |                                          |                                           |                4 |              4 |
+|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ |                                          | vga_out_inst/syncgen_inst/HCNT[9]_i_1_n_0 |                5 |             10 |
+|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ | vga_out_inst/syncgen_inst/hcntend        | RST_IBUF                                  |                4 |             10 |
+|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ | vga_out_inst/VGA_R[3]_i_1_n_0            | RST_IBUF                                  |               11 |             12 |
+|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ | vga_out_inst/syncgen_inst/in0            |                                           |                5 |             14 |
+|  CAM_PCLK_IBUF_BUFG                   | ov7670_IF_inst/debug_wr_hold[1]          | ov7670_IF_inst/wr_hold[1]_i_1_n_0         |                5 |             19 |
+|  clk_wiz_0_inst/inst/CLKOUT_25_175MHZ | vga_out_inst/syncgen_inst/in0            | vga_out_inst/ADDR[18]_i_1_n_0             |                5 |             19 |
+|  CAM_PCLK_IBUF_BUFG                   |                                          | ov7670_IF_inst/wr_hold[1]_i_1_n_0         |                6 |             21 |
+|  CAM_PCLK_IBUF_BUFG                   | ov7670_IF_inst/data_in[14]_i_1_n_0       |                                           |               14 |             23 |
++---------------------------------------+------------------------------------------+-------------------------------------------+------------------+----------------+
 
 
