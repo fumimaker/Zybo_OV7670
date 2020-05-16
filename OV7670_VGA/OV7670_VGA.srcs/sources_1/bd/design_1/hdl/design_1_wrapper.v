@@ -56,7 +56,8 @@ module design_1_wrapper(
 //    output wire BRAM_ENA,
 //    output wire BRAM_WENA,
 //    output wire clk_25_175MHZ,
-//    output wire clk_24MHZ
+//    output wire clk_24MHZ,
+//    output wire locked
 );
 
     wire IIC_0_0_scl_i;
@@ -117,9 +118,12 @@ module design_1_wrapper(
     wire BRAM_WENA;
     wire clk_25_175MHZ;
     wire clk_24MHZ;
+    wire locked;
 
     
     assign CAM_XCLK = clk_24MHZ;
+    wire sys_reset;
+    assign sys_reset = RST;
     
     blk_mem_gen_0 blk_mem_gen_0_inst (
         .clka(CAM_PCLK),    // input wire clka
@@ -138,14 +142,15 @@ module design_1_wrapper(
         .CLKOUT_25_175MHZ(clk_25_175MHZ),     // output CLKOUT_25_175MHZ
         .CLKOUT_24MHZ(clk_24MHZ),     // output CLKOUT_24MHZ
         // Status and control signals
-        .reset(RST), // input reset
+        .locked(locked),       // output locked
+        .reset(sys_reset), // input reset
        // Clock in ports
         .CLK(CLK) // input CLK
         );
 
     vga_out vga_out_inst(
         .CLK(CLK),
-        .RST(RST),
+        .RST(sys_reset),
         .VGA_R(VGA_R),
         .VGA_G(VGA_G),
         .VGA_B(VGA_B),
@@ -159,7 +164,7 @@ module design_1_wrapper(
 
     ov7670_IF ov7670_IF_inst(//CLK???‚»‚ñ‚È‚à‚Ì‚Í‚È‚¢
         .CLK(CLK),
-        .RST(RST),//
+        .RST(sys_reset),//
         .CAM_PCLK(CAM_PCLK),//
         .CAM_HREF(CAM_HREF),//
         .CAM_VSYNC(CAM_VSYNC),//

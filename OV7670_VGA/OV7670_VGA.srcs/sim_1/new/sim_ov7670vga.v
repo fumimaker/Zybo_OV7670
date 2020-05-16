@@ -23,12 +23,13 @@
 module sim_ov7670vga;
 
 localparam STEP=8;
+localparam PCLK=STEP*5;
 localparam CLKNUM=(800*525+12000)*5;
 
 
 
 reg CLK;
-reg RST;
+reg sys_reset;
 wire CAM_PCLK;//カメラから来るピクセルクロック
 wire CAM_HREF;
 wire CAM_VSYNC;
@@ -50,10 +51,11 @@ wire BRAM_ENA;
 wire BRAM_WENA;
 wire clk_25_175MHZ;
 wire clk_24MHZ;
+wire locked;
 
 design_1_wrapper design_1_wrapper_inst(
     .CLK (CLK), //K18 に配線してる125MHzのPLクロック
-    .RST (RST), //ボタン4に繋がってるやつ
+    .RST (sys_reset), //ボタン4に繋がってるやつ
     .CAM_PCLK (CAM_PCLK),//カメラから来るピクセルクロック
     .CAM_HREF (CAM_HREF),
     .CAM_VSYNC (CAM_VSYNC),
@@ -73,7 +75,8 @@ design_1_wrapper design_1_wrapper_inst(
     .BRAM_DATAB (BRAM_DATAB),
     .BRAM_ENB (BRAM_ENB),
     .clk_25_175MHZ (clk_25_175MHZ),
-    .clk_24MHZ (clk_24MHZ)
+    .clk_24MHZ (clk_24MHZ),
+    .locked(locked)
 );
 
 always begin
@@ -94,10 +97,11 @@ integer fd;
 integer cnt=0;
 integer counter=0;
 initial begin
-    RST=0;
-    #(STEP*500) RST=1;
+
+    #(PCLK*TP*TLINE) sys_reset <= 0; 
+    #(PCLK*TP*TLINE) sys_reset <= 1;
     fd = $fopen("imagedata.raw", "wb");
-    #(STEP*10) RST=0;
+    #(PCLK*10) sys_reset<=0;
     
     vsync <= 0;
     href <= 0;
@@ -126,7 +130,7 @@ reg [15:0]color;
 assign data = outdata;
 
 always @(posedge CAM_PCLK)begin
-    if(RST)begin
+    if(sys_reset)begin
         ff <= 0;
         bytecnt <= 0;
         outdata <= 0;

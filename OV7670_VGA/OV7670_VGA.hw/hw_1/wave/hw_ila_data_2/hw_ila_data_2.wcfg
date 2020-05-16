@@ -10,14 +10,14 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="35174fs"></ZoomEndTime>
-      <Cursor1Time time="7810fs"></Cursor1Time>
+      <ZoomEndTime time="21fs"></ZoomEndTime>
+      <Cursor1Time time="4001fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="175"></NameColumnWidth>
-      <ValueColumnWidth column_width="82"></ValueColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="5" />
+   <WVObjectSize size="7" />
    <wvobject fp_name="BRAM_DATAB" type="array">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">BRAM_DATAB[11:0]</obj_property>
@@ -51,6 +51,22 @@
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">BRAM_ADDRB[18:0]</obj_property>
       <obj_property name="ObjectShortName">BRAM_ADDRB[18:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="vga_out_inst/VCNT" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vga_out_inst/VCNT[9:0]</obj_property>
+      <obj_property name="ObjectShortName">VCNT[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="vga_out_inst/HCNT" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">vga_out_inst/HCNT[9:0]</obj_property>
+      <obj_property name="ObjectShortName">HCNT[9:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>

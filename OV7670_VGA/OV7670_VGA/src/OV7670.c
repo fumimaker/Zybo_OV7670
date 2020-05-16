@@ -372,4 +372,15 @@ void ShowQVGA_ColorBar(void) {
 	// QVGA
 	WriteReg(REG_SCALING_XSC, 0x80);
 	WriteReg(REG_SCALING_YSC, 0x80);
+
+
+	//Fix
+	int reg_com7 = ReadReg(REG_COM7);
+	xil_printf("BeforeCOM7 = 0x%x\n\r", reg_com7);
+
+	WriteReg(REG_COM7, reg_com7|COM7_COLOR_BAR);
+
+
+	reg_com7 = ReadReg(REG_COM7);
+	xil_printf("AfterCOM7 = 0x%x\n\r", reg_com7);
 }

@@ -11,7 +11,7 @@
                         "type": "XSDB_V3",
                         "name": "dbg_hub",
                         "spec": "labtools_xsdbm_v3",
-                        "clk_input_freq_hz": "25140978"
+                        "clk_input_freq_hz": "25000000"
                     },
                     {
                         "type": "ILA_V3",
@@ -31,8 +31,224 @@
                                 "direction": "IN",
                                 "isVector": true,
                                 "leftIndex": 0,
-                                "rightIndex": 18,
+                                "rightIndex": 11,
                                 "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "BRAM_DATAA",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "BRAM_DATAA[11]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAA[10]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAA[9]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAA[8]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAA[7]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAA[6]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAA[5]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAA[4]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAA[3]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAA[2]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAA[1]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAA[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 11,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "ov7670_IF_inst/debug_dataout",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ov7670_IF_inst/debug_dataout[11]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_dataout[10]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_dataout[9]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_dataout[8]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_dataout[7]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_dataout[6]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_dataout[5]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_dataout[4]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_dataout[3]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_dataout[2]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_dataout[1]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_dataout[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 15,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "ov7670_IF_inst/debug_data_in",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[15]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[14]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[13]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[12]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[11]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[10]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[9]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[8]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[7]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[6]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[5]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[4]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[3]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[2]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[1]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_data_in[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "data_IBUF",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "data_IBUF[7]"
+                                            },
+                                            {
+                                                "name": "data_IBUF[6]"
+                                            },
+                                            {
+                                                "name": "data_IBUF[5]"
+                                            },
+                                            {
+                                                "name": "data_IBUF[4]"
+                                            },
+                                            {
+                                                "name": "data_IBUF[3]"
+                                            },
+                                            {
+                                                "name": "data_IBUF[2]"
+                                            },
+                                            {
+                                                "name": "data_IBUF[1]"
+                                            },
+                                            {
+                                                "name": "data_IBUF[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 18,
+                                "portIndex": 4,
                                 "nets": [
                                     {
                                         "name": "ov7670_IF_inst/debug_address_next",
@@ -100,122 +316,14 @@
                                 ]
                             },
                             {
-                                "name": "probe1",
-                                "id": 1,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 15,
-                                "portIndex": 1,
-                                "nets": [
-                                    {
-                                        "name": "ov7670_IF_inst/debug_data_in",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[15]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[14]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[13]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[12]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[11]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[10]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[9]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[8]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[7]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[6]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[5]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[4]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[3]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[2]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[1]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_data_in[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe2",
-                                "id": 2,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 7,
-                                "portIndex": 2,
-                                "nets": [
-                                    {
-                                        "name": "data_IBUF",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "data_IBUF[7]"
-                                            },
-                                            {
-                                                "name": "data_IBUF[6]"
-                                            },
-                                            {
-                                                "name": "data_IBUF[5]"
-                                            },
-                                            {
-                                                "name": "data_IBUF[4]"
-                                            },
-                                            {
-                                                "name": "data_IBUF[3]"
-                                            },
-                                            {
-                                                "name": "data_IBUF[2]"
-                                            },
-                                            {
-                                                "name": "data_IBUF[1]"
-                                            },
-                                            {
-                                                "name": "data_IBUF[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe3",
-                                "id": 3,
+                                "name": "probe5",
+                                "id": 5,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": true,
                                 "leftIndex": 0,
                                 "rightIndex": 18,
-                                "portIndex": 3,
+                                "portIndex": 5,
                                 "nets": [
                                     {
                                         "name": "BRAM_ADDRA",
@@ -283,114 +391,6 @@
                                 ]
                             },
                             {
-                                "name": "probe4",
-                                "id": 4,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 11,
-                                "portIndex": 4,
-                                "nets": [
-                                    {
-                                        "name": "BRAM_DATAA",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "BRAM_DATAA[11]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAA[10]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAA[9]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAA[8]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAA[7]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAA[6]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAA[5]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAA[4]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAA[3]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAA[2]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAA[1]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAA[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe5",
-                                "id": 5,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 11,
-                                "portIndex": 5,
-                                "nets": [
-                                    {
-                                        "name": "ov7670_IF_inst/debug_dataout",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "ov7670_IF_inst/debug_dataout[11]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_dataout[10]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_dataout[9]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_dataout[8]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_dataout[7]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_dataout[6]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_dataout[5]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_dataout[4]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_dataout[3]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_dataout[2]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_dataout[1]"
-                                            },
-                                            {
-                                                "name": "ov7670_IF_inst/debug_dataout[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
                                 "name": "probe6",
                                 "id": 6,
                                 "type": "DATA_TRIGGER",
@@ -419,14 +419,64 @@
                                 "id": 7,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
-                                "isVector": false,
+                                "isVector": true,
                                 "leftIndex": 0,
-                                "rightIndex": 0,
+                                "rightIndex": 15,
                                 "portIndex": 7,
                                 "nets": [
                                     {
-                                        "name": "BRAM_ENA",
-                                        "isBus": false
+                                        "name": "ov7670_IF_inst/debug_vsync_count",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[15]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[14]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[13]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[12]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[11]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[10]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[9]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[8]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[7]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[6]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[5]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[4]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[3]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[2]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[1]"
+                                            },
+                                            {
+                                                "name": "ov7670_IF_inst/debug_vsync_count[0]"
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -441,7 +491,7 @@
                                 "portIndex": 8,
                                 "nets": [
                                     {
-                                        "name": "CAM_VSYNC_IBUF",
+                                        "name": "BRAM_ENA",
                                         "isBus": false
                                     }
                                 ]
@@ -461,6 +511,22 @@
                                         "isBus": false
                                     }
                                 ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 10,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "CAM_VSYNC_IBUF",
+                                        "isBus": false
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -477,115 +543,13 @@
                         "pins": [
                             {
                                 "name": "probe0",
-                                "id": 10,
+                                "id": 11,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": true,
                                 "leftIndex": 0,
                                 "rightIndex": 9,
                                 "portIndex": 0,
-                                "nets": [
-                                    {
-                                        "name": "vga_out_inst/HCNT",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "vga_out_inst/HCNT[9]"
-                                            },
-                                            {
-                                                "name": "vga_out_inst/HCNT[8]"
-                                            },
-                                            {
-                                                "name": "vga_out_inst/HCNT[7]"
-                                            },
-                                            {
-                                                "name": "vga_out_inst/HCNT[6]"
-                                            },
-                                            {
-                                                "name": "vga_out_inst/HCNT[5]"
-                                            },
-                                            {
-                                                "name": "vga_out_inst/HCNT[4]"
-                                            },
-                                            {
-                                                "name": "vga_out_inst/HCNT[3]"
-                                            },
-                                            {
-                                                "name": "vga_out_inst/HCNT[2]"
-                                            },
-                                            {
-                                                "name": "vga_out_inst/HCNT[1]"
-                                            },
-                                            {
-                                                "name": "vga_out_inst/HCNT[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe1",
-                                "id": 11,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 11,
-                                "portIndex": 1,
-                                "nets": [
-                                    {
-                                        "name": "BRAM_DATAB",
-                                        "isBus": true,
-                                        "subnets": [
-                                            {
-                                                "name": "BRAM_DATAB[11]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAB[10]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAB[9]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAB[8]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAB[7]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAB[6]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAB[5]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAB[4]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAB[3]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAB[2]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAB[1]"
-                                            },
-                                            {
-                                                "name": "BRAM_DATAB[0]"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "probe2",
-                                "id": 12,
-                                "type": "DATA_TRIGGER",
-                                "direction": "IN",
-                                "isVector": true,
-                                "leftIndex": 0,
-                                "rightIndex": 9,
-                                "portIndex": 2,
                                 "nets": [
                                     {
                                         "name": "vga_out_inst/VCNT",
@@ -626,14 +590,62 @@
                                 ]
                             },
                             {
-                                "name": "probe3",
+                                "name": "probe1",
+                                "id": 12,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 9,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "vga_out_inst/HCNT",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "vga_out_inst/HCNT[9]"
+                                            },
+                                            {
+                                                "name": "vga_out_inst/HCNT[8]"
+                                            },
+                                            {
+                                                "name": "vga_out_inst/HCNT[7]"
+                                            },
+                                            {
+                                                "name": "vga_out_inst/HCNT[6]"
+                                            },
+                                            {
+                                                "name": "vga_out_inst/HCNT[5]"
+                                            },
+                                            {
+                                                "name": "vga_out_inst/HCNT[4]"
+                                            },
+                                            {
+                                                "name": "vga_out_inst/HCNT[3]"
+                                            },
+                                            {
+                                                "name": "vga_out_inst/HCNT[2]"
+                                            },
+                                            {
+                                                "name": "vga_out_inst/HCNT[1]"
+                                            },
+                                            {
+                                                "name": "vga_out_inst/HCNT[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
                                 "id": 13,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": true,
                                 "leftIndex": 0,
                                 "rightIndex": 18,
-                                "portIndex": 3,
+                                "portIndex": 2,
                                 "nets": [
                                     {
                                         "name": "BRAM_ADDRB",
@@ -701,8 +713,62 @@
                                 ]
                             },
                             {
-                                "name": "probe4",
+                                "name": "probe3",
                                 "id": 14,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 11,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "BRAM_DATAB",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "BRAM_DATAB[11]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAB[10]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAB[9]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAB[8]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAB[7]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAB[6]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAB[5]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAB[4]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAB[3]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAB[2]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAB[1]"
+                                            },
+                                            {
+                                                "name": "BRAM_DATAB[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 15,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": false,
@@ -718,7 +784,7 @@
                             },
                             {
                                 "name": "probe5",
-                                "id": 15,
+                                "id": 16,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": false,
@@ -734,7 +800,7 @@
                             },
                             {
                                 "name": "probe6",
-                                "id": 16,
+                                "id": 17,
                                 "type": "DATA_TRIGGER",
                                 "direction": "IN",
                                 "isVector": false,

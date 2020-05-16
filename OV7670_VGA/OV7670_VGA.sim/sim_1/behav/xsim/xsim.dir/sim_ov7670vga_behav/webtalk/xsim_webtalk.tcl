@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.sim/sim_1/behav/xsim/xsim.dir/sim_ov7670vga_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Thu May 14 04:06:47 2020" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Sun May 17 00:30:24 2020" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2019.2 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2708876" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "775842d2-0b87-4588-a24d-0d549cfca706" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "a8a82e20069542ac89e258d19fbf865f" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "22" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "34" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Windows Server 2016 or Windows 10" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i9-8950HK CPU @ 2.90GHz" -context "user_environment"
@@ -23,11 +23,13 @@ webtalk_add_data -client project -key total_processors -value "2" -context "user
 webtalk_add_data -client project -key system_ram -value "17.000 GB" -context "user_environment"
 webtalk_register_client -client xsim
 webtalk_add_data -client xsim -key runall -value "true" -context "xsim\\command_line_options"
+webtalk_add_data -client xsim -key runall -value "true" -context "xsim\\command_line_options"
+webtalk_add_data -client xsim -key runall -value "true" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key trace_waveform -value "true" -context "xsim\\usage"
-webtalk_add_data -client xsim -key runtime -value "16653691890 ps" -context "xsim\\usage"
+webtalk_add_data -client xsim -key runtime -value "47737110 ns" -context "xsim\\usage"
 webtalk_add_data -client xsim -key iteration -value "0" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Time -value "445.59_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Memory -value "5279860_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 1492241186 -regid "" -xml C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.sim/sim_1/behav/xsim/xsim.dir/sim_ov7670vga_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.sim/sim_1/behav/xsim/xsim.dir/sim_ov7670vga_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.sim/sim_1/behav/xsim/xsim.dir/sim_ov7670vga_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Simulation_Time -value "1181.36_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Memory -value "5279844_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 626369740 -regid "" -xml C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.sim/sim_1/behav/xsim/xsim.dir/sim_ov7670vga_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.sim/sim_1/behav/xsim/xsim.dir/sim_ov7670vga_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA.sim/sim_1/behav/xsim/xsim.dir/sim_ov7670vga_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate
