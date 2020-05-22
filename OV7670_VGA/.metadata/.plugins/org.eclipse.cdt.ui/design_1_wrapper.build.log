@@ -1,2 +1,6 @@
-Nothing to build in platform 'design_1_wrapper'
+01:16:44 **** Incremental Build of project design_1_wrapper ****
+buildplatform.bat 50989 design_1_wrapper no_domain_build 
+XSDB Server Channel: tcfchan#8
+
+01:16:49 Build Finished (took 5s.126ms)
 

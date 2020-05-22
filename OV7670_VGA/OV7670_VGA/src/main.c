@@ -31,8 +31,8 @@ int main()
 	xil_printf("Load default Camera registers\n\r");
 	InitDefaultReg();
 
-	xil_printf("Camera Test\n\r");
-	ShowQVGA_ColorBar();
+	//xil_printf("Camera Test\n\r");
+	//ShowQVGA_ColorBar();
 
 	xil_printf("\nCamera Module register dump after initialization\n\r");
 	DumpReg();

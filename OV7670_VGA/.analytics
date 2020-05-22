@@ -81,3 +81,15 @@ timestamp=[2020-05-16 00:24:18], mode=PLATFORM_GENERATION, duration=0:00:03.253,
 timestamp=[2020-05-16 18:19:18], mode=WORKBENCH_START, duration=0:00:20.848, duration_ms=20848, data={}
 timestamp=[2020-05-16 18:19:21], mode=WORKBENCH_UI_INIT, duration=0:00:02.586, duration_ms=2586, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=OV7670_VGA,OV7670_VGA_system,RemoteSystemsTempFiles,design_1_wrapper}
 timestamp=[2020-05-16 18:20:58], mode=PLATFORM_GENERATION, duration=0:00:03.391, duration_ms=3391, data={name=design_1_wrapper}
+timestamp=[2020-05-17 18:00:59], mode=WORKBENCH_START, duration=0:00:16.249, duration_ms=16249, data={}
+timestamp=[2020-05-17 18:01:00], mode=WORKBENCH_UI_INIT, duration=0:00:01.744, duration_ms=1744, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=OV7670_VGA,OV7670_VGA_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2020-05-17 18:02:01], mode=PLATFORM_GENERATION, duration=0:00:09.860, duration_ms=9860, data={name=design_1_wrapper}
+timestamp=[2020-05-17 20:00:16], mode=PLATFORM_GENERATION, duration=0:00:04.447, duration_ms=4447, data={name=design_1_wrapper}
+timestamp=[2020-05-22 18:56:42], mode=WORKBENCH_START, duration=0:00:21.679, duration_ms=21679, data={}
+timestamp=[2020-05-22 18:56:44], mode=WORKBENCH_UI_INIT, duration=0:00:02.522, duration_ms=2522, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=OV7670_VGA,OV7670_VGA_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2020-05-22 20:23:26], mode=WORKBENCH_START, duration=0:00:14.554, duration_ms=14554, data={}
+timestamp=[2020-05-22 20:23:28], mode=WORKBENCH_UI_INIT, duration=0:00:01.964, duration_ms=1964, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=OV7670_VGA,OV7670_VGA_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2020-05-22 20:25:19], mode=PLATFORM_GENERATION, duration=0:00:03.854, duration_ms=3854, data={name=design_1_wrapper}
+timestamp=[2020-05-23 00:01:29], mode=WORKBENCH_START, duration=0:00:18.054, duration_ms=18054, data={}
+timestamp=[2020-05-23 00:01:31], mode=WORKBENCH_UI_INIT, duration=0:00:02.574, duration_ms=2574, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=OV7670_VGA,OV7670_VGA_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2020-05-23 01:16:49], mode=PLATFORM_GENERATION, duration=0:00:05.307, duration_ms=5307, data={name=design_1_wrapper}

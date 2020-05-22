@@ -1,2 +1,6 @@
-2020-05-16T22:33:10.0124369000-Nothing to build in platform 'design_1_wrapper'
+2020-05-23T01:16:44.401099900255-01:16:44 **** Incremental Build of project design_1_wrapper ****
+000-buildplatform.bat 50989 design_1_wrapper no_domain_build 
+000-XSDB Server Channel: tcfchan#8
+00255-
+01:16:49 Build Finished (took 5s.126ms)
 

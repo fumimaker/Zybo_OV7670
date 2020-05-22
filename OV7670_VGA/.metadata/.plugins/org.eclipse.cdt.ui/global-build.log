@@ -1,31 +1,17 @@
-Nothing to build in platform 'design_1_wrapper'
-
-22:33:10 **** Incremental Build of configuration Debug for project OV7670_VGA ****
+01:16:44 **** Incremental Build of project design_1_wrapper ****
+buildplatform.bat 50989 design_1_wrapper no_domain_build 
+XSDB Server Channel: tcfchan#8
+01:16:57 **** Incremental Build of configuration Debug for project OV7670_VGA ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
-'Building file: ../src/OV7670.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OV7670.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/OV7670.d" -MT"src/OV7670.o" -o "src/OV7670.o" "../src/OV7670.c"
-'Finished building: ../src/OV7670.c'
-' '
-'Building target: OV7670_VGA.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "OV7670_VGA.elf"  ./src/OV7670.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: OV7670_VGA.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size OV7670_VGA.elf  |tee "OV7670_VGA.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  68328	   2600	  23392	  94320	  17070	OV7670_VGA.elf
-'Finished building: OV7670_VGA.elf.size'
-' '
-22:33:12 **** Incremental Build of configuration Debug for project OV7670_VGA_system ****
+make[1]: Nothing to be done for 'main-build'.
+01:17:30 **** Incremental Build of configuration Debug for project OV7670_VGA_system ****
 make all 
 Generating bif file for the system project
-generate_system_bif.bat 51035 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif
+generate_system_bif.bat 50989 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif
 xpfm path is not valid
     invoked from within
 "::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{::scw::generate_bif -xpfm C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm -domains standalone_domain -bifpath C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif}}}"
