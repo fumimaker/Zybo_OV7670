@@ -1,15 +1,15 @@
-01:17:30 **** Incremental Build of configuration Debug for project OV7670_VGA_system ****
+22:42:55 **** Incremental Build of configuration Release for project OV7670_VGA_system ****
 make all 
 Generating bif file for the system project
-generate_system_bif.bat 50989 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif
+generate_system_bif.bat 50626 C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_domain C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Release/system.bif
 xpfm path is not valid
     invoked from within
-"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{::scw::generate_bif -xpfm C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm -domains standalone_domain -bifpath C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Debug/system.bif}}}"
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{::scw::generate_bif -xpfm C:/Users/ivr/Documents/GitHub/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm -domains standalone_domain -bifpath C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA_system/Release/system.bif}}}"
     (procedure "::tcf::send_command" line 4)
     invoked from within
 "tcf send_command $::xsdb::curchan xsdb eval s es [list "::scw::generate_bif $GENERATE_BIF_ARGS"]"
     (file "C:/Xilinx/Vitis/2019.2\scripts\vitis\util\generate_system_bif.tcl" line 25)
 make: *** [makefile:36: sd_card] Error 1
 
-01:17:36 Build Finished (took 6s.526ms)
+22:42:57 Build Finished (took 1s.989ms)
 

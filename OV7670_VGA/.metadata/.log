@@ -8290,3 +8290,2233 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-33: Launc
 
 !ENTRY com.xilinx.sdk.utils 1 0 2020-05-23 01:18:38.604
 !MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '7'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:25:01.549
+!MESSAGE XSCT Command: [disconnect tcfchan#11], Thread: Thread-453
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:25:01.561
+!MESSAGE XSCT command with result: [disconnect tcfchan#11], Result: [null, ]. Thread: Thread-453
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-23 01:25:01.663
+!MESSAGE Executing command: cmd /C C:\Xilinx\Vitis\2019.2\bin\wbtcv.bat -mode batch -source vitis_webtalk.tcl
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-23 01:25:01.757
+!MESSAGE Executed Webtalk command
+!SESSION 2020-05-23 01:32:43.829 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-05-23 01:33:26.994
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.ui 4 4 2020-05-23 01:33:39.312
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2020-05-23 01:33:39.325
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:33:42.095
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:33:42.104
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:33:42.118
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:33:42.126
+!MESSAGE XSCT Command: [setws C:/Github/Zybo_OV7670/OV7670_VGA], Thread: Thread-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:33:42.133
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:33:42.142
+!MESSAGE XSCT command with result: [setws C:/Github/Zybo_OV7670/OV7670_VGA], Result: [null, ]. Thread: Thread-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:33:44.976
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:33:45.449
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:33:45.460
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:33:45.471
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2019.2/data]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY org.eclipse.ui 4 4 2020-05-23 01:36:05.196
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler@251d3913} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:05.276
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:07.489
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:07.496
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:07.505
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Sun Apr 26 00:06:52 2020",
+"vivado_version": "2019.2",
+"part": "xc7z020clg400-1",
+}]. Thread: main
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-05-23 01:36:09.533
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-05-23 01:36:09.540
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-05-23 01:36:09.546
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.197
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.220
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_i2c_0": {"hier_name": "ps7_i2c_0",
+"type": "ps7_i2c",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.373
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.386
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "667",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "50",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "32 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "533.333333",
+}]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.392
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.409
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_i2c_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.416
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.441
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_i2c_0": {"name": "ps7_i2c_0",
+"base": "0xE0004000",
+"high": "0xE0004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.450
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.457
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.465
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.481
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.487
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.495
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.501
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.510
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.516
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.526
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.532
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.540
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.547
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.556
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.563
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.580
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_i2c_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.586
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.612
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_i2c_0": {"name": "ps7_i2c_0",
+"base": "0xE0004000",
+"high": "0xE0004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.619
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.626
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.633
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.640
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.647
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.654
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.660
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.668
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.675
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.682
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.688
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.697
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.705
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.714
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Result: [null, ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_i2c_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_1 ps7_usb_0 ps7_xadc_0]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.721
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa bit], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.728
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa bit], Result: [null, design_1_wrapper.bit]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:10.735
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:12.853
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:12.862
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:17.177
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.183
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.234
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.241
+!MESSAGE XSCT Command: [version -server], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.249
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.255
+!MESSAGE XSCT Command: [version], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.262
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.271
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.284
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.291
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.319
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.326
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.340
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.347
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.375
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.384
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.397
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.404
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.431
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.440
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.454
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.461
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.488
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.494
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.506
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.513
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.546
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.554
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.569
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.576
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.602
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.608
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351A6C9E3A" && level == 0}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.637
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351A6C9E3A" && level == 0}], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.644
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.679
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:20.686
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:21.477
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:21.484
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:21.636
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:21.643
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:24.651
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:24.692
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:24.705
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:24.713
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:24.742
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:24.750
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:24.781
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:24.788
+!MESSAGE XSCT Command: [fpga -file C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:27.218
+!MESSAGE XSCT command with result: [fpga -file C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:27.268
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:27.287
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:27.295
+!MESSAGE XSCT Command: [loadhw -hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:27.368
+!MESSAGE XSCT command with result: [loadhw -hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:27.375
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:27.385
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:27.393
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:27.411
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:27.418
+!MESSAGE XSCT Command: [source C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:27.427
+!MESSAGE XSCT command with result: [source C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:27.433
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:28.842
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:28.849
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:28.873
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:28.881
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:28.900
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:28.907
+!MESSAGE XSCT Command: [dow C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:30.022
+!MESSAGE XSCT command with result: [dow C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:30.028
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:30.242
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:30.351
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:30.378
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:30.384
+!MESSAGE XSCT Command: [con], Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:36:30.441
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-23 01:36:30.461
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-23 01:36:30.468
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.527
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-99
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.538
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-99
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.647
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.658
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.665
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.685
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.692
+!MESSAGE XSCT Command: [version -server], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.730
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.737
+!MESSAGE XSCT Command: [version], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.745
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.752
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.765
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.772
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.799
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.805
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.818
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.824
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.852
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.858
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.872
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.879
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.908
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.914
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.927
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.933
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.961
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.967
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.980
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:04.986
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:05.014
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:05.020
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:05.032
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:05.038
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:05.066
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:05.072
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351A6C9E3A" && level == 0}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:05.100
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351A6C9E3A" && level == 0}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:05.106
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:05.113
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:05.120
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:05.905
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:05.912
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:06.051
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:06.057
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:09.064
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:09.091
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:09.104
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:09.110
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:09.138
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:09.144
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:09.976
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:09.983
+!MESSAGE XSCT Command: [fpga -file C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:12.384
+!MESSAGE XSCT command with result: [fpga -file C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:12.427
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:12.445
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:12.451
+!MESSAGE XSCT Command: [loadhw -hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:19.508
+!MESSAGE XSCT command with result: [loadhw -hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_0]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:19.514
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:19.554
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:19.561
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:19.576
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:19.583
+!MESSAGE XSCT Command: [source C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:19.591
+!MESSAGE XSCT command with result: [source C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:19.597
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:21.047
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:21.053
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:21.091
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:21.097
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:21.116
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:21.123
+!MESSAGE XSCT Command: [dow C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:22.130
+!MESSAGE XSCT command with result: [dow C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:22.137
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:22.310
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:22.372
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:22.404
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:22.410
+!MESSAGE XSCT Command: [con], Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:22.455
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-23 01:47:22.464
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-23 01:47:22.471
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.369
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-148
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.381
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-148
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.508
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.543
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.550
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.571
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.578
+!MESSAGE XSCT Command: [version -server], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.592
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.600
+!MESSAGE XSCT Command: [version], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.609
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.617
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.630
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.637
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.664
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.671
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.684
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.690
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.719
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.725
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.739
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.746
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.773
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.779
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.793
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.799
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.827
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.833
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.846
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.852
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.880
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.886
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.899
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.906
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.936
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.942
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351A6C9E3A" && level == 0}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.971
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351A6C9E3A" && level == 0}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.978
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.991
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:48.997
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:49.797
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:49.803
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:49.950
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:49.956
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:52.963
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:53.005
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:53.018
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:53.024
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:53.052
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:53.058
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:53.088
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:53.093
+!MESSAGE XSCT Command: [fpga -file C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:55.523
+!MESSAGE XSCT command with result: [fpga -file C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:55.561
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:55.613
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:55.619
+!MESSAGE XSCT Command: [loadhw -hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:58.112
+!MESSAGE XSCT command with result: [loadhw -hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_1]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:58.118
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:58.124
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:58.131
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:58.149
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:58.156
+!MESSAGE XSCT Command: [source C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:58.167
+!MESSAGE XSCT command with result: [source C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:58.173
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:59.767
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:59.773
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:59.794
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:59.801
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:59.826
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:47:59.832
+!MESSAGE XSCT Command: [dow C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:48:00.937
+!MESSAGE XSCT command with result: [dow C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:48:00.943
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:48:01.140
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:48:01.198
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:48:01.228
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:48:01.234
+!MESSAGE XSCT Command: [con], Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:48:01.281
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-23 01:48:01.289
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-23 01:48:01.295
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:29.879
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-197
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:29.893
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-197
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:29.999
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.041
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.052
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.079
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.085
+!MESSAGE XSCT Command: [version -server], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.094
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.102
+!MESSAGE XSCT Command: [version], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.111
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.117
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.133
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.140
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.169
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.176
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.190
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.196
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.224
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.231
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.245
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.252
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.283
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.290
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.304
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.311
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.341
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.348
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.363
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.369
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.398
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.403
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.416
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.422
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.451
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.457
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351A6C9E3A" && level == 0}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.484
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351A6C9E3A" && level == 0}], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.491
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.498
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:30.504
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:31.299
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:31.306
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:31.461
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:31.467
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:34.476
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:34.505
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:34.521
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351A6C9E3A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:34.527
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:34.553
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:34.559
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:35.360
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A6C9E3A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:35.369
+!MESSAGE XSCT Command: [fpga -file C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:38.511
+!MESSAGE XSCT command with result: [fpga -file C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:40.228
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:40.247
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:40.254
+!MESSAGE XSCT Command: [loadhw -hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:43.035
+!MESSAGE XSCT command with result: [loadhw -hw C:/Github/Zybo_OV7670/OV7670_VGA/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_2]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:43.043
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:43.052
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:43.061
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:43.078
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:43.085
+!MESSAGE XSCT Command: [source C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:43.093
+!MESSAGE XSCT command with result: [source C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:43.099
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:44.584
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:44.590
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:44.625
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:44.631
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:44.652
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:44.659
+!MESSAGE XSCT Command: [dow C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:45.753
+!MESSAGE XSCT command with result: [dow C:/Github/Zybo_OV7670/OV7670_VGA/OV7670_VGA/Debug/OV7670_VGA.elf], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:45.759
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:45.971
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:46.028
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:46.063
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:46.069
+!MESSAGE XSCT Command: [con], Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 01:55:46.113
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_OV7670_VGA_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-23 01:55:46.122
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '4'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-23 01:55:46.128
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '4'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 02:09:16.346
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-246
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-23 02:09:16.360
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-246
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-23 02:09:18.653
+!MESSAGE Executing command: cmd /C C:\Xilinx\Vitis\2019.2\bin\wbtcv.bat -mode batch -source vitis_webtalk.tcl
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-23 02:09:18.730
+!MESSAGE Executed Webtalk command
